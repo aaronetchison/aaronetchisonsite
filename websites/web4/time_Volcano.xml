@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<time_volcano>
+
+	<dates heading="Yellowstone Caldera" copy="Lava Creek Tuff, Wyoming - This supervolcano erupted 640,000 years ago.">
+		<button>images/volcano/button.png</button>
+	</dates>
+
+	<dates heading="Cerro Galan Caldera" copy="Catamarka Province, Argentina - This supervolcano erupted 2.5 million years ago ">
+		<button>images/volcano/button.png</button>
+	</dates>
+
+	<dates heading="Lake Toba Caldera" copy="Sumatra, Indonesia - This supervolcano erupted 74,000 years ago.">
+		<button>images/volcano/button.png</button>
+	</dates>
+
+	<dates heading="Lake Taupo Caldera" copy="Lake Taupo, New Zealand - This supervolcano erupted 26,500 years ago.">
+		<button>images/volcano/button.png</button>
+	</dates>
+
+</time_volcano>

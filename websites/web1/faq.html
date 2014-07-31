@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Etchison 6-2</title>
+<style type="text/css">
+</style>
+<link href="styles6-2.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
+
+<script type-"text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		$('.answer').hide(); //hide all answers
+		$('#container h2').toggle //toggle answers
+		(
+			function() 
+			{
+				$(this).next('.answer').slideDown(); //slide down effect
+			},
+			function()
+			{
+				$(this).next('.answer').slideUp(); //slide up effect
+			}
+		);//end toggle
+	});//end document ready
+</script>
+
+</head>
+<body>
+<div id="background">
+<div id="container">
+
+<div id="header">
+	<img src="images/logo.png" width="324" height="94" alt="Logo" />
+    <p>
+	<a href="#">Home</a>
+    <a href="#">Music</a>
+    <a href="#">Galleries</a>
+    <a href="#">Blog</a>
+	</p>
+</div>
+
+<h1>Wasteland Gardens Frequently Asked Questions</h1>
+    
+<div class="answerBox">
+    <h2>What is Wasteland Gardens?</h2>
+    <div class="answer">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porttitor lectus non diam venenatis aliquet. Pellentesque at magna ac risus tincidunt mollis. Nulla sit amet lacus neque, vitae egestas magna. Maecenas non ante turpis. Nunc dui lectus, cursus sit amet tincidunt eu, accumsan non dolor.</p>
+        <p>Donec lorem dolor, ultricies nec eleifend sed, gravida quis velit. Vestibulum tempus nibh magna, et consectetur turpis. Fusce imperdiet, diam a iaculis egestas, eros nulla venenatis felis, vel dictum arcu odio in libero. Nullam vitae arcu ut dolor ornare imperdiet.</p>
+    </div>
+</div>
+    
+<div class="answerBox">    
+    <h2>Who makes up Wasteland Gardens?</h2>
+    <div class="answer">
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porttitor lectus non diam venenatis aliquet. Pellentesque at magna ac risus tincidunt mollis. Nulla sit amet lacus neque, vitae egestas magna. Maecenas non ante turpis. Nunc dui lectus, cursus sit amet tincidunt eu, accumsan non dolor.</p> 
+        <p>Donec lorem dolor, ultricies nec eleifend sed, gravida quis velit. Vestibulum tempus nibh magna, et consectetur turpis. Fusce imperdiet, diam a iaculis egestas, eros nulla venenatis felis, vel dictum arcu odio in libero. Nullam vitae arcu ut dolor ornare imperdiet.</p>
+    </div>
+</div>
+    
+<div class="answerBox">
+    <h2>Where can I buy Wasteland Gardens music and art?</h2>
+    <div class="answer">
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porttitor lectus non diam venenatis aliquet. Pellentesque at magna ac risus tincidunt mollis. Nulla sit amet lacus neque, vitae egestas magna. Maecenas non ante turpis. Nunc dui lectus, cursus sit amet tincidunt eu, accumsan non dolor.</p>
+        <p>Donec lorem dolor, ultricies nec eleifend sed, gravida quis velit. Vestibulum tempus nibh magna, et consectetur turpis. Fusce imperdiet, diam a iaculis egestas, eros nulla venenatis felis, vel dictum arcu odio in libero. Nullam vitae arcu ut dolor ornare imperdiet.</p>
+    </div>
+</div>    
+
+<div id="footer">
+<p>
+<a href="#"><span class="nospace">Terms of Use</span></a>
+<a href="#"><span class="nospace">About Us</span></a>
+<a href="#"><span class="nospace">Contact Us</span></a>
+</p>
+<br />
+<p><span class="nospace">&copy; 2011 Wasteland Gardens</span></p>
+</div>
+
+</div> <!--end container div -->   
+</div> <!--end background div -->
+</body>
+</html>

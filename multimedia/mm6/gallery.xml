@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<gallery>
+
+	<image caption="The Black Hills" byline="Photo by Aaron Etchison">
+		<url>images/image1.jpg</url>
+		<thumb>images/thumbs/image1.jpg</thumb>
+	</image>
+
+	<image caption="Glacier National Park" byline="Photo by Aaron Etchison">
+		<url>images/image2.jpg</url>
+		<thumb>images/thumbs/image2.jpg</thumb>
+	</image>
+
+	<image caption="Mt. Ranier" byline="Photo by Aaron Etchison">
+		<url>images/image3.jpg</url>
+		<thumb>images/thumbs/image3.jpg</thumb>
+	</image>
+
+	<image caption="Olympia National Park" byline="Photo by Aaron Etchison">
+		<url>images/image4.jpg</url>
+		<thumb>images/thumbs/image4.jpg</thumb>
+	</image>
+
+	<image caption="Yellowstone National Park" byline="Photo by Aaron Etchison">
+		<url>images/image5.jpg</url>
+		<thumb>images/thumbs/image5.jpg</thumb>
+	</image>
+
+</gallery>

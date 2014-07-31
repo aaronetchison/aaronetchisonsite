@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html">
+
+<title>The Portfolio of Aaron Etchison - Contact Me</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="Description" content="This site provides a look at the graphic design and Web development work of Aaron Etchison.">
+<meta name="Keywords" content="web, design, aaron etchison, aaron, etchison, web developing, web sites, interactive design, information design, ui, ux, interface, mobile, responsive, responsive design, graphic design, branding, business cards, letterheads, postcards, multimedia, dynamic, art, technology, magazines, advertising, muncie, indiana, in">
+<meta name="rating" content="General">
+<meta name="revisit-after" content="7 days">
+<meta name="ROBOTS" content="All">
+
+
+<link rel="stylesheet" href="stylesheets/custom-theme/jquery-ui-1.9.2.custom.css">	
+<link href='http://fonts.googleapis.com/css?family=Aldrich|Questrial|Geo|Orbitron:400,700,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="stylesheets/skeleton.css">
+<link rel="stylesheet" href="stylesheets/layout.css">
+<script type="text/javascript" src="js/prefixfree.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+<link rel="icon" href="images/etchicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/etchicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.9.2.custom.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/stickyfooter.js"></script>
+    
+<script type="text/javascript">
+$(document).ready(function()
+{
+//add the validation plug-in to the form
+    $('#contactUs').validate(
+    {
+        rules:
+        {
+            name: 'required',
+            email: {required:true, email:true},
+            comments: {required:true}
+            
+        },//end rules
+        
+        messages:
+        {
+            name:
+            {
+                required: "Enter your name"
+            },//end name messages
+            
+            email:
+            {
+                required: "Enter your email",
+                email: "Enter your email"
+            },//end email messages
+            
+            comments:
+            {
+                required: "Enter your message"
+            }//end comments messages
+        }//end messages
+    }); //end validate
+
+//change the border style of the field when focus
+    $(':input').focus(function() 
+    {
+        $(this).addClass('inputFocus');                    
+    });
+    
+    //change the border style of the field when blur
+    $(':input').blur(function() 
+    {
+        $(this).removeClass('inputFocus');                    
+    });
+
+//set the focus to the first name when the page loads	
+    $('#name').focus();
+    
+//hide other field when the page is loaded
+    $('#referOtherOpt').hide();
+    //use change to hide and show other field based on refer selection
+    $('#refer').change(function() 
+    {
+        if($(this).val() == 'Other'){
+            $('#referOtherOpt').show();
+        } else {
+            $('#referOtherOpt').hide();
+        }
+    });//end change hide show other
+    
+//apply ajax to the form
+    $('#contactUs').submit(function() 
+    {
+        if($('#contactUs').valid()) 
+        {
+        var queryString = $('#contactUs').serialize();
+        $.post('email.php', queryString, processResults);
+        return false; //do not submit
+        }
+    });
+        
+    function processResults(data, textStatus, xhr) 
+    {
+        if(textStatus == 'success')
+        {
+            $('#success').text(data); //display success message
+            $('#success').fadeIn('slow');
+            $('#contactUs').hide(); //hide form
+        }
+    }
+    
+});//end document ready
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-30493428-1', 'aaronetchison.com');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+
+<div class="bg">
+<header>
+<div class="container">
+    <div class="sixteen columns headerMain">
+        <a href="index.html"><img src="images/logo.png" alt="Etchison Media Logo" class="logo"></a>
+        <h1 class="logoCopy">Aaron Etchison</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="images/icon-home.png" class="nav-icon" alt="Home Navigation Icon">Home</a>
+                    </li>
+                <li><a href="portfolio.html"><img src="images/icon-portfolio.png" class="nav-icon" alt="Portfolio Navigation Icon">Portfolio</a>
+                    </li>
+                <li><a href="contact.html"><img src="images/icon-contact.png" class="nav-icon" alt="Contact Navigation Icon">Contact</a>
+                    </li>
+           </ul>
+        </nav>
+    </div>
+</div>
+</header>
+<div class="container"><!-- begin page content container -->
+    <div class="eight columns module"><!-- begin contact content -->
+    <h2>E-Mail Me</h2>
+       <form  name="contactUs" id="contactUs" method="post" action="gdform.php">
+            <div>
+                <label for="name" class="label1">Name:</label>
+                <br>
+                <input name="name" type="text" class="required" id="name">
+            </div>
+            <div>
+                <label for="email" class="label1">Email:</label>
+                <br>
+                <input name="email" type="text" class="required email" id="email">
+            </div>
+            <div>
+                <label for="refer" class="label2">How did you find me? </label>
+                <br>
+                <select name="refer" id="refer">
+                  <option value="">Select One</option>
+                  <option value="Google">Google</option>
+                  <option value="StumpleUpon">StumbleUpon</option>
+                  <option value="Facebook">Facebook</option>
+                  <option value="Twitter">Twitter</option>
+                  <option value="LinkedIn">LinkedIn</option>
+                  <option value="Other">Other</option>
+                </select>
+            </div>
+            <div id="referOtherOpt">
+                <label for="referOther" class="label2">Other: </label>
+                <br>
+                <input name="referOther" type="text" id="referOther">
+            </div>
+            <div>
+                <label for="comments" class="label2">What are your questions or comments? </label>
+                <br>
+                <textarea name="comments" rows="6" class="required" id="comments"></textarea>
+            </div>
+            <div>
+                <input type="submit" name="submit" id="submit" class="submitReset" value="Submit" />
+                <input  type="reset" name="reset" id="reset" class="submitReset" value="Reset">
+            </div>
+        </form>
+    
+        <div id="success"></div>
+    </div><!-- end contact content left -->
+
+    <div class="eight columns module"><!-- begin contact content right -->
+        <div>
+            <h2>Contacting Me</h2>
+            <p>If you would like to hire me for a graphic design or web development project, please provide some information about the job in the contact form.</p>
+            <p>You can also check me out in other places by clicking one of the links below.</p>
+            <a href="http://etch83.deviantart.com/gallery" target="_blank"><img src="images/linkDeviantArt.png" alt="Deviant Art Link"></a>
+            <a href="http://www.linkedin.com/pub/aaron-etchison/41/210/906" target="_blank"><img src="images/linkLinkedIn.png" alt="Linked In Link"></a>
+            <a href="http://www.theundergroundmind.com" target="_blank"><img src="images/linkWordpress.png"  alt="Wordpress Link"></a>
+            <a href="http://www.twitter.com/aaronetchison" target="_blank"><img src="images/linkTwitter.png" alt="Twitter Link"></a>
+        </div>
+        <a class="twitter-timeline"  href="https://twitter.com/aaronetchison/lists/web-development"  data-widget-id="304877264405925888">Tweets from https://twitter.com/aaronetchison/lists/web-development</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div><!-- end contact content right -->
+</div><!-- end cpage content container -->
+
+<footer>
+<div class="container">
+	<div class="eight columns vrFade">
+        <img src="images/etchPhoto.jpg" alt="Aaron Etchison Photo" class="module ltFloat noPad">
+        <p>Aaron Etchison is a graphic designer and Web developer with over eight years of experience creating a variety of media from print marketing materials to the Web.</p>
+    </div>
+    <div class="eight columns">
+    	<p>If you would like to see more of my work or find out more information about me, please click the links below. </p>
+        <a href="http://etch83.deviantart.com/gallery" target="_blank"><img src="images/linkDeviantArt.png" alt="Deviant Art Link"></a>
+        <a href="http://www.linkedin.com/pub/aaron-etchison/41/210/906" target="_blank"><img src="images/linkLinkedIn.png" alt="Linked In Link"></a>
+        <a href="http://www.theundergroundmind.com" target="_blank"><img src="images/linkWordpress.png"  alt="Wordpress Link"></a>
+        <a href="http://www.twitter.com/aaronetchison" target="_blank"><img src="images/linkTwitter.png" alt="Twitter Link"></a>
+	</div>
+</div>
+<div class="container">
+	<div class="sixteen columns">       
+		<div class="hrFade"></div>
+		<p class="copyright textCenter">&copy; 2013 Aaron Etchison</p>
+	</div>
+</div>
+</footer>
+</div><!--end page bg-->
+
+
+</body>
+</html>

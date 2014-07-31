@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data_asteroid>
+
+	<data heading="Space Objects" copy="This graphic shows asteroids within our solar system. The central point is our sun. Within the large ring is the sun to Mars.">
+		<button>images/asteroid/data1.png</button>
+		<image>images/asteroid/image1.jpg</image>
+	</data>
+
+	<data heading="Asteroid Ida" copy="This graphic of Ida and its moon Dactyl shows what an asteroid looks like.">
+		<button>images/asteroid/data2.png</button>
+		<image>images/asteroid/image2.png</image>
+	</data>
+
+</data_asteroid>

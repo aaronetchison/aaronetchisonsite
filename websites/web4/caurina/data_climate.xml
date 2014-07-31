@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data_climate>
+
+	<data heading="U.S Temperature Timeline" copy="This graph shows how the average national temperature has been rising over the years.">
+		<button>images/climate/data1.png</button>
+		<image>images/climate/climateTimelineNational.jpg</image>
+	</data>
+
+	<data heading="Global Temperature Timeline" copy="This graph shows how the average global temperature has been rising over the years.">
+		<button>images/climate/data2.png</button>
+		<image>images/climate/climateTimelineGlobal.jpg</image>
+	</data>
+
+</data_climate>

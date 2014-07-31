@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data_sun>
+
+	<data heading="Coronal Mass Ejection" copy="A coronal mass ejection (CME) is a burst of plasma from the sun that is much larger than a solar flare.">
+		<button>images/sun/data1.png</button>
+		<image>images/sun/image1.swf</image>
+	</data>
+
+	<data heading="Solar Cycles" copy="This graph shows estimated cycles of the sun over thousands of years.">
+		<button>images/sun/data2.png</button>
+		<image>images/sun/image2.jpg</image>
+	</data>
+
+</data_sun>
