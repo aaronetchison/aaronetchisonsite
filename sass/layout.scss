@@ -2,6 +2,8 @@
 @import url("skeleton.css");
 @import url("jquery.lightbox-0.5.css");
 @import url("jquery-ui-1.9.2.custom.min.css");
+@import url("owl.carousel.css");
+@import url("owl.theme.css");
 
 /*
 Site: AaronEtchison.com
@@ -44,8 +46,8 @@ linear-gradient:$top $color $color;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
+	-webkit-transition: all 0.25s ease 0s;
+	transition: all 0.25s ease 0s;
 }
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -486,6 +488,10 @@ input.error {
 .portfolioH {
 	margin: 0 0 10px 0;
 	text-align: center;
+}
+
+.galleryContent {
+	margin: 0 10px;
 }
 
 .galleryContent a p{
