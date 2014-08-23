@@ -74,27 +74,32 @@ header {
 	width: 100%;
 	height: 100%;
 	margin: 0 0 20px 0;
-	padding: 5px 0 0 0;
+	padding: 10px 0 10px 0;
 	border: 0;
 	background: rgba(0,0,0,0.5);
 	@include box-shadow(5px, 5px, 10px, #0E0E0E);
 }
 
+.logo-container {
+	float: left;
+	width: 320px;
+}
+
 .logo {
-	margin: 5px 0 0 0;
+	margin: 0;
 	padding: 0;
 	float: left;
 }
 
-.logoCopy {
-	margin: 5px 0 0 0;
+.logo-copy {
+	margin: 0;
 	padding: 0;
 	float: left;
 }
 
 header nav {
 	float: right;
-	margin: 5px 0 0 0;
+	margin: 0;
 	color: #333;
 	word-spacing: 15px;
 }
@@ -112,7 +117,7 @@ footer {
 	width: 100%;
 	height: 500px;
 	margin: 20px auto 0 auto;
-	padding: 20px 0;
+	padding: 20px 10px;
 	background: rgba(0,0,0,0.5);
 	@include box-shadow(-5px, -5px, 5px, #0E0E0E)
 }
@@ -144,7 +149,7 @@ h1 {
 	font-weight: 900;
 	color: #B01817;
 	padding: 0;
-	margin: 0 0 5px 0;
+	margin: 0;
 	-moz-text-shadow: 3px 3px 5px #000000;
 	-webkit-text-shadow: 3px 3px 5px #000000;
 	text-shadow: 3px 3px 5px #000000;
@@ -301,15 +306,10 @@ footer img {
 }
 
 h1 a {
-	font-family: Orbitron, Helvetica, sans-serif;
-	font-size: 1.8em;
-	font-weight: 900;
 	color: #B01817;
+	text-decoration: none;
 	padding: 0;
 	margin: 0 0 5px 0;
-	-moz-text-shadow: 3px 3px 5px #000000;
-	-webkit-text-shadow: 3px 3px 5px #000000;
-	text-shadow: 3px 3px 5px #000000;
 }
 
 h1 a:hover{
@@ -339,10 +339,8 @@ p a:hover{
 	margin-bottom: 10px;
 	padding: 10px;
 	background-color: rgba(0,0,0,0.5);
-	border-radius: 10px;
-	-moz-box-shadow: 3px 3px 5px #000000;
-	-webkit-box-shadow: 3px 3px 5px #000000;	
-	box-shadow: 3px 3px 5px #000000;
+	border-radius: 10px;	
+	@include box-shadow(3px, 3px, 5px, #000000);
 }
 
 .noPad {
@@ -390,16 +388,6 @@ img {
   img { 
   	width: auto; /* for ie 8 */
   }
-}
-
-.tooltipsy {
-	padding: 10px;
-	max-width: 320px;
-	font-family: Questrial, Helvetica, sans-serif;
-	font-size: 0.75em;
-	color: #CCCCCC;
-	background-color: #333;
-	border: 2px solid #444444;
 }
 
 /* Forms */
@@ -527,6 +515,29 @@ input.error {
 	margin-bottom: 0px;
 }
 
+/* Plugin Styles */
+
+.ui-tooltip {
+	padding: 5px;
+	position: absolute;
+	z-index: 9999;
+	width: 75%;
+	border: 2px solid #4F4F4F;
+	@include box-shadow(3px, 3px, 5px, #000000);
+}
+
+.ui-tooltip-content {
+	font-family: Questrial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	color: #CCCCCC;
+}
+
+* html .ui-tooltip {
+	background-image: none;
+}
+
+body .ui-tooltip { border-width: 2px; }
+
 /* Misc */
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
@@ -553,10 +564,10 @@ input.error {
 
 }
 @media all and (min-width: 480px) and (max-width: 767px) {
-	.logoCopy {
-		font-size: 2.6em;
-		margin: 0 0 5px 0;
-	}	
+	.logo-container {
+		float: none;
+		margin: 0 auto;
+	}
 
 	header nav {
 		clear: both;
@@ -608,6 +619,11 @@ input.error {
 
 }
 @media all and (min-width: 0px) and (max-width: 479px) {
+	.logo-container {
+		float: none;
+		margin: 0 auto;
+	}
+	
 	header nav {
 		clear: both;
 		float: none;
@@ -655,4 +671,5 @@ input.error {
 	.homeGraphic p {
 		font-size: 1.2em;
 	}
+
 }
