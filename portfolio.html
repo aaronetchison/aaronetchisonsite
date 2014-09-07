@@ -5,7 +5,6 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html">
 
 <title>The Portfolio of Aaron Etchison - Portfolio</title>
 
@@ -16,9 +15,9 @@
 <meta name="revisit-after" content="7 days">
 <meta name="ROBOTS" content="All">
 
-<link href="http://fonts.googleapis.com/css?family=Aldrich|Questrial|Geo|Orbitron:400,700,900" rel="stylesheet" type="text/css"><!-- load Google fonts -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Aldrich|Questrial|Geo|Orbitron:400,700,900" ><!-- load Google fonts -->
 <link rel="stylesheet" href="stylesheets/global.css">
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script src="js/modernizr.custom.js"></script>
 
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -30,11 +29,11 @@
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery-ui-1.9.2.custom.js"></script>
-<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
-<script type="text/javascript" src="js/jquery.lightbox-0.5.min.js"></script>
-<script type="text/javascript" src="js/owl.carousel.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery-ui-1.9.2.custom.js"></script>
+<script src="js/scriptaculous.js?load=effects,builder"></script>
+<script src="js/jquery.lightbox-0.5.min.js"></script>
+<script src="js/owl.carousel.js"></script>
 
 
 <script type="text/javascript">
@@ -89,7 +88,7 @@ $(document).ready(function()
 <header>
 <div class="container">
     <div class="sixteen columns headerMain">
-        <div class="logo-container"><h1 class="logo-copy"><a href="index.html"><img src="images/logo.png" alt="Etchison Media Logo" class="logo">Aaron Etchison</a></h1></div>
+        <div class="logo-container"><img src="images/logo.png" class="logo" alt="Etchison Media Logo" ><h1 class="logo-copy"><a href="index.html">Aaron Etchison</a></h1></div>
         <nav>
             <ul>
                 <li><a href="index.html"><img src="images/icon-home.png" class="nav-icon" alt="Home Navigation Icon">Home</a>
@@ -150,6 +149,12 @@ $(document).ready(function()
         <h4 class="portfolioH">UI &amp; Web Design</h4>
 
     <div class="owl-carousel">
+        <div class="galleryContent module">
+            <a href="images/previews/eiconset.jpg" class="lightbox" title="Icon Set - This is a vector icon set that I designed in Illustrator."><img src="images/thumbs/img16.jpg" alt="Icon Set" ></a>
+            <h6>Icon Set</h6>
+            <p class="tip" title="Icon Set - This is a vector icon set that I designed in Illustrator.">This is a vector icon set that I designed in Illustrator.</p>
+        </div>
+
         <div class="galleryContent module">
             <a href="images/previews/aquainterface.jpg" class="lightbox" title="Media Player UI Design - This is an interface design for a media player."><img src="images/thumbs/web10.jpg" alt="Media Player UI Design" ></a>
             <h6>Media Player UI</h6>
