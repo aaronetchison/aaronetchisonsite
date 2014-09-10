@@ -74,15 +74,15 @@ header {
 	width: 100%;
 	height: 100%;
 	margin: 0 0 20px 0;
-	padding: 10px 0 10px 0;
+	padding: 5px 5px 0 5px;
 	border: 0;
 	background: rgba(0,0,0,0.5);
 	@include box-shadow(5px, 5px, 10px, #0E0E0E);
 }
 
 .logo-container {
-	width: 320px;
 	float: left;
+	z-index: 11;
 }
 
 .logo {
@@ -94,9 +94,10 @@ header {
 }
 
 .logo-copy {
-	margin: 0;
+	margin: 0 0 0 5px;
 	padding: 0;
 	display: inline;
+	position: relative;
 }
 
 header nav {
@@ -104,14 +105,30 @@ header nav {
 	margin: 0;
 	color: #333;
 	word-spacing: 15px;
+	z-index: 10;
 }
 
 header nav ul {
-	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 header nav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 	display: inline-block;
+	*display:inline; /* ie7 */
+}
+
+/* right nav */
+.nav.right ul {
+	text-align: right;
+}
+
+/* center nav */
+.nav.center ul {
+	text-align: center;
 }
 
 footer {
@@ -261,7 +278,8 @@ header nav li a {
 	font-size: 1.25em;
 	color: #B01817;
 	font-weight: 900;
-	border-style: none;
+	border-style: none;	
+	line-height: 100%;
 	transition: background 0.3s linear 0s, color 0.3s linear 0s;
 	-moz-text-shadow: 3px 3px 5px #000000;
 	-webkit-text-shadow: 3px 3px 5px #000000;
@@ -275,11 +293,6 @@ header nav li a:hover, header nav li a:active {
 	text-decoration: none;
 	font-weight: 900;
 	border-style: none;
-}
-
-header nav li a img {
-		display: none;
-		width: 100%;
 }
 
 footer a {
@@ -368,7 +381,6 @@ hr {
 	margin: 20px auto 20px auto;
 	border-top: 1px solid #000000;
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ0NDQ0NCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzQ0NDQ0NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0NDQ0NDQiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
 	background: -moz-linear-gradient(left,  rgba(68,68,68,0) 0%, rgba(68,68,68,1) 50%, rgba(68,68,68,0) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(68,68,68,0)), color-stop(50%,rgba(68,68,68,1)), color-stop(100%,rgba(68,68,68,0))); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(left,  rgba(68,68,68,0) 0%,rgba(68,68,68,1) 50%,rgba(68,68,68,0) 100%); /* Chrome10+,Safari5.1+ */
@@ -563,46 +575,61 @@ body .ui-tooltip { border-width: 2px; }
 }
 @media all and (min-width: 480px) and (max-width: 767px) {
 	.logo-container {
-		float: none;
-		margin: 0 auto;
+		float: left;
 	}
 
 	.logo-copy {
 		text-decoration: none;
 	}
 
-	header nav {
-		clear: both;
-		float: none;
+	.nav {
+		position: relative;
+		min-height: 36px;
+	}	
+	.nav ul {
+		width: 160px;
+		padding: 2px 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: url("../images/icon-nav.png") no-repeat 120px 5px;
+		background-size: 24px;
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	}
+	.nav li {
+		display: none; /* hide all <li> items */
+		margin: 0;
+	}
+	.nav .current {
+		display: block; /* show only current <li> item */
+	}
+	.nav a {
 		display: block;
+		padding: 5px 42px 0 5px;
+		text-align: right;
+	}
+	.nav .current a {
+		background: none;
 	}
 
-	header nav ul {
-		text-align: center;
-		margin-left: -10px;
-	}
+	/* on nav hover */
 
-	header nav li a {
-		font-size: 1.25em;
-	}
-
-	header nav li a:hover {
-		font-size: 1.25em;
-	}
-
-	header nav li a:active {
-		font-size: 1.25em;
-	}
-
-	header nav li a img {
-		width: 64px;
-		height: auto;
+	.nav ul:hover li {
 		display: block;
-		margin: 0 auto 10px auto;
+		margin: 0 0 5px;
 	}
 
-	header nav li a:hover img, header nav li a:focus img, header nav li a:active img {
-		width: 62px;
+	/* right nav */
+	.nav.right ul {
+		left: auto;
+		right: 0;
+	}
+
+	/* center nav */
+	.nav.center ul {
+		left: 50%;
+		margin-left: -90px;
 	}
 
 	.homeGraphic {
@@ -622,46 +649,65 @@ body .ui-tooltip { border-width: 2px; }
 }
 @media all and (min-width: 0px) and (max-width: 479px) {
 	.logo-container {
-		float: none;
-		margin: 0 auto;
+		float: left;
+		padding: 5px 0;
+	}
+
+	.logo {
+		width: 16px;
 	}
 
 	.logo-copy {
-		text-decoration: none;
+		font-size: 1.25em;
 	}
 
-	header nav {
-		clear: both;
-		float: none;
+	.nav {
+		position: relative;
+		min-height: 36px;
+	}	
+	.nav ul {
+		width: 160px;
+		padding: 2px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: url("../images/icon-nav.png") no-repeat 120px 9px;
+		background-size: 16px;
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	}
+	.nav li {
+		display: none; /* hide all <li> items */
+		margin: 0;
+	}
+	.nav .current {
+		display: block; /* show only current <li> item */
+	}
+	.nav a {
 		display: block;
+		padding: 5px 42px 0 5px;
+		text-align: right;
+	}
+	.nav .current a {
+		background: none;
 	}
 
-	header nav ul {
-		text-align: center;
-		margin-left: -10px;
-	}
-
-	header nav li a {
-		font-size: 1em;
-	}
-
-	header nav li a:hover {
-		font-size: 1em;
-	}
-
-	header nav li a:active {
-		font-size: 1em;
-	}
-
-	header nav li a img {
-		width: 48px;
-		height: auto;
+	/* on nav hover */
+	.nav ul:hover li {
 		display: block;
-		margin: 0 auto 10px auto;
+		margin: 0 0 5px;
 	}
 
-	header nav li a:hover img, header nav li a:focus img, header nav li a:active img {
-		width: 46px;
+	/* right nav */
+	.nav.right ul {
+		left: auto;
+		right: 0;
+	}
+
+	/* center nav */
+	.nav.center ul {
+		left: 50%;
+		margin-left: -90px;
 	}
 
 	.homeGraphic {
