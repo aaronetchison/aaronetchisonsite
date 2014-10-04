@@ -35,6 +35,20 @@
 <script src="js/jquery.lightbox-0.5.min.js"></script>
 <script src="js/owl.carousel.js"></script>
 
+<script>
+jQuery(document).ready(function($){
+
+    /* prepend menu icon */
+    $('#nav-wrap').prepend('<div id="menu-icon"></div>');
+    
+    /* toggle nav */
+    $("#menu-icon").on("click", function(){
+        $("#nav-menu").slideToggle();
+        $(this).toggleClass("active");
+    });
+
+});
+</script>
 
 <script type="text/javascript">
 $(document).ready(function()
@@ -89,11 +103,11 @@ $(document).ready(function()
 <div class="container">
     <div class="sixteen columns headerMain">
         <div class="logo-container"><img src="images/logo.png" class="logo" alt="Etchison Media Logo" ><h1 class="logo-copy"><a href="index.html">Aaron Etchison</a></h1></div>
-        <nav class="nav right">
-            <ul>
+        <nav id="nav-wrap">
+            <ul id="nav-menu">
                 <li><a href="index.html">Home</a>
                     </li>
-                <li class="current"><a href="portfolio.html">Portfolio</a>
+                <li><a href="portfolio.html">Portfolio</a>
                     </li>
                 <li><a href="contact.html">Contact</a>
                     </li>
@@ -114,6 +128,12 @@ $(document).ready(function()
             <a href="http://www.griffeyscustomleather.com" target="_blank"><img src="images/thumbs/web9.jpg" alt="Griffey's Custom Leather Web Site" ></a>
             <h6>Griffey's Custom Leather</h6>
             <p class="tip" title="Griffey's Custom Leather - This Web site was designed and developed for a long-time client.">This Web site was designed and developed for a long-time client.</p>
+        </div>
+
+        <div class="galleryContent module">
+            <a href="http://www.theundergroundmind.com" target="_blank"><img src="images/thumbs/web12.jpg" alt="The Underground Mind Web Site" ></a>
+            <h6>The Underground Mind</h6>
+            <p class="tip" title="The Underground Mind - This Web site was designed and developed for a group of local artists and musicians.">This Web site was designed and developed for a group of local artists and musicians.</p>
         </div>
 
         <div class="galleryContent module">
@@ -335,17 +355,19 @@ $(document).ready(function()
 
 <footer>
 <div class="container">
-	<div class="eight columns vrFade">
-        <img src="images/etchPhoto.jpg" alt="Aaron Etchison Photo" class="module ltFloat noPad">
+    <div class="eight columns">
+        <img src="images/etchPhoto.jpg" alt="Aaron Etchison Photo" class="module icon-avatar">
         <p>Aaron Etchison is a graphic designer and Web developer with over eight years of experience creating a variety of media from print marketing materials to the Web.</p>
+        <a href="contact.html" class="button call-to-action">Hire Me</a>
     </div>
     <div class="eight columns">
-    	<p>If you would like to see more of my work or find out more information about me, please click the links below. </p>
-        <a href="http://etch83.deviantart.com/gallery" target="_blank"><img src="images/linkDeviantArt.png" alt="Deviant Art Link"></a>
-        <a href="http://www.linkedin.com/pub/aaron-etchison/41/210/906" target="_blank"><img src="images/linkLinkedIn.png" alt="Linked In Link"></a>
-        <a href="http://www.theundergroundmind.com" target="_blank"><img src="images/linkWordpress.png"  alt="Wordpress Link"></a>
-        <a href="http://www.twitter.com/aaronetchison" target="_blank"><img src="images/linkTwitter.png" alt="Twitter Link"></a>
-	</div>
+        <p>If you would like to see more of my work or find out more information about me, please click the links below. </p>
+        <div class="icon-group">
+            <a href="http://etch83.deviantart.com/gallery" target="_blank"><img src="images/linkDeviantArt.png" class="icon-social" alt="Deviant Art Link"></a>
+            <a href="http://www.linkedin.com/pub/aaron-etchison/41/210/906" target="_blank"><img src="images/linkLinkedIn.png" class="icon-social" alt="Linked In Link"></a>
+            <a href="http://www.twitter.com/aaronetchison" target="_blank"><img src="images/linkTwitter.png" class="icon-social" alt="Twitter Link"></a>
+        </div>
+    </div>
 </div>
 <div class="container">
 	<div class="sixteen columns">       

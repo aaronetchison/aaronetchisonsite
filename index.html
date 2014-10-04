@@ -28,7 +28,25 @@
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script>
+jQuery(document).ready(function($){
+
+    /* prepend menu icon */
+    $('#nav-wrap').prepend('<div id="menu-icon"></div>');
     
+    /* toggle nav */
+    $("#menu-icon").on("click", function(){
+        $("#nav-menu").slideToggle();
+        $(this).toggleClass("active");
+    });
+
+});
+</script>
+
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -47,9 +65,9 @@
 <div class="container">
     <div class="sixteen columns headerMain">
         <div class="logo-container"><img src="images/logo.png" class="logo" alt="Etchison Media Logo" ><h1 class="logo-copy"><a href="index.html">Aaron Etchison</a></h1></div>
-        <nav class="nav right">
-   	        <ul>
-                <li class="current"><a href="index.html">Home</a>
+        <nav id="nav-wrap">
+   	        <ul id="nav-menu">
+                <li><a href="index.html">Home</a>
                     </li>
                 <li><a href="portfolio.html">Portfolio</a>
                     </li>
@@ -83,16 +101,18 @@
 
 <footer>
 <div class="container">
-	<div class="eight columns vrFade">
-        <img src="images/etchPhoto.jpg" alt="Aaron Etchison Photo" class="module ltFloat noPad">
+	<div class="eight columns">
+        <img src="images/etchPhoto.jpg" alt="Aaron Etchison Photo" class="module icon-avatar">
         <p>Aaron Etchison is a graphic designer and Web developer with over eight years of experience creating a variety of media from print marketing materials to the Web.</p>
+        <a href="contact.html" class="button call-to-action">Hire Me</a>
     </div>
     <div class="eight columns">
     	<p>If you would like to see more of my work or find out more information about me, please click the links below. </p>
-        <a href="http://etch83.deviantart.com/gallery" target="_blank"><img src="images/linkDeviantArt.png" alt="Deviant Art Link"></a>
-        <a href="http://www.linkedin.com/pub/aaron-etchison/41/210/906" target="_blank"><img src="images/linkLinkedIn.png" alt="Linked In Link"></a>
-        <a href="http://www.theundergroundmind.com" target="_blank"><img src="images/linkWordpress.png"  alt="Wordpress Link"></a>
-        <a href="http://www.twitter.com/aaronetchison" target="_blank"><img src="images/linkTwitter.png" alt="Twitter Link"></a>
+        <div class="icon-group">
+            <a href="http://etch83.deviantart.com/gallery" target="_blank"><img src="images/linkDeviantArt.png" class="icon-social" alt="Deviant Art Link"></a>
+            <a href="http://www.linkedin.com/pub/aaron-etchison/41/210/906" target="_blank"><img src="images/linkLinkedIn.png" class="icon-social" alt="Linked In Link"></a>
+            <a href="http://www.twitter.com/aaronetchison" target="_blank"><img src="images/linkTwitter.png" class="icon-social" alt="Twitter Link"></a>
+        </div>
 	</div>
 </div>
 <div class="container">
