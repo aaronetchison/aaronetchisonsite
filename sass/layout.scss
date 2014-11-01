@@ -129,14 +129,14 @@ header nav li {
 
 footer {
 	width: 100%;
-	height: 500px;
+	height: 100%;
 	margin: 20px auto 0 auto;
 	padding: 20px 10px;
 	background: rgba(0,0,0,0.5);
 	@include box-shadow(-5px, -5px, 5px, #0E0E0E)
 }
 
-footer .icon-avatar {
+.icon-avatar {
 	float: left;
 	width: 64px;
 	height: auto;
@@ -146,16 +146,66 @@ footer .icon-avatar {
 
 .icon-group {
 	clear: both;
-	width: 300px;
+	width: 280px;
 	margin: 0 auto;
 }
 
-.icon-social {
-	max-width: 64px;
-	height: auto;
-	margin: 0 16px;
+.icon-contact {
+	float: left;
+  width: 36px;
+  height: 36px;
+	text-indent: -9999px;
+	margin: 0;
 	padding: 0;
-	@include box-shadow(3px, 3px, 10px, #0E0E0E);
+  background-size: 32px 32px;
+  @include box-shadow(3px, 3px, 10px, #0E0E0E);
+}
+
+.icon-contact + p {
+	float: left;
+	margin: 8px 0 0 10px;
+}
+
+.icon-social {
+	float: left;
+  width: 64px;
+  height: 64px;
+	text-indent: -9999px;
+	margin: 0 10px;
+	padding: 0;
+  background-size: 64px 64px;
+	@include border-radius(0.5em, 0.5em, 0.5em, 0.5em);
+  @include box-shadow(3px, 3px, 10px, #0E0E0E);
+}
+
+.icon-twitter {
+  background: url(../images/icon-twitter.svg) #262626;
+  border: 1px solid #161616;
+}
+
+.icon-twitter:hover, .icon-twitter:active {
+	background: url(../images/icon-twitter-hover.svg) #161616;
+	border: 1px solid #666666;
+}
+
+.icon-deviantart {
+	background: url(../images/icon-deviantart.svg) #262626;
+	border: 1px solid #161616;
+}
+
+.icon-deviantart:hover, .icon-deviantart:active {
+	background: url(../images/icon-deviantart-hover.svg) #161616;
+	border: 1px solid #666666;
+}
+
+.icon-linkedin {
+	background: url(../images/icon-linkedin.svg) #262626;
+	border: 1px solid #161616;
+}
+
+.icon-linkedin:hover, .icon-linkedin:active {
+	background: url(../images/icon-linkedin-hover.svg) #161616;
+	border: 1px solid #666666;
 }
 
 .home-graphic {
@@ -200,11 +250,15 @@ h2 {
 	@include text-shadow(3px, 3px, 5px, #000000);
 }
 
+footer h2 {
+	color: #666666;
+}
+
 h3 {
 	font-family: Orbitron, Verdana, sans-serif;
 	font-size: 1em;
 	font-weight: bold;
-	color: #CCCCCC;
+	color: #666666;
 	cursor:pointer;
 	padding: 0;
 	margin: 0 0 10px 0;	
@@ -284,6 +338,16 @@ footer p {
 }
 
 /* Link Styles */
+
+a {
+	cursor: pointer;
+}
+
+a:active, a:focus {
+	outline: 0;
+}
+
+
 .button {
 	font-family: Orbitron, Arial, sans-serif;
 	font-size: 1em;
@@ -292,6 +356,7 @@ footer p {
 	border: 1px solid #161616;
 	@include border-radius(0.5em, 0.5em, 0.5em, 0.5em);
 	background-color: #262626;
+	cursor: pointer;
 }
 
 .button:hover, .button:active {
@@ -301,7 +366,7 @@ footer p {
 	color: #B01817;
 	border: 1px solid #666666;
 	@include border-radius(0.5em, 0.5em, 0.5em, 0.5em);
-	background-color: #262626;
+	background-color: #161616;
 }
 
 header nav li a {
@@ -319,7 +384,7 @@ header nav li a {
 header nav li a:hover, header nav li a:active {
 	font-family: Orbitron, sans-serif;
 	font-size: 1.25em;
-	color: #cccccc;
+	color: #666666;
 	text-decoration: none;
 	font-weight: 900;
 	border-style: none;
@@ -333,7 +398,7 @@ header nav li a:hover, header nav li a:active {
 }
 
 .logo-copy a:hover{
-	color: #cccccc;
+	color: #666666;
 }
 
 footer a {
@@ -347,7 +412,7 @@ footer a {
 footer a:hover, footer a:active {
 	font-family: Orbitron, sans-serif;
 	font-size: 1em;
-	color: #cccccc;
+	color: #666666;
 	font-weight: 900;
 	text-decoration: none;
 }
@@ -355,7 +420,7 @@ footer a:hover, footer a:active {
 .call-to-action {
 	clear: both;
 	display: block;
-	width: 260px;
+	width: 90%;
 	height: 32px;
 	margin: 5px auto;
 	padding: 4px;
@@ -400,6 +465,10 @@ p a:hover, p a:active {
 .ltFloat {
 	float: left;
 	margin-right: 10px;
+}
+
+.twitter-timeline {
+	margin: 10px 0 0 0;
 }
 
 /* Replace rtFloat and ltFloat with these more semantic classes
@@ -642,6 +711,10 @@ body .ui-tooltip { border-width: 2px; }
 		display: block;
 	}
 
+	#menu-icon:hover, #menu-icon:active {
+		background:url("../images/icon-nav-hover.png") no-repeat center;
+	}
+
 	#nav-menu {
 		clear: both;
 		position: absolute;
@@ -711,6 +784,10 @@ body .ui-tooltip { border-width: 2px; }
 		cursor: pointer;
 		border: none;
 		display: block;
+	}
+
+	#menu-icon:hover, #menu-icon:active {
+		background:url("../images/icon-nav-sm-hover.png") no-repeat center;
 	}
 
 	#nav-menu {
