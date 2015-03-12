@@ -46,6 +46,14 @@ Media Queries
 linear-gradient:$top $color $color;
 }
 
+$white: #CCCCCC;
+$gray-light: #666666;
+$gray-medium: #262626;
+$gray-dark: #161616;
+$black: #0E0E0E;
+$red: #B01817;
+
+
 /* General Styles */
 
 * {
@@ -70,7 +78,7 @@ html, body {
 }
 
 body {
-	background-color: #262626;
+	background-color: $gray-medium;
 	background-image: url("../images/wild_oliva.png");
 	background-repeat: repeat;
 	margin: 0;
@@ -82,7 +90,7 @@ body {
 	height: 100%;
 	margin: 48px 0 0 0;
 	padding: 20px 0 0 0;
-	background-color: #262626;
+	background-color: $gray-medium;
 	background-image: url("../images/wild_oliva.png");
 	background-repeat: repeat;
 }
@@ -92,9 +100,9 @@ footer {
 	height: 100%;
 	margin: 20px auto 0 auto;
 	padding: 20px 10px;
-	background-color: #262626;
+	background-color: $gray-medium;
 	background-color: rgba(0,0,0,0.5);
-	@include box-shadow(-5px, -5px, 10px, #0E0E0E);
+	@include box-shadow(-5px, -5px, 10px, $black);
 }
 
 .icon-avatar {
@@ -135,40 +143,40 @@ footer {
 	padding: 0;
   background-size: 64px 64px;
 	@include border-radius(0.5em, 0.5em, 0.5em, 0.5em);
-  @include box-shadow(3px, 3px, 5px, #0E0E0E);
+  @include box-shadow(3px, 3px, 5px, $black);
 }
 
 .icon-twitter {
-  background: url(../images/icon-twitter.svg) #262626;
-  border: 1px solid #161616;
+  background: url(../images/icon-twitter.svg) $gray-medium;
+  border: 1px solid $gray-dark;
   transition: all 0.3s linear 0s;
 }
 
 .icon-twitter:hover, .icon-twitter:active {
-	background: url(../images/icon-twitter-hover.svg) #161616;
-	border: 1px solid #666666;
+	background: url(../images/icon-twitter-hover.svg) $gray-dark;
+	border: 1px solid $gray-light;
 }
 
 .icon-deviantart {
-	background: url(../images/icon-deviantart.svg) #262626;
-	border: 1px solid #161616;
+	background: url(../images/icon-deviantart.svg) $gray-medium;
+	border: 1px solid $gray-dark;
 	transition: all 0.3s linear 0s;
 }
 
 .icon-deviantart:hover, .icon-deviantart:active {
-	background: url(../images/icon-deviantart-hover.svg) #161616;
-	border: 1px solid #666666;
+	background: url(../images/icon-deviantart-hover.svg) $gray-dark;
+	border: 1px solid $gray-light;
 }
 
 .icon-linkedin {
-	background: url(../images/icon-linkedin.svg) #262626;
-	border: 1px solid #161616;
+	background: url(../images/icon-linkedin.svg) $gray-medium;
+	border: 1px solid $gray-dark;
 	transition: all 0.3s linear 0s;
 }
 
 .icon-linkedin:hover, .icon-linkedin:active {
-	background: url(../images/icon-linkedin-hover.svg) #161616;
-	border: 1px solid #666666;
+	background: url(../images/icon-linkedin-hover.svg) $gray-dark;
+	border: 1px solid $gray-light;
 }
 
 .module {
@@ -176,7 +184,7 @@ footer {
 	padding: 10px;
 	background-color: rgba(0,0,0,0.5);
 	@include border-radius(10px, 10px, 10px, 10px);	
-	@include box-shadow(3px, 3px, 5px, #000000);
+	@include box-shadow(3px, 3px, 5px, $black);
 }
 
 .noPad {
@@ -204,11 +212,25 @@ hr {
 	border-right: 1px solid #444444; 
 }
 
-.hrFade {
+.hr-fade-dark {
 	max-width: 100%;
-	height: 2px;
+	height: 3px;
 	margin: 20px auto 20px auto;
-	border-top: 1px solid #000000;
+	border-top: 1px solid $black;
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: -moz-linear-gradient(left,  rgba(38,38,38,0) 0%, rgba(38,38,38,1) 50%, rgba(38,38,38,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(38,38,38,0)), color-stop(50%,rgba(38,38,38,1)), color-stop(100%,rgba(38,38,38,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(38,38,38,0) 0%,rgba(38,38,38,1) 50%,rgba(38,38,38,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(38,38,38,0) 0%,rgba(38,38,38,1) 50%,rgba(38,38,38,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(38,38,38,0) 0%,rgba(38,38,38,1) 50%,rgba(38,38,38,0) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(38,38,38,0) 0%,rgba(38,38,38,1) 50%,rgba(38,38,38,0) 100%); /* W3C */
+}
+
+.hr-fade-light {
+	max-width: 100%;
+	height: 3px;
+	margin: 20px auto 20px auto;
+	border-top: 1px solid $gray-medium;
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 	background: -moz-linear-gradient(left,  rgba(68,68,68,0) 0%, rgba(68,68,68,1) 50%, rgba(68,68,68,0) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(68,68,68,0)), color-stop(50%,rgba(68,68,68,1)), color-stop(100%,rgba(68,68,68,0))); /* Chrome,Safari4+ */
@@ -251,7 +273,7 @@ header {
 	border: 0;
 	background-color: #1A1A1A;
 	background-color: rgba(0,0,0,0.5);
-	@include box-shadow(5px, 5px, 5px, #0E0E0E);
+	@include box-shadow(5px, 5px, 5px, $black);
 	z-index: 9;
 }
 
@@ -276,14 +298,14 @@ header {
 	font-size: 2em;
 
 	a{
-		color: #B01817;
+		color: $red;
 		text-decoration: none;
 		padding: 0;
 		margin: 0;
 	}
 
 	a:hover{
-		color: #666666;
+		color: $gray-light;
 	}
 }
 
@@ -312,17 +334,17 @@ header nav li a, header nav li a:visited {
 	text-decoration: none;
 	font-family: Orbitron, sans-serif;
 	font-size: 1.5em;
-	color: #B01817;
+	color: $red;
 	font-weight: 900;
 	border-style: none;	
 	line-height: 100%;
 	transition: background 0.3s linear 0s, color 0.3s linear 0s;
-	@include text-shadow(3px, 3px, 5px, #000000);
+	@include text-shadow(3px, 3px, 5px, $black);
 }
 
 header nav li a:hover, header nav li a:active {
 	text-decoration: none;
-	color: #666666;
+	color: $gray-light;
 	border-style: none;
 }
 
@@ -340,32 +362,32 @@ header nav li a:hover, header nav li a:active {
 h1 {
 	font-family: Orbitron, Helvetica, sans-serif;
 	font-weight: 900;
-	color: #B01817;
+	color: $red;
 	padding: 0;
 	margin: 0;
-	@include text-shadow(3px, 3px, 5px, #000000);
+	@include text-shadow(3px, 3px, 5px, $black);
 }
 
 h2 {
 	font-family: Orbitron, Verdana, sans-serif;
 	font-size: 1.25em;
 	font-weight: bold;
-	color: #B01817;
+	color: $red;
 	cursor:pointer;
 	padding: 0;
 	margin: 0 0 5px 0;
-	@include text-shadow(3px, 3px, 5px, #000000);
+	@include text-shadow(3px, 3px, 5px, $black);
 }
 
 footer h2 {
-	color: #666666;
+	color: $gray-light;
 }
 
 h3 {
 	font-family: Orbitron, Verdana, sans-serif;
 	font-size: 1em;
 	font-weight: bold;
-	color: #666666;
+	color: $gray-light;
 	cursor:pointer;
 	padding: 0;
 	margin: 0 0 10px 0;	
@@ -375,28 +397,28 @@ h4 {
 	font-family: Orbitron, Verdana, sans-serif;
 	font-size: 2em;
 	font-weight: 900;
-	color: #B01817;
+	color: $red;
 	cursor:pointer;
 	padding: 0;
 	margin: 0 0 5px 0;
-	@include text-shadow(3px, 3px, 5px, #000000);
+	@include text-shadow(3px, 3px, 5px, $black);
 }
 
 h5 {
 	font-family: Orbitron, Verdana, sans-serif;
 	font-size: 3em;
 	font-weight: 900;
-	color: #B01817;
+	color: $red;
 	text-align: center;
 	margin: 0 0 10px 0;
-	@include text-shadow(3px, 3px, 5px, #000000);
+	@include text-shadow(3px, 3px, 5px, $black);
 }
 
 h6 {
 	font-family: Orbitron, Verdana, sans-serif;
 	font-size: 0.9em;
 	font-weight: bold;
-	color: #B01817;
+	color: $red;
 	margin: 10px 0 0 0;
 } 
 
@@ -404,14 +426,14 @@ p {
 	font-family: Questrial, Helvetica, sans-serif;
 	font-size: 1em;
 	line-height: 125%;
-	color: #CCCCCC;
+	color: $white;
 	padding: 0;
 	margin: 0 0 10px 0;
 }
 
 footer p {
 	text-align: left;
-	color: #CCCCCC;
+	color: $white;
 }
 
 
@@ -430,7 +452,7 @@ footer p {
 .byline {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: .8em;
-	color: #CCCCCC;
+	color: $white;
 	padding: 0px;
 	margin: 0 20px 10px 0;
 }
@@ -463,37 +485,37 @@ a:active, a:focus {
 	font-family: Orbitron, Arial, sans-serif;
 	font-size: 1em;
 	font-weight: bold;
-	color: #B01817;
+	color: $red;
 	text-decoration: none;
-	border: 1px solid #161616;
-	background-color: #161616;
+	border: 1px solid $gray-dark;
+	background-color: $gray-dark;
 	background-color: rgba(0,0,0,0.2);
 	cursor: pointer;
 	@include border-radius(0.5em, 0.5em, 0.5em, 0.5em);
-	@include box-shadow(3px, 3px, 5px, #0E0E0E);
+	@include box-shadow(3px, 3px, 5px, $black);
 	transition: background 0.3s linear 0s, color 0.3s linear 0s;
 }
 
 .button:hover, .button:active {
 	font-family: Orbitron, Arial, sans-serif;
 	font-weight: bold;
-	color: #666666;
-	border: 1px solid #666666;
+	color: $gray-light;
+	border: 1px solid $gray-light;
 	@include border-radius(0.5em, 0.5em, 0.5em, 0.5em);
-	background-color: #262626;
+	background-color: $gray-medium;
 	background-color: rgba(0,0,0,0.5);
 }
 
 footer {
 	.button {
-		color: #666666;
-		background-color: #161616;
+		color: $gray-light;
+		background-color: $gray-dark;
 		background-color: rgba(0,0,0,0.2);
 	}
 
 	.button:hover, .button:active {
-		color: #B01817;
-		background-color: #262626;
+		color: $red;
+		background-color: $gray-medium;
 		background-color: rgba(0,0,0,0.5);
 	}
 }
@@ -501,7 +523,7 @@ footer {
 footer a {
 	font-family: Orbitron, sans-serif;
 	font-size: 1em;
-	color: #B01817;
+	color: $red;
 	font-weight: 900;
 	text-decoration: none;
 }
@@ -509,7 +531,7 @@ footer a {
 footer a:hover, footer a:active {
 	font-family: Orbitron, sans-serif;
 	font-size: 1em;
-	color: #666666;
+	color: $gray-light;
 	font-weight: 900;
 	text-decoration: none;
 }
@@ -537,7 +559,7 @@ footer .call-to-action {
 p a{
 	font-family: Questrial, Helvetica, sans-serif;
 	font-size: 1em;
-	color: #B01817;
+	color: $red;
 	padding: 0;
 	margin: 0 0 10px 0;
 }
@@ -582,10 +604,10 @@ body::before {
 		font-family: Orbitron, Verdana, sans-serif;
 		font-size: 3em;
 		font-weight: 900;
-		color: #B01817;
+		color: $red;
 		text-align: center;
 		margin: 96px 0 10px 0;
-		@include text-shadow(3px, 3px, 5px, #000000);
+		@include text-shadow(3px, 3px, 5px, $black);
 	}	
 
 	p {
@@ -606,7 +628,7 @@ body::before {
 }
 
 .hero-after {
-	@include box-shadow(-5px, -5px, 10px, #0E0E0E);
+	@include box-shadow(-5px, -5px, 10px, $black);
 }
 
 
@@ -632,7 +654,7 @@ body::before {
 .gallery-content p {
 	font-family: Questrial, Helvetica, sans-serif;
 	font-size: 0.8em;
-	color: #CCCCCC;
+	color: $white;
 	width: 100%;
 	height: 2.5em;
 	margin: 5px 0 0 0;
@@ -643,7 +665,7 @@ body::before {
 .gallery-content a {
 	font-family: Orbitron, Verdana, sans-serif;
 	font-size: 1em;
-	color: #CCCCCC;
+	color: $white;
 	cursor:pointer;	
 	margin-right: auto;
 	margin-left: auto;
@@ -674,7 +696,7 @@ body::before {
 .label1 {
 	font-family: Orbitron, Verdana, sans-serif;
 	font-size: 1em;
-	color: #CCCCCC;
+	color: $white;
 	text-align:left;
 	clear:left;
 	margin-right:10px;
@@ -684,7 +706,7 @@ body::before {
 .label2 {
 	font-family: Orbitron, Verdana, sans-serif;
 	font-size: 1em;
-	color: #CCCCCC;
+	color: $white;
 	text-align:left;
 	clear:left;
 	margin-right:10px;
@@ -694,11 +716,11 @@ body::before {
 input, textarea, select {
 	font-family: Questrial, Helvetica, sans-serif;
 	font-size: 1.25em;
-	border: 1px solid #262626;
+	border: 1px solid $gray-medium;
 	padding: 5px;
 	margin: 10px 0;
 	width: 100%;
-	background: #CCCCCC;
+	background: $white;
 }
 
 .submitReset {
@@ -714,12 +736,12 @@ input, textarea, select {
 }
 
 .inputFocus {
-	border: 2px solid #b01817;
+	border: 2px solid $red;
 }
 
 .noInput {
 	background-color: #000;
-	border: 2px solid #b01817;
+	border: 2px solid $red;
 }
 
 
@@ -727,20 +749,20 @@ label.error {
 	font-family: Questrial, Helvetica, sans-serif;
 	font-size: 1em;
 	font-style: italic;
-	color: #B01817;
+	color: $red;
 	margin-left: 10px;
 }
 
 input.error {
-	color: #b01817;
-	border: 2px solid #b01817;
+	color: $red;
+	border: 2px solid $red;
 }
 
 #success {
 	font-family: Questrial, Helvetica, sans-serif;
 	font-size: 1.5em;
 	font-weight:bold;
-	color: #CCCCCC;
+	color: $white;
 	text-align:left;
 	clear:left;
 	margin: 0 0 10px 0;
@@ -763,13 +785,13 @@ input.error {
 	z-index: 9999;
 	width: 75%;
 	border: 2px solid #4F4F4F;
-	@include box-shadow(3px, 3px, 5px, #000000);
+	@include box-shadow(3px, 3px, 5px, $black);
 }
 
 .ui-tooltip-content {
 	font-family: Questrial, Helvetica, sans-serif;
 	font-size: 0.75em;
-	color: #CCCCCC;
+	color: $white;
 }
 
 * html .ui-tooltip {
@@ -817,14 +839,14 @@ body .ui-tooltip { border-width: 2px; }
 		font-size: 1.5em;
 
 		a {
-			color: #B01817;
+			color: $red;
 			text-decoration: none;
 			padding: 0;
 			margin: 0;
 		}
 
 		a:hover{
-			color: #666666;
+			color: $gray-light;
 		}
 	}
 
@@ -915,14 +937,14 @@ body .ui-tooltip { border-width: 2px; }
 		font-size: 1.5em;
 
 		a {
-			color: #B01817;
+			color: $red;
 			text-decoration: none;
 			padding: 0;
 			margin: 0;
 		}
 
 		a:hover{
-			color: #666666;
+			color: $gray-light;
 		}
 	}
 
