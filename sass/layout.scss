@@ -138,45 +138,23 @@ footer {
 	float: left;
   width: 64px;
   height: 64px;
-	text-indent: -9999px;
 	margin: 0 10px;
 	padding: 0;
   background-size: 64px 64px;
+  background: $gray-medium;
+  border: 1px solid $gray-dark;
+  transition: all 0.3s linear 0s;
 	@include border-radius(0.5em, 0.5em, 0.5em, 0.5em);
   @include box-shadow(3px, 3px, 5px, $black);
 }
 
-.icon-twitter {
-  background: url(../images/icon-twitter.svg) $gray-medium;
-  border: 1px solid $gray-dark;
-  transition: all 0.3s linear 0s;
-}
-
-.icon-twitter:hover, .icon-twitter:active {
-	background: url(../images/icon-twitter-hover.svg) $gray-dark;
+.icon-social:hover, .icon-social:active {
+	background: $gray-dark;
 	border: 1px solid $gray-light;
 }
 
-.icon-deviantart {
-	background: url(../images/icon-deviantart.svg) $gray-medium;
-	border: 1px solid $gray-dark;
-	transition: all 0.3s linear 0s;
-}
-
-.icon-deviantart:hover, .icon-deviantart:active {
-	background: url(../images/icon-deviantart-hover.svg) $gray-dark;
-	border: 1px solid $gray-light;
-}
-
-.icon-linkedin {
-	background: url(../images/icon-linkedin.svg) $gray-medium;
-	border: 1px solid $gray-dark;
-	transition: all 0.3s linear 0s;
-}
-
-.icon-linkedin:hover, .icon-linkedin:active {
-	background: url(../images/icon-linkedin-hover.svg) $gray-dark;
-	border: 1px solid $gray-light;
+.icon-social:hover .icon-social-content, .icon-social:active .icon-social-content {
+	fill: $red;
 }
 
 .module {
