@@ -151,6 +151,7 @@ footer {
 .icon-social:hover, .icon-social:active {
 	background: $gray-dark;
 	border: 1px solid $gray-light;
+	transform: scale(1.02);
 }
 
 .icon-social:hover .icon-social-content, .icon-social:active .icon-social-content {
@@ -163,6 +164,11 @@ footer {
 	background-color: rgba(0,0,0,0.5);
 	@include border-radius(10px, 10px, 10px, 10px);	
 	@include box-shadow(3px, 3px, 5px, $black);
+	transition: all 0.3s ease;
+}
+
+.home-content .module:hover {
+	transform: scale(1.02);
 }
 
 .noPad {
@@ -280,6 +286,7 @@ header {
 		text-decoration: none;
 		padding: 0;
 		margin: 0;
+		transition: all 0.3s ease;
 	}
 
 	a:hover{
@@ -386,6 +393,7 @@ h5 {
 	font-family: Orbitron, Verdana, sans-serif;
 	font-size: 3em;
 	font-weight: 900;
+	letter-spacing: .05em;
 	color: $red;
 	text-align: center;
 	margin: 0 0 10px 0;
@@ -403,7 +411,7 @@ h6 {
 p {
 	font-family: Questrial, Helvetica, sans-serif;
 	font-size: 1em;
-	line-height: 125%;
+	line-height: 1.3em;
 	color: $white;
 	padding: 0;
 	margin: 0 0 10px 0;
@@ -649,6 +657,15 @@ body::before {
 	margin-left: auto;
 }
 
+.gallery-content img {
+	transition: all .25s ease;
+}
+
+.gallery-content img:hover {
+	transform: scale(1.02);
+	box-shadow: 0 0 5px #000;
+}
+
 .pinterest-button {
 	position: absolute !important;
 	bottom: 77px;
@@ -804,7 +821,7 @@ body .ui-tooltip { border-width: 2px; }
 	.logo-container {
 		float: left;
 	}
-
+	
 	.logo {
 		width: 16px;
 	}
@@ -889,6 +906,14 @@ body .ui-tooltip { border-width: 2px; }
 
 	.main-content {
 		margin: 32px 0 0 0;
+	}
+
+	.main-content > .container {
+		max-width: 480px;
+	}
+
+	footer .container {
+		max-width: 480px;
 	}
 
 }
