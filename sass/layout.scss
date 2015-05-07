@@ -89,7 +89,7 @@ body {
 	width: 100%;
 	height: 100%;
 	margin: 48px 0 0 0;
-	padding: 20px 0 0 0;
+	padding: 60px 0 0 0;
 	background-color: $gray-medium;
 	background-image: url("../images/wild_oliva.png");
 	background-repeat: repeat;
@@ -98,7 +98,7 @@ body {
 footer {
 	width: 100%;
 	height: 100%;
-	margin: 20px auto 0 auto;
+	margin: 60px auto 0 auto;
 	padding: 20px 10px;
 	background-color: $gray-medium;
 	background-color: rgba(0,0,0,0.5);
@@ -253,7 +253,7 @@ header {
 	width: 100%;
 	height: 48px;
 	margin: 0;
-	padding: 8px;
+	padding: 6px 10px;
 	border: 0;
 	background-color: #1A1A1A;
 	background-color: rgba(0,0,0,0.5);
@@ -275,8 +275,6 @@ header {
 }
 
 .logo-copy {
-	margin: 0;
-	padding: 0;
 	display: inline;
 	position: relative;
 	font-size: 2em;
@@ -284,8 +282,6 @@ header {
 	a{
 		color: $red;
 		text-decoration: none;
-		padding: 0;
-		margin: 0;
 		transition: all 0.3s ease;
 	}
 
@@ -308,7 +304,7 @@ header nav ul {
 }
 
 header nav li {
-	margin: 0;
+	margin: 6px 0 0 0;
 	padding: 0;
 	list-style: none;
 	display: inline-block;
@@ -318,7 +314,7 @@ header nav li {
 header nav li a, header nav li a:visited {
 	text-decoration: none;
 	font-family: Orbitron, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	color: $red;
 	font-weight: 900;
 	border-style: none;	
@@ -358,7 +354,6 @@ h2 {
 	font-size: 1.25em;
 	font-weight: bold;
 	color: $red;
-	cursor:pointer;
 	padding: 0;
 	margin: 0 0 5px 0;
 	@include text-shadow(3px, 3px, 5px, $black);
@@ -373,7 +368,6 @@ h3 {
 	font-size: 1em;
 	font-weight: bold;
 	color: $gray-light;
-	cursor:pointer;
 	padding: 0;
 	margin: 0 0 10px 0;	
 }
@@ -383,7 +377,6 @@ h4 {
 	font-size: 2em;
 	font-weight: 900;
 	color: $red;
-	cursor:pointer;
 	padding: 0;
 	margin: 0 0 5px 0;
 	@include text-shadow(3px, 3px, 5px, $black);
@@ -407,6 +400,12 @@ h6 {
 	color: $red;
 	margin: 10px 0 0 0;
 } 
+
+.section-heading {
+	margin: 0 0 20px 0;
+	text-align: center;
+	font-size: 3em;
+}
 
 p {
 	font-family: Questrial, Helvetica, sans-serif;
@@ -460,12 +459,21 @@ footer p {
 
 a {
 	cursor: pointer;
+	text-decoration: none;
 }
 
-a:active, a:focus {
+a, a:visited {
+	color: $red;
+	border-style: none;	
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: none;
+	color: $gray-light;
+	border-style: none;
 	outline: 0;
 }
-
 
 .button {
 	font-family: Orbitron, Arial, sans-serif;
@@ -628,11 +636,6 @@ body::before {
 
 /* Portfolio */
 
-.gallery-heading {
-	margin: 0 0 10px 0;
-	text-align: center;
-}
-
 .gallery-content {
 	margin: 0 10px 10px 10px;
 }
@@ -680,7 +683,11 @@ body::before {
 
 
 
+/* Services */
 
+.services-section .module {
+	margin-bottom: 60px;
+}
 
 
 
@@ -815,7 +822,7 @@ body .ui-tooltip { border-width: 2px; }
 
 	header {
 		height: 32px;
-		padding: 4px;
+		padding: 3px 10px; 
 	}
 
 	.logo-container {
@@ -827,8 +834,6 @@ body .ui-tooltip { border-width: 2px; }
 	}
 
 	.logo-copy {
-		margin: 0;
-		padding: 0;
 		display: inline;
 		position: relative;
 		font-size: 1.5em;
@@ -836,8 +841,6 @@ body .ui-tooltip { border-width: 2px; }
 		a {
 			color: $red;
 			text-decoration: none;
-			padding: 0;
-			margin: 0;
 		}
 
 		a:hover{
@@ -906,6 +909,7 @@ body .ui-tooltip { border-width: 2px; }
 
 	.main-content {
 		margin: 32px 0 0 0;
+		padding-top: 40px;
 	}
 
 	.main-content > .container {
@@ -916,12 +920,20 @@ body .ui-tooltip { border-width: 2px; }
 		max-width: 480px;
 	}
 
+	.services-section .module {
+		margin-bottom: 40px;
+	}
+
+	.section-heading {
+		font-size: 2em;
+	}
+
 }
 @media all and (min-width: 0px) and (max-width: 479px) {
 	
 	header {
 		height: 32px;
-		padding: 4px;
+		padding: 3px 10px;
 	}
 
 	.logo-container {
@@ -933,8 +945,6 @@ body .ui-tooltip { border-width: 2px; }
 	}
 
 	.logo-copy {
-		margin: 0;
-		padding: 0;
 		display: inline;
 		position: relative;
 		font-size: 1.5em;
@@ -942,8 +952,6 @@ body .ui-tooltip { border-width: 2px; }
 		a {
 			color: $red;
 			text-decoration: none;
-			padding: 0;
-			margin: 0;
 		}
 
 		a:hover{
@@ -1013,6 +1021,25 @@ body .ui-tooltip { border-width: 2px; }
 
 	.main-content {
 		margin: 32px 0 0 0;
+		padding-top: 20px;
+	}
+
+	.services-image {
+		margin: 0;
+		padding: 0;
+
+		img {
+			display: none;
+		}
+	}
+
+	.services-section .module {
+		margin-bottom: 20px;
+	}
+
+	.section-heading {
+		margin-bottom: 10px;
+		font-size: 1.6em;
 	}
 
 }

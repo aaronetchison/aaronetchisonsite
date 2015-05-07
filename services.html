@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>Home | The Portfolio of Aaron Etchison</title>
+<title>Graphic Design Services | The Portfolio of Aaron Etchison</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="Description" content="This site provides a look at the graphic design and Web development work of Aaron Etchison.">
@@ -41,6 +41,7 @@
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 
 <script>
 jQuery(document).ready(function($){
@@ -62,6 +63,22 @@ jQuery(document).ready(function($){
 
     $.preloadImages("images/icon-twitter-hover.svg","images/icon-deviantart-hover.svg","images/icon-linkedin-hover.svg","images/icon-nav-hover.png","images/icon-nav-sm-hover.png");
 
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function()
+{
+    $('.owl-carousel').owlCarousel({
+        items : 1,
+        itemsDesktop : [1199,1],
+        itemsDesktopSmall : [980,1],
+        itemsTablet: [768,1],
+        itemsTabletSmall: false,
+        itemsMobile : [479,1],
+        autoPlay : 9999,
+        stopOnHover : true,
+    });
 });
 </script>
 
@@ -138,34 +155,89 @@ jQuery(document).ready(function($){
 </header>
 
 <div class="container">
-	<div class="sixteen columns home-graphic">
-        <h5>Designer &amp; Developer</h5>
-        <p>I design brand identities and build<br>web sites for small businesses</p>
-        <a href="contact.html" class="button call-to-action">Hire Me</a>
+	<div class="sixteen columns">
+        <div class="owl-carousel">
+            <img src="images/previews/amcaad.jpg" alt="Griffey's Design">
+            <img src="images/previews/aodlogo.jpg" alt="Aod Logo">
+
+        </div>
     </div>
 </div><!-- end container -->
 
-<div class="main-content hero-after">  
-<div class="container home-content">
-	<div class="one-third column module">
-        <img src="images/home-design.png" alt="Graphic Design work graphic">
-        <h2><a href="services.html#graphic-design">Graphic Design</a></h2>
+<div class="main-content hero-after services-section">  
+
+<h4 class="section-heading" id="graphic-design">Graphic Design</h4>
+<div class="container module">
+    <div class="six columns services-image">
+        <img src="images/home-web.png" alt="Web Development work graphic">
+    </div>  
+	
+    <div class="ten columns">
+        <h2>Logo Design</h2>
         <p>Great design is essential for any business to effectively market their products or services. That is something I can provide.</p>
         <p>If you need a business card, music flier or magazine ad, I can create the designs that will attract your target audience and convert them into customers.</p>
 	</div>
 
-    <div class="one-third column module">
-        <img src="images/home-web.png" alt="Web Development work graphic">
-        <h2><a href="services.html#web-development">Web Development</a></h2>
+    <div class="ten columns">
+        <h2>Branding</h2>
+        <p>Great design is essential for any business to effectively market their products or services. That is something I can provide.</p>
+        <p>If you need a business card, music flier or magazine ad, I can create the designs that will attract your target audience and convert them into customers.</p>
+    </div>
+
+    <div class="ten columns">
+        <h2>Marketing</h2>
         <p>As web sites and apps have become common place for businesses small and large, your site must stay up to date with current technologies and styles in order to rise above the rest.</p>
         <p>I can provide you with beautiful, fast and reliable web sites that are accessible on all devices and most browsers.</p>
-	</div>    
+    </div>
+</div><!-- end container -->
 
-    <div class="one-third column module">
-        <img src="images/home-seo.png" alt="SEO work graphic">
-        <h2><a href="services.html#seo">SEO</a></h2>
-        <p>When someone searches Google for products or services that you can provide them with, you want to be at the top of that search results page. This is where <span title="Search Engine Optimisation">SEO</span> comes in.</p>
-        <p>Over the years, I have learned what it takes to get a web site to climb the search rankings and reach its audience.</p>
+<h4 class="section-heading" id="web-development">Web Development</h4>
+<div class="container module">
+    <div class="six columns services-image">
+        <img src="images/home-web.png" alt="Web Development work graphic">
+    </div>  
+    
+    <div class="ten columns">
+        <h2>Logo Design</h2>
+        <p>Great design is essential for any business to effectively market their products or services. That is something I can provide.</p>
+        <p>If you need a business card, music flier or magazine ad, I can create the designs that will attract your target audience and convert them into customers.</p>
+    </div>
+
+    <div class="ten columns">
+        <h2>Branding</h2>
+        <p>Great design is essential for any business to effectively market their products or services. That is something I can provide.</p>
+        <p>If you need a business card, music flier or magazine ad, I can create the designs that will attract your target audience and convert them into customers.</p>
+    </div>
+
+    <div class="ten columns">
+        <h2>Marketing</h2>
+        <p>As web sites and apps have become common place for businesses small and large, your site must stay up to date with current technologies and styles in order to rise above the rest.</p>
+        <p>I can provide you with beautiful, fast and reliable web sites that are accessible on all devices and most browsers.</p>
+    </div>
+</div><!-- end container -->
+
+<h4 class="section-heading" id="seo">SEO</h4>
+<div class="container module">
+    <div class="six columns services-image">
+        <img src="images/home-web.png" alt="Web Development work graphic">
+    </div>  
+    
+    <div class="ten columns">
+        <h2>Logo Design</h2>
+        <p>Great design is essential for any business to effectively market their products or services. That is something I can provide.</p>
+        <p>If you need a business card, music flier or magazine ad, I can create the designs that will attract your target audience and convert them into customers.</p>
+    </div>
+
+    <div class="ten columns">
+        <h2>Branding</h2>
+        <p>Great design is essential for any business to effectively market their products or services. That is something I can provide.</p>
+        <p>If you need a business card, music flier or magazine ad, I can create the designs that will attract your target audience and convert them into customers.</p>
+    </div>
+
+    <div class="ten columns">
+        <h2>Marketing</h2>
+        <p>As web sites and apps have become common place for businesses small and large, your site must stay up to date with current technologies and styles in order to rise above the rest.</p>
+        <p>I can provide you with beautiful, fast and reliable web sites that are accessible on all devices and most browsers.</p>
     </div>
 </div><!-- end container -->
 
