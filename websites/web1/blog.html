@@ -29,18 +29,19 @@ $(document).ready(function()
 </head>
 <body>
 
-<div id="background"><!-- begin background -->
-<div id="container"><!-- begin page container -->
-
-<div id="header"><!-- begin header -->
-	<a href="index.html"><img src="images/logo.png" width="324" height="94" alt="Logo" /></a>
-    <p>
-	<a href="index.html">Home</a>
-    <a href="music.html">Music</a>
-    <a href="gallery.html">Galleries</a>
-    <a href="blog.html">Blog</a>
-	</p>
-</div><!-- end header -->
+<div class="container">
+  <header class="sixteen columns"><!-- begin header -->
+    <a href="index.html"><img src="images/logo.png" width="324" height="94" alt="Logo" /></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="gallery.html">Galleries</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header><!-- end header -->
+</div>
 
 <div id="blog"><!-- begin blog container -->
 	<h1>Wasteland Gardens Blog</h1>
@@ -90,17 +91,19 @@ $(document).ready(function()
 
 
 
-<div id="footer"><!-- begin footer -->
-<p>
-<a href="termsofuse.html"><span class="nospace">Terms of Use</span></a>
-<a href="aboutus.html"><span class="nospace">About Us</span></a>
-<a href="contactus.html"><span class="nospace">Contact Us</span></a>
-</p>
-<br />
-<p><span class="nospace">&copy; 2011 Wasteland Gardens</span></p>
-</div><!-- end footer -->
+<div class="container">
+  <footer class="sixteen columns"><!-- begin footer -->
+    <nav>
+      <ul>
+        <li><a href="termsofuse.html"><span class="nospace">Terms of Use</span></a>
+        <li><a href="aboutus.html"><span class="nospace">About Us</span></a>
+        <li><a href="contactus.html"><span class="nospace">Contact Us</span></a>
+      </ul>
+    </nav>
+    <br />
+    <p><span class="nospace">&copy; 2011 Wasteland Gardens</span></p>
+  </footer><!-- end footer -->
+</div>
 
-</div> <!--end container div -->   
-</div> <!--end background div -->
 </body>
 </html>

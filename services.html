@@ -41,10 +41,12 @@
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="js/jquery.lightbox-0.5.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 
 <script>
-jQuery(document).ready(function($){
+$(document).ready(function($){
 
     /* prepend menu icon */
     $('#nav-wrap').prepend('<div id="menu-icon"></div>');
@@ -61,8 +63,25 @@ jQuery(document).ready(function($){
         }
     }
 
-    $.preloadImages("images/icon-twitter-hover.svg","images/icon-deviantart-hover.svg","images/icon-linkedin-hover.svg","images/icon-nav-hover.png","images/icon-nav-sm-hover.png");
+});
+</script>
 
+<script type="text/javascript">
+$(document).ready(function()
+{
+   $('.tip').tooltip({ 
+        position: { 
+            my: "center top", 
+            at: "center bottom" 
+        }
+    });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function()
+{
+   $('a.lightbox').lightBox();
 });
 </script>
 
@@ -70,10 +89,10 @@ jQuery(document).ready(function($){
 $(document).ready(function()
 {
     $('.owl-carousel').owlCarousel({
-        items : 1,
-        itemsDesktop : [1199,1],
-        itemsDesktopSmall : [980,1],
-        itemsTablet: [768,1],
+        items : 3,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [980,3],
+        itemsTablet: [768,2],
         itemsTabletSmall: false,
         itemsMobile : [479,1],
         autoPlay : 9999,
@@ -133,113 +152,135 @@ $(document).ready(function()
         </defs>
     </svg>
 
-<div class="bg">
-<header>
-<div class="container">
-    <div class="sixteen columns headerMain">
-        <div class="logo-container"><img src="images/logo.png" class="logo" alt="Etchison Media Logo" ><h1 class="logo-copy"><a href="index.html">Aaron Etchison</a></h1></div>
-        <nav id="nav-wrap">
-   	        <ul id="nav-menu">
-                <li><a href="index.html">Home</a>
-                    </li>
-                <li><a href="services.html">Services</a>
-                    </li>
-                <li><a href="portfolio.html">Portfolio</a>
-                    </li>
-                <li><a href="contact.html">Contact</a>
-                    </li>
-    	   </ul>
-        </nav>
-    </div>
-</div>
-</header>
-
-<div class="container">
-	<div class="sixteen columns">
-        <div class="owl-carousel">
-            <img src="images/previews/amcaad.jpg" alt="Griffey's Design">
-            <img src="images/previews/aodlogo.jpg" alt="Aod Logo">
-
+<div class="container-main">
+    <header>
+    <div class="container">
+        <div class="sixteen columns headerMain">
+            <div class="logo-container"><img src="images/logo.png" class="logo" alt="Etchison Media Logo" ><h1 class="logo-copy"><a href="index.html">Aaron Etchison</a></h1></div>
+            <nav id="nav-wrap">
+       	        <ul id="nav-menu">
+                    <li><a href="index.html">Home</a>
+                        </li>
+                    <li><a href="services.html">Services</a>
+                        </li>
+                    <li><a href="portfolio.html">Portfolio</a>
+                        </li>
+                    <li><a href="contact.html">Contact</a>
+                        </li>
+        	   </ul>
+            </nav>
         </div>
     </div>
-</div><!-- end container -->
+    </header>
 
-<div class="main-content hero-after services-section">  
-
-<h4 class="section-heading" id="graphic-design">Graphic Design</h4>
-<div class="container module">
-    <div class="six columns services-image">
-        <img src="images/home-web.png" alt="Web Development work graphic">
-    </div>  
-	
-    <div class="ten columns">
-        <h2>Logo Design</h2>
-        <p>Great design is essential for any business to effectively market their products or services. That is something I can provide.</p>
-        <p>If you need a business card, music flier or magazine ad, I can create the designs that will attract your target audience and convert them into customers.</p>
-	</div>
-
-    <div class="ten columns">
-        <h2>Branding</h2>
-        <p>Great design is essential for any business to effectively market their products or services. That is something I can provide.</p>
-        <p>If you need a business card, music flier or magazine ad, I can create the designs that will attract your target audience and convert them into customers.</p>
-    </div>
-
-    <div class="ten columns">
-        <h2>Marketing</h2>
-        <p>As web sites and apps have become common place for businesses small and large, your site must stay up to date with current technologies and styles in order to rise above the rest.</p>
-        <p>I can provide you with beautiful, fast and reliable web sites that are accessible on all devices and most browsers.</p>
-    </div>
-</div><!-- end container -->
-
-<h4 class="section-heading" id="web-development">Web Development</h4>
-<div class="container module">
-    <div class="six columns services-image">
-        <img src="images/home-web.png" alt="Web Development work graphic">
-    </div>  
+    <div class="content-main"> 
     
-    <div class="ten columns">
-        <h2>Logo Design</h2>
-        <p>Great design is essential for any business to effectively market their products or services. That is something I can provide.</p>
-        <p>If you need a business card, music flier or magazine ad, I can create the designs that will attract your target audience and convert them into customers.</p>
-    </div>
+        <div class="container module">
+            <h4 class="section-heading" id="web-development">Web Development</h4>
+            <div class="sixteen columns">
+                <div class="owl-carousel">
+                    <div class="gallery-content module">
+                        <a href="http://www.griffeyscustomleather.com" target="_blank"><img src="images/thumbs/web9.jpg" alt="Griffey's Custom Leather Web Site" class="tip" title="Griffey's Custom Leather - This Web site was designed and developed for a long-time client."></a>
+                    </div>
+                    <div class="gallery-content module">
+                        <a href="http://www.theundergroundmind.com" target="_blank"><img src="images/thumbs/web12.jpg" alt="The Underground Mind Web Site" class="tip" title="The Underground Mind - This Web site was designed and developed for a group of local artists and musicians."></a>
+                    </div>
+                    <div class="gallery-content module">
+                        <a href="websites/web2/index.html" target="_blank" ><img src="images/thumbs/web2.jpg" alt="Synaptic Media Web Site" class="tip" title="Synaptic Media Web Site - This Web site was design and developed for a Web design class. It features advanced JavaScript interactivity."></a>
+                    </div>
 
-    <div class="ten columns">
-        <h2>Branding</h2>
-        <p>Great design is essential for any business to effectively market their products or services. That is something I can provide.</p>
-        <p>If you need a business card, music flier or magazine ad, I can create the designs that will attract your target audience and convert them into customers.</p>
-    </div>
+                    <div class="gallery-content module">
+                        <a href="images/previews/indierockweb.jpg"><img src="images/thumbs/web5.jpg" alt="Indie Rock Records Web Site Design" class="lightbox tip" title="Indie Rock Records Screen Design - This is a screen design for a fictional Web site, which was done for a project management class."></a>
+                    </div>
+                    <div class="gallery-content module">
+                        <a href="images/previews/eiconset.jpg"><img src="images/thumbs/img16.jpg" alt="Icon Set" class="lightbox" title="Icon Set - This is a vector icon set that I designed in Illustrator."></a>
+                    </div>
+                    <div class="gallery-content module">
+                        <a href="images/previews/searchinterface.jpg"><img src="images/thumbs/web8.jpg" alt="Web Site Search Bar User Interface Design" class="lightbox" title="Search Bar Design - This is a highly stylized search bar."></a>
+                    </div>
+                </div>
+            </div>
 
-    <div class="ten columns">
-        <h2>Marketing</h2>
-        <p>As web sites and apps have become common place for businesses small and large, your site must stay up to date with current technologies and styles in order to rise above the rest.</p>
-        <p>I can provide you with beautiful, fast and reliable web sites that are accessible on all devices and most browsers.</p>
-    </div>
-</div><!-- end container -->
+            <div class="one-third column">  
+                <h2>Web Design</h2>
+                <p>Whether you are needing a brand new site or are looking to freshen up your old site, I can create a web site for you that not only appeals to your customers, but is also fast, responsive and conversion-friendly.</p>
+            </div>
 
-<h4 class="section-heading" id="seo">SEO</h4>
-<div class="container module">
-    <div class="six columns services-image">
-        <img src="images/home-web.png" alt="Web Development work graphic">
-    </div>  
-    
-    <div class="ten columns">
-        <h2>Logo Design</h2>
-        <p>Great design is essential for any business to effectively market their products or services. That is something I can provide.</p>
-        <p>If you need a business card, music flier or magazine ad, I can create the designs that will attract your target audience and convert them into customers.</p>
-    </div>
+            <div class="one-third column">
+                <h2><span title="Content Management System">CMS</span></h2>
+                <p>If you're not just looking for a static site and you want to actively upload content, then you need a <span title="Content Management System">CMS</span>. Using WordPress, I can design you a template, set up the system, upload initial content and provide you with instruction and materials to get you up and running.</p>
+            </div>
 
-    <div class="ten columns">
-        <h2>Branding</h2>
-        <p>Great design is essential for any business to effectively market their products or services. That is something I can provide.</p>
-        <p>If you need a business card, music flier or magazine ad, I can create the designs that will attract your target audience and convert them into customers.</p>
-    </div>
+            <div class="one-third column">
+                <h2>E-Commerce</h2>
+                <p>Selling your products on Amazon or eBay can be easy and profitable, but you always lose a little with those services. I can provide you with your own e-commerce store hosted on your domain.</p>
+            </div>
+        </div><!-- end container --> 
 
-    <div class="ten columns">
-        <h2>Marketing</h2>
-        <p>As web sites and apps have become common place for businesses small and large, your site must stay up to date with current technologies and styles in order to rise above the rest.</p>
-        <p>I can provide you with beautiful, fast and reliable web sites that are accessible on all devices and most browsers.</p>
-    </div>
-</div><!-- end container -->
+        <div class="hr-fade-light"></div>
+        
+        <div class="container module"> 
+            <h4 class="section-heading" id="graphic-design">Graphic Design</h4>
+        	<div class="sixteen columns">
+                <div class="owl-carousel">
+                    <div class="gallery-content module">
+                        <a href="images/previews/gclretro.jpg"><img src="images/thumbs/img17.jpg" alt="Griffey's Retro Logo" class="lightbox" title="Griffey's Retro Logo - This is a retro style flat design of Griffey's Custom Leather logo, which was created in Illustrator."></a>
+                    </div>
+                    <div class="gallery-content module">
+                        <a href="images/previews/gclbusinesscard.jpg"><img src="images/thumbs/img4.jpg" alt="Griffey Business Card" class="lightbox" title="Griffey's Business Card - This is the design of a business card for a client, which was created in Photoshop."></a>
+                    </div>
+                    <div class="gallery-content module">
+                        <a href="images/previews/amcaad.jpg"><img src="images/thumbs/img15.jpg" alt="Griffey's Magazine Ad" class="lightbox" title="Griffey's Magazine Ad - This is the design of a magazine ad for a client, which was created in Photoshop."></a>
+                    </div>
+                    <div class="gallery-content module">
+                        <a href="images/previews/enplogo.jpg"><img src="images/thumbs/img18.jpg" alt="ENP Logo" class="lightbox" title="ENP 3D Logo - This is the design of a 3D logo for a local music group called ENP, which was done in Photoshop."></a>
+                    </div>
+                    <div class="gallery-content module">
+                        <a href="images/previews/pyramidlogo.jpg"><img src="images/thumbs/img14.jpg" alt="Pyramid Logo" class="lightbox" title="Pyramid Logo - This is a logo for a fictional company, which I made for fun using Illustrator."></a>
+                    </div>
+                    <div class="gallery-content module">
+                        <a href="images/previews/omegalogo.jpg"><img src="images/thumbs/img12.jpg" alt="Omega Group Logo" class="lightbox" title="Omega Group Logo Wallpaper - This logo design was created for an online gaming group."></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-third column">
+                <h2>Logo Design</h2>
+                <p>When it comes to a logo, I will provide you with a design that tells the world who you are and sticks in the minds of your customers. I will work with you or your team to develop exactly what your business needs.</p>
+            </div>
+
+            <div class="one-third column">
+                <h2>Branding</h2>
+                <p>A logo design can fail if the rest of the brand identity behind it doesn't work. Looking at colors, textures, styles and many other elements, I will work with you to develop an image of your business that looks good in all formats.</p>
+            </div>
+
+            <div class="one-third column">
+                <h2>Marketing</h2>
+                <p>When you get your product or service in front of your customers in the form of advertising, you need it to be enticing. I can create magazine ads, online ads, flyers, business cards and whatever your business needs to bring in the masses. </p>
+            </div>
+        </div><!-- end container -->
+
+        <div class="hr-fade-light"></div>
+
+        <div class="container module">
+            <h4 class="section-heading" id="seo">Marketing</h4>
+            <div class="one-third column">
+                <h2>SEO</h2>
+                <p>There are many techniques that can help your products reach the eyes of your intended audience when they perform a search. I implement these techniques when I develop sites for my clients, but I can also work with your current site to help climb those rankings.</p>
+            </div>
+
+            <div class="one-third column">
+                <h2>Advertising</h2>
+                <p>I don't specialize in the business side of advertising, but I can help you get set up with Google AdWords and other services that can help you build an online advertising presence.</p>
+            </div>
+
+            <div class="one-third column">
+                <h2>Social Media</h2>
+                <p>Social media networks like Facebook, Twitter and Instagram are cost effective tools that can be used to reach a vast audience and turn them into customers. I can work with you or your team to make your presence known to the world.</p>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end content-main-->
+</div><!-- end container-main -->
 
 <footer>
 <div class="container">
@@ -299,8 +340,6 @@ $(document).ready(function()
 	</div>
 </div>
 </footer>
-</div><!-- end main-content -->
-</div><!--end page bg-->
 
 </body>
 </html>

@@ -61,8 +61,6 @@ jQuery(document).ready(function($){
         }
     }
 
-    $.preloadImages("images/icon-twitter-hover.svg","images/icon-deviantart-hover.svg","images/icon-linkedin-hover.svg","images/icon-nav-hover.png","images/icon-nav-sm-hover.png");
-
 });
 </script>
    
@@ -202,98 +200,101 @@ $(document).ready(function()
         </defs>
     </svg>
 
-<div class="bg">
-<header>
-<div class="container">
-    <div class="sixteen columns headerMain">
-        <div class="logo-container"><img src="images/logo.png" class="logo" alt="Etchison Media Logo" ><h1 class="logo-copy"><a href="index.html">Aaron Etchison</a></h1></div>
-        <nav id="nav-wrap">
-            <ul id="nav-menu">
-                <li><a href="index.html">Home</a>
-                    </li>
-                <li><a href="services.html">Services</a>
-                    </li>
-                <li><a href="portfolio.html">Portfolio</a>
-                    </li>
-                <li><a href="contact.html">Contact</a>
-                    </li>
-           </ul>
-        </nav>
-    </div>
-</div>
-</header>
-<div class="main-content">
-<div class="container"><!-- begin page content container -->
-    <div class="eight columns module"><!-- begin contact content -->
-    <h2>E-Mail Me</h2>
-       <form  name="contactUs" id="contactUs" method="post" action="gdform.php">
-            <div>
-                <label for="name" class="label1">Name:</label>
-                <br>
-                <input name="name" type="text" class="required" id="name">
-            </div>
-            <div>
-                <label for="email" class="label1">Email:</label>
-                <br>
-                <input name="email" type="text" class="required email" id="email">
-            </div>
-            <div>
-                <label for="refer" class="label2">How did you find me? </label>
-                <br>
-                <select name="refer" id="refer">
-                  <option value="">Select One</option>
-                  <option value="Google">Google</option>
-                  <option value="StumpleUpon">StumbleUpon</option>
-                  <option value="Facebook">Facebook</option>
-                  <option value="Twitter">Twitter</option>
-                  <option value="LinkedIn">LinkedIn</option>
-                  <option value="Other">Other</option>
-                </select>
-            </div>
-            <div id="referOtherOpt">
-                <label for="referOther" class="label2">Other: </label>
-                <br>
-                <input name="referOther" type="text" id="referOther">
-            </div>
-            <div>
-                <label for="comments" class="label2">What are your questions or comments? </label>
-                <br>
-                <textarea name="comments" rows="6" class="required" id="comments"></textarea>
-            </div>
-            <div>
-                <input type="submit" name="submit" id="submit" class="button submitReset" value="Submit" />
-                <input  type="reset" name="reset" id="reset" class="button submitReset" value="Reset">
-            </div>
-        </form>
-    
-        <div id="success"></div>
-    </div><!-- end contact content left -->
-
-    <div class="eight columns module"><!-- begin contact content right -->
-        <div>
-            <h2>Contacting Me</h2>
-            <p>If you would like to hire me for a graphic design or web development project, please provide some information about the job in the contact form.</p>
-            <p>You can also check me out in other places by clicking one of the links below.</p>
-            <div class="icon-group">
-                <a href="http://etch83.deviantart.com/gallery" class="icon-social" target="_blank">
-                    <svg viewBox="0 0 64 64">
-                        <use xlink:href="#icon-deviantart"></use>
-                    </svg>
-                </a>
-                <a href="http://www.linkedin.com/pub/aaron-etchison/41/210/906" class="icon-social" target="_blank">
-                    <svg viewBox="0 0 64 64">
-                        <use xlink:href="#icon-linkedin"></use>
-                    </svg>
-                </a>
-                <a href="http://www.twitter.com/aaronetchison" class="icon-social" target="_blank">
-                    <svg viewBox="0 0 64 64">
-                        <use xlink:href="#icon-twitter"></use>
-                    </svg>
-                </a>
-            </div>
+<div class="container-main">
+    <header>
+    <div class="container">
+        <div class="sixteen columns headerMain">
+            <div class="logo-container"><img src="images/logo.png" class="logo" alt="Etchison Media Logo" ><h1 class="logo-copy"><a href="index.html">Aaron Etchison</a></h1></div>
+            <nav id="nav-wrap">
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a>
+                        </li>
+                    <li><a href="services.html">Services</a>
+                        </li>
+                    <li><a href="portfolio.html">Portfolio</a>
+                        </li>
+                    <li><a href="contact.html">Contact</a>
+                        </li>
+               </ul>
+            </nav>
         </div>
-    </div><!-- end contact content right -->
-</div><!-- end cpage content container -->
+    </div>
+    </header>
+
+    <div class="content-main">
+    <div class="container"><!-- begin page content container -->
+        <div class="eight columns module"><!-- begin contact content -->
+            <h2>E-Mail Me</h2>
+            <form  name="contactUs" id="contactUs" method="post" action="gdform.php">
+                <div>
+                    <label for="name" class="label1">Name:</label>
+                    <br>
+                    <input name="name" type="text" class="required" id="name">
+                </div>
+                <div>
+                    <label for="email" class="label1">Email:</label>
+                    <br>
+                    <input name="email" type="text" class="required email" id="email">
+                </div>
+                <div>
+                    <label for="refer" class="label2">How did you find me? </label>
+                    <br>
+                    <select name="refer" id="refer">
+                      <option value="">Select One</option>
+                      <option value="Google">Google</option>
+                      <option value="StumpleUpon">StumbleUpon</option>
+                      <option value="Facebook">Facebook</option>
+                      <option value="Twitter">Twitter</option>
+                      <option value="LinkedIn">LinkedIn</option>
+                      <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div id="referOtherOpt">
+                    <label for="referOther" class="label2">Other: </label>
+                    <br>
+                    <input name="referOther" type="text" id="referOther">
+                </div>
+                <div>
+                    <label for="comments" class="label2">What are your questions or comments? </label>
+                    <br>
+                    <textarea name="comments" rows="6" class="required" id="comments"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="submit" id="submit" class="button submitReset" value="Submit" />
+                    <input  type="reset" name="reset" id="reset" class="button submitReset" value="Reset">
+                </div>
+            </form>
+        
+            <div id="success"></div>
+        </div><!-- end contact content left -->
+
+        <div class="eight columns module"><!-- begin contact content right -->
+            <div>
+                <h2>Contacting Me</h2>
+                <p>If you would like to hire me for a graphic design or web development project, please provide some information about the job in the contact form.</p>
+                <p>You can also check me out in other places by clicking one of the links below.</p>
+                <div class="icon-group">
+                    <a href="http://etch83.deviantart.com/gallery" class="icon-social" target="_blank">
+                        <svg viewBox="0 0 64 64">
+                            <use xlink:href="#icon-deviantart"></use>
+                        </svg>
+                    </a>
+                    <a href="http://www.linkedin.com/pub/aaron-etchison/41/210/906" class="icon-social" target="_blank">
+                        <svg viewBox="0 0 64 64">
+                            <use xlink:href="#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                    <a href="http://www.twitter.com/aaronetchison" class="icon-social" target="_blank">
+                        <svg viewBox="0 0 64 64">
+                            <use xlink:href="#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div><!-- end contact content right -->
+    </div><!-- end contact content container -->
+    </div><!-- end content-main -->
+</div><!-- end container-main -->
 
 <footer>
 <div class="container">
@@ -353,9 +354,6 @@ $(document).ready(function()
     </div>
 </div>
 </footer>
-</div><!-- end main-content -->
-</div><!--end page bg-->
-
 
 </body>
 </html>

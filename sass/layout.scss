@@ -72,7 +72,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline; 
 }
 
-html, body {
+html, body, .conteiner-main {
 	height: 100%;
 	font-size: 16px;
 }
@@ -83,22 +83,32 @@ body {
 	background-repeat: repeat;
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 
-.main-content {
+.container-main {
+	height: auto; 
+	min-height: 100%; 
+}
+
+.content-main {
 	width: 100%;
 	height: 100%;
-	margin: 48px 0 0 0;
-	padding: 60px 0 0 0;
+	margin-top: 48px;
+	padding-top: 60px;
+	padding-bottom: 460px;
 	background-color: $gray-medium;
 	background-image: url("../images/wild_oliva.png");
 	background-repeat: repeat;
 }
 
 footer {
+	clear: both;
+	position: relative;
+	z-index: 10;
 	width: 100%;
-	height: 100%;
-	margin: 60px auto 0 auto;
+	height: 400px;
+	margin-top: -400px;
 	padding: 20px 10px;
 	background-color: $gray-medium;
 	background-color: rgba(0,0,0,0.5);
@@ -144,7 +154,7 @@ footer {
   background: $gray-medium;
   border: 1px solid $gray-dark;
   transition: all 0.3s linear 0s;
-	@include border-radius(0.5em, 0.5em, 0.5em, 0.5em);
+	@include border-radius(10px, 20px, 10px, 20px);
   @include box-shadow(3px, 3px, 5px, $black);
 }
 
@@ -160,15 +170,15 @@ footer {
 
 .module {
 	margin-bottom: 10px;
-	padding: 10px;
+	padding: 15px;
 	background-color: rgba(0,0,0,0.5);
-	@include border-radius(10px, 10px, 10px, 10px);	
+	@include border-radius(10px, 30px, 10px, 30px);	
 	@include box-shadow(3px, 3px, 5px, $black);
 	transition: all 0.3s ease;
 }
 
-.home-content .module:hover {
-	transform: scale(1.02);
+.module:hover {
+	background-color: rgba(0,0,0,0.6);
 }
 
 .noPad {
@@ -197,7 +207,7 @@ hr {
 }
 
 .hr-fade-dark {
-	max-width: 100%;
+	max-width: 960px;
 	height: 3px;
 	margin: 20px auto 20px auto;
 	border-top: 1px solid $black;
@@ -211,7 +221,7 @@ hr {
 }
 
 .hr-fade-light {
-	max-width: 100%;
+	max-width: 960px;
 	height: 3px;
 	margin: 20px auto 20px auto;
 	border-top: 1px solid $gray-medium;
@@ -259,6 +269,7 @@ header {
 	background-color: rgba(0,0,0,0.5);
 	@include box-shadow(5px, 5px, 5px, $black);
 	z-index: 9;
+	-webkit-transform: translateZ(0);
 }
 
 .logo-container {
@@ -485,7 +496,7 @@ a:hover, a:active, a:focus {
 	background-color: $gray-dark;
 	background-color: rgba(0,0,0,0.2);
 	cursor: pointer;
-	@include border-radius(0.5em, 0.5em, 0.5em, 0.5em);
+	@include border-radius(10px, 20px, 10px, 20px);
 	@include box-shadow(3px, 3px, 5px, $black);
 	transition: background 0.3s linear 0s, color 0.3s linear 0s;
 }
@@ -495,7 +506,6 @@ a:hover, a:active, a:focus {
 	font-weight: bold;
 	color: $gray-light;
 	border: 1px solid $gray-light;
-	@include border-radius(0.5em, 0.5em, 0.5em, 0.5em);
 	background-color: $gray-medium;
 	background-color: rgba(0,0,0,0.5);
 }
@@ -584,7 +594,8 @@ body::before {
   width: 100%;
   height: 100%;
   position: fixed;
-  transform: translateZ(0);
+  top: 48px;
+  -webkit-transform: translateZ(0);
   z-index: -1;
   background: url("../images/home-logo.png") no-repeat center 64px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed ;
   background-size: 336px, cover;
@@ -592,7 +603,8 @@ body::before {
 }
 
 .home-graphic {
-	height: 352px;
+	height: 360px;
+	padding-top: 96px;
 
 	h5 {
 		font-family: Orbitron, Verdana, sans-serif;
@@ -600,7 +612,7 @@ body::before {
 		font-weight: 900;
 		color: $red;
 		text-align: center;
-		margin: 96px 0 10px 0;
+		margin-bottom: 10px;
 		@include text-shadow(3px, 3px, 5px, $black);
 	}	
 
@@ -685,9 +697,7 @@ body::before {
 
 /* Services */
 
-.services-section .module {
-	margin-bottom: 60px;
-}
+
 
 
 
@@ -727,14 +737,9 @@ input, textarea, select {
 
 .submitReset {
 	font-size: 1em;
-	width: 128px;
+	width: 112px;
 	height: 32px;
-}
-
-.submitReset:hover, .submitReset:active {
-	font-size: 1em;
-	width: 128px;
-	height: 32px;
+	margin-right: 10px;
 }
 
 .inputFocus {
@@ -820,9 +825,37 @@ body .ui-tooltip { border-width: 2px; }
 
 @media all and (min-width: 480px) and (max-width: 767px) {
 
+	body {
+		&::before {
+			top: 32px;
+			background: url("../images/home-logo.png") no-repeat center 48px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed;
+	    background-size: 240px, cover;
+	    opacity: 0.75;
+		}
+	}
+
 	header {
 		height: 32px;
 		padding: 3px 10px; 
+	}
+
+	.content-main {
+		margin-top: 32px;
+		padding-top: 32px;
+		padding-bottom: 732px;
+	}
+
+	.content-main .container {
+		max-width: 480px;
+	}
+
+	footer {
+		height: 700px;
+		margin-top: -700px;
+	}	
+
+	footer .container {
+		max-width: 480px;
 	}
 
 	.logo-container {
@@ -882,20 +915,12 @@ body .ui-tooltip { border-width: 2px; }
 		line-height: 32px;
 	}
 
-	body {
-		&::before {
-			background: url("../images/home-logo.png") no-repeat center 56px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed ;
-	    background-size: 176px, cover;
-	    opacity: 0.75;
-		}
-	}
-
 	.home-graphic {
-		height: 208px;
+		height: 240px;
+		padding-top: 64px;
 
 		h5 {
 			font-size: 1.5em;
-			margin-top: 64px;
 		}
 
 		p {
@@ -903,37 +928,38 @@ body .ui-tooltip { border-width: 2px; }
 		}
 	}
 
-	.vrFade {
-		border: none;
-	}
-
-	.main-content {
-		margin: 32px 0 0 0;
-		padding-top: 40px;
-	}
-
-	.main-content > .container {
-		max-width: 480px;
-	}
-
-	footer .container {
-		max-width: 480px;
-	}
-
-	.services-section .module {
-		margin-bottom: 40px;
-	}
-
 	.section-heading {
 		font-size: 2em;
 	}
-
+	.vrFade {
+		border: none;
+	}
 }
 @media all and (min-width: 0px) and (max-width: 479px) {
 	
 	header {
 		height: 32px;
 		padding: 3px 10px;
+	}
+
+	body {
+		&:before {
+			top: 32px;
+	    background: url("../images/home-logo.png") no-repeat center 48px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed ;
+	    background-size: 200px, cover;
+	    opacity: 0.75;
+		}
+	}
+
+	.content-main {
+		margin-top: 32px;
+		padding-top: 32px;
+		padding-bottom: 832px;
+	}
+
+	footer {
+		height: 800px;
+		margin-top: -800px;
 	}
 
 	.logo-container {
@@ -994,20 +1020,12 @@ body .ui-tooltip { border-width: 2px; }
 
 	}
 
-	body {
-		&:before {
-	    background: url("../images/home-logo.png") no-repeat center 56px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed ;
-	    background-size: 176px, cover;
-	    opacity: 0.75;
-		}
-	}
-
 	.home-graphic {
-		height: 208px;
+		height: 200px;
+		padding-top: 64px;
 
 		h5 {
 			font-size: 1.25em;
-			margin-top: 64px;
 		}
 
 		p {
@@ -1015,31 +1033,13 @@ body .ui-tooltip { border-width: 2px; }
 		}
 	}
 
-	.vrFade {
-		border: none;
-	}
-
-	.main-content {
-		margin: 32px 0 0 0;
-		padding-top: 20px;
-	}
-
-	.services-image {
-		margin: 0;
-		padding: 0;
-
-		img {
-			display: none;
-		}
-	}
-
-	.services-section .module {
-		margin-bottom: 20px;
-	}
-
 	.section-heading {
 		margin-bottom: 10px;
 		font-size: 1.6em;
+	}
+
+	.vrFade {
+		border: none;
 	}
 
 }

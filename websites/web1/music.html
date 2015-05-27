@@ -23,63 +23,69 @@ $(document).ready(function()
 
 </head>
 <body>
-<div id="background"><!-- begin background -->
-<div id="container"><!-- begin page container -->
 
-<div id="header"><!-- begin header -->
-	<a href="index.html"><img src="images/logo.png" width="324" height="94" alt="Logo" /></a>
-    <p>
-	<a href="index.html">Home</a>
-    <a href="music.html">Music</a>
-    <a href="gallery.html">Galleries</a>
-    <a href="blog.html">Blog</a>
-	</p>
-</div><!-- end header -->
+<div class="container">
+  <header class="sixteen columns"><!-- begin header -->
+    <a href="index.html"><img src="images/logo.png" width="324" height="94" alt="Logo" /></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="gallery.html">Galleries</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header><!-- end header -->
+</div>
 
 
-<div class="boxCenter"><!-- begin boxCenter cotnainer and Flash content -->
-<h1>Wasteland Gardens Music</h1>
-<!-- load swf -->
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="860" height="360" id="FlashID" title="Music Player">
-  <param name="movie" value="wg_musicPlayer.swf">
-  <param name="quality" value="high">
-  <param name="wmode" value="opaque">
-  <param name="swfversion" value="6.0.65.0">
-  <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
-  <param name="expressinstall" value="Scripts/expressInstall.swf">
-  <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
-  <!--[if !IE]>-->
-  <object type="application/x-shockwave-flash" data="wg_musicPlayer.swf" width="860" height="360">
-    <!--<![endif]-->
-    <param name="quality" value="high">
-    <param name="wmode" value="opaque">
-    <param name="swfversion" value="6.0.65.0">
-    <param name="expressinstall" value="Scripts/expressInstall.swf">
-    <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
-    <div>
-      <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
-      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
-    </div>
-    <!--[if !IE]>-->
-  </object>
-  <!--<![endif]-->
-</object>
+<div class="container"><!-- begin boxCenter cotnainer and Flash content -->
+  <div class="sixteen columns">
+    <h1>Wasteland Gardens Music</h1>
+    <!-- load swf -->
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="860" height="360" id="FlashID" title="Music Player">
+      <param name="movie" value="wg_musicPlayer.swf">
+      <param name="quality" value="high">
+      <param name="wmode" value="opaque">
+      <param name="swfversion" value="6.0.65.0">
+      <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+      <param name="expressinstall" value="Scripts/expressInstall.swf">
+      <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+      <!--[if !IE]>-->
+      <object type="application/x-shockwave-flash" data="wg_musicPlayer.swf" width="860" height="360">
+        <!--<![endif]-->
+        <param name="quality" value="high">
+        <param name="wmode" value="opaque">
+        <param name="swfversion" value="6.0.65.0">
+        <param name="expressinstall" value="Scripts/expressInstall.swf">
+        <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+        <div>
+          <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+        </div>
+        <!--[if !IE]>-->
+      </object>
+      <!--<![endif]-->
+    </object>
+  </div>
 </div>
 
 
 
-<div id="footer"><!-- begin footer -->
-<p>
-<a href="termsofuse.html"><span class="nospace">Terms of Use</span></a>
-<a href="aboutus.html"><span class="nospace">About Us</span></a>
-<a href="contactus.html"><span class="nospace">Contact Us</span></a>
-</p>
-<br />
-<p><span class="nospace">&copy; 2011 Wasteland Gardens</span></p>
-</div><!-- end footer -->
+<div class="container">
+  <footer class="sixteen columns"><!-- begin footer -->
+    <nav>
+      <ul>
+        <li><a href="termsofuse.html"><span class="nospace">Terms of Use</span></a>
+        <li><a href="aboutus.html"><span class="nospace">About Us</span></a>
+        <li><a href="contactus.html"><span class="nospace">Contact Us</span></a>
+      </ul>
+    </nav>
+    <br />
+    <p><span class="nospace">&copy; 2011 Wasteland Gardens</span></p>
+  </footer><!-- end footer -->
+</div>
 
-</div> <!--end container div -->   
-</div> <!--end background div -->
 <script type="text/javascript">
 swfobject.registerObject("FlashID");
 </script>
