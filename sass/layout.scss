@@ -673,12 +673,14 @@ body::before {
 }
 
 .gallery-content img {
-	transition: all .25s ease;
+	@include border-radius(10px, 30px, 10px, 30px);
+	transition: all .25s linear;
 }
 
 .gallery-content img:hover {
-	transform: scale(1.02);
+	border: 1px solid $gray-light;
 	box-shadow: 0 0 5px #000;
+	transform: scale(1.02);
 }
 
 .pinterest-button {
