@@ -597,14 +597,14 @@ body::before {
   top: 48px;
   -webkit-transform: translateZ(0);
   z-index: -1;
-  background: url("../images/home-logo.png") no-repeat center 64px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed ;
-  background-size: 336px, cover;
+  background: url("../images/home-logo.png") no-repeat center 96px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed ;
+  background-size: 360px, cover;
   opacity: 0.75;
 }
 
 .home-graphic {
-	height: 360px;
-	padding-top: 96px;
+	height: 480px;
+	padding-top: 160px;
 
 	h5 {
 		font-family: Orbitron, Verdana, sans-serif;
@@ -827,12 +827,23 @@ body .ui-tooltip { border-width: 2px; }
 
 @media all and (min-width: 480px) and (max-width: 767px) {
 
-	body {
-		&::before {
+	body::before {
 			top: 32px;
-			background: url("../images/home-logo.png") no-repeat center 48px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed;
+			background: url("../images/home-logo.png") no-repeat center 64px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed;
 	    background-size: 240px, cover;
 	    opacity: 0.75;
+	}
+
+	.home-graphic {
+		height: 320px;
+		padding-top: 100px;
+
+		h5 {
+			font-size: 1.5em;
+		}
+
+		p {
+			font-size: 1.25em;
 		}
 	}
 
@@ -918,19 +929,6 @@ body .ui-tooltip { border-width: 2px; }
 		line-height: 32px;
 	}
 
-	.home-graphic {
-		height: 240px;
-		padding-top: 64px;
-
-		h5 {
-			font-size: 1.5em;
-		}
-
-		p {
-			font-size: 1.25em;
-		}
-	}
-
 	.section-heading {
 		font-size: 2em;
 	}
@@ -940,18 +938,29 @@ body .ui-tooltip { border-width: 2px; }
 }
 @media all and (min-width: 0px) and (max-width: 479px) {
 	
+	body::before {
+			top: 32px;
+	    background: url("../images/home-logo.png") no-repeat center 64px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed ;
+	    background-size: 240px, cover;
+	    opacity: 0.75;
+	}
+
+	.home-graphic {
+		height: 320px;
+		padding-top: 100px;
+
+		h5 {
+			font-size: 1.25em;
+		}
+
+		p {
+			font-size: 1em;
+		}
+	}
+
 	header {
 		height: 32px;
 		padding: 3px 10px;
-	}
-
-	body {
-		&:before {
-			top: 32px;
-	    background: url("../images/home-logo.png") no-repeat center 48px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed ;
-	    background-size: 200px, cover;
-	    opacity: 0.75;
-		}
 	}
 
 	.content-main {
@@ -1022,19 +1031,6 @@ body .ui-tooltip { border-width: 2px; }
 		display: none;
 		line-height: 32px;
 
-	}
-
-	.home-graphic {
-		height: 200px;
-		padding-top: 64px;
-
-		h5 {
-			font-size: 1.25em;
-		}
-
-		p {
-			font-size: 1em;
-		}
 	}
 
 	.section-heading {
