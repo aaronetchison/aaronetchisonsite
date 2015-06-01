@@ -96,15 +96,15 @@
     <div class="container">
         <div class="sixteen columns headerMain">
             <div class="logo-container"><img src="images/logo.png" class="logo" alt="Etchison Media Logo" ><h1 class="logo-copy"><a href="index.html">Aaron Etchison</a></h1></div>
-            <nav id="nav-wrap">
-                <ul id="nav-menu">
+            <nav class="nav-wrap">
+                <ul>
                     <li><a href="index.html">Home</a>
                         </li>
                     <li><a href="services.html">Services</a>
                         </li>
                     <li><a href="portfolio.html">Portfolio</a>
                         </li>
-                    <li><a href="contact.html">Contact</a>
+                    <li class="current"><a href="contact.html">Contact</a>
                         </li>
                </ul>
             </nav>
@@ -248,27 +248,6 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="js/jquery.validate.min.js"></script>
-
-<script>
-$(function(){
-
-    /* prepend menu icon */
-    $('#nav-wrap').prepend('<div id="menu-icon"></div>');
-    
-    /* toggle nav */
-    $("#menu-icon").on("click", function(){
-        $("#nav-menu").slideToggle();
-        $(this).toggleClass("active");
-    });
-
-    $.preloadImages = function() {
-        for (var i = 0; i < arguments.length; i++) {
-        $("<img />").attr("src", arguments[i]);
-        }
-    }
-
-});
-</script>
    
 <script type="text/javascript">
 $(function()
