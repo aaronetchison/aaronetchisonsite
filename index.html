@@ -206,27 +206,7 @@
 </footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-<script>
-$(function(){
-
-    /* prepend menu icon */
-    $('#nav-wrap').prepend('<div id="menu-icon"></div>');
-    
-    /* toggle nav */
-    $("#menu-icon").on("click", function(){
-        $("#nav-menu").slideToggle();
-        $(this).toggleClass("active");
-    });
-
-    $.preloadImages = function() {
-        for (var i = 0; i < arguments.length; i++) {
-        $("<img />").attr("src", arguments[i]);
-        }
-    }
-
-});
-</script>
+<script src="js/scripts.global.js"></script>
 
 </body>
 </html>
