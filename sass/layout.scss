@@ -738,6 +738,11 @@ input, textarea, select {
 	background: $white;
 }
 
+input:focus, textarea:focus, select:focus {
+	border: 2px solid $red;
+	outline: 0;
+}
+
 .submitReset {
 	font-size: 1em;
 	width: 112px;
