@@ -263,7 +263,7 @@ header {
 	width: 100%;
 	height: 48px;
 	margin: 0;
-	padding: 6px 10px;
+	padding: 0 10px;
 	border: 0;
 	background-color: #1A1A1A;
 	background-color: rgba(0,0,0,0.5);
@@ -275,6 +275,7 @@ header {
 .logo-container {
 	float: left;
 	z-index: 11;
+	margin: 6px 0 0 0;
 }
 
 .logo {
@@ -303,10 +304,14 @@ header {
 
 header nav {
 	float: right;
-	margin: 4px 0 0 0;
+	margin: 10px 0 0 0;
 	color: #333;
 	word-spacing: 15px;
 	z-index: 10;
+}
+
+#menu-icon {
+	display: none;
 }
 
 header nav ul {
@@ -363,7 +368,7 @@ h1 {
 h2 {
 	font-family: Orbitron, Verdana, sans-serif;
 	font-size: 1.25em;
-	font-weight: bold;
+	font-weight: 900;
 	color: $red;
 	padding: 0;
 	margin: 0 0 5px 0;
@@ -834,7 +839,7 @@ body .ui-tooltip { border-width: 2px; }
 @media all and (min-width: 480px) and (max-width: 767px) {
 
 	body::before {
-			top: 32px;
+			top: 36px;
 			background: url("../images/home-logo.png") no-repeat center 64px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed;
 	    background-size: 240px, cover;
 	    opacity: 0.75;
@@ -854,13 +859,17 @@ body .ui-tooltip { border-width: 2px; }
 	}
 
 	header {
-		height: 32px;
-		padding: 3px 10px; 
+		height: 36px;
+		padding: 0 10px; 
+	}
+
+	header nav {
+		margin: 4px;
 	}
 
 	.content-main {
-		margin-top: 32px;
-		padding-top: 32px;
+		margin-top: 36px;
+		padding-top: 36px;
 		padding-bottom: 732px;
 	}
 
@@ -879,6 +888,7 @@ body .ui-tooltip { border-width: 2px; }
 
 	.logo-container {
 		float: left;
+		margin: 4px 0 0 0;
 	}
 	
 	.logo {
@@ -904,25 +914,35 @@ body .ui-tooltip { border-width: 2px; }
 		position: relative;
 	}
 
-	#menu-icon {
-		width: 18px;
+	#menu-icon, #menu-icon:visited {
+		width: auto;
 		height: 18px;
 		margin: 0;
 		padding: 0;
-		background:url("../images/icon-nav-sm.png") no-repeat center;
 		cursor: pointer;
 		border: none;
 		display: block;
 	}
-
+	
+	#menu-icon h2 {
+		margin: 0;
+		padding: 2px;
+		border: 2px solid $red;
+		font-size: 1em;
+	}
 	#menu-icon:hover, #menu-icon:active {
-		background:url("../images/icon-nav-sm-hover.png") no-repeat center;
+		color: $gray-light;
+	}
+
+	#menu-icon h2:hover {
+		color: $gray-light;
+		border: 2px solid $gray-light;
 	}
 
 	#nav-menu {
 		clear: both;
 		position: absolute;
-		top: 24px;
+		top: 32px;
 		right: 0px;
 		width: 140px;
 		z-index: 9999;
@@ -1008,18 +1028,17 @@ body .ui-tooltip { border-width: 2px; }
 	}
 
 	#menu-icon {
-		width: 18px;
+		width: auto;
 		height: 18px;
 		margin: 0;
 		padding: 0;
-		background:url("../images/icon-nav-sm.png") no-repeat center;
 		cursor: pointer;
 		border: none;
 		display: block;
 	}
 
 	#menu-icon:hover, #menu-icon:active {
-		background:url("../images/icon-nav-sm-hover.png") no-repeat center;
+		color: $gray-light;
 	}
 
 	#nav-menu {
