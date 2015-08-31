@@ -1,13 +1,8 @@
 node_modules/
 *.a
 *.o
-package.json
-gruntfile.js
 compass_app_log.txt
 config.rb
 .sass-cache/
 robots.txt
 sitemap.xml
-.htaccess
-*.sublime-workspace
-*.sublime-project
