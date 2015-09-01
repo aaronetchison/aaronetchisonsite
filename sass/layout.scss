@@ -867,25 +867,6 @@ body .ui-tooltip { border-width: 2px; }
 		margin: 4px;
 	}
 
-	.content-main {
-		margin-top: 36px;
-		padding-top: 36px;
-		padding-bottom: 732px;
-	}
-
-	.content-main .container {
-		max-width: 480px;
-	}
-
-	footer {
-		height: 700px;
-		margin-top: -700px;
-	}	
-
-	footer .container {
-		max-width: 480px;
-	}
-
 	.logo-container {
 		float: left;
 		margin: 4px 0 0 0;
@@ -926,8 +907,7 @@ body .ui-tooltip { border-width: 2px; }
 	
 	#menu-icon h2 {
 		margin: 0;
-		padding: 2px;
-		border: 2px solid $red;
+		padding: 2px 8px;
 		font-size: 1em;
 	}
 	#menu-icon:hover, #menu-icon:active {
@@ -936,7 +916,6 @@ body .ui-tooltip { border-width: 2px; }
 
 	#menu-icon h2:hover {
 		color: $gray-light;
-		border: 2px solid $gray-light;
 	}
 
 	#nav-menu {
@@ -951,8 +930,28 @@ body .ui-tooltip { border-width: 2px; }
 		background-color: #1E1E1E;
 		background: rgba(0,0,0,0.6);
 		border: none;
+		@include border-radius(0, 0, 10px, 20px);
 		display: none;
 		line-height: 32px;
+	}
+
+	.content-main {
+		margin-top: 36px;
+		padding-top: 36px;
+		padding-bottom: 732px;
+	}
+
+	.content-main .container {
+		max-width: 480px;
+	}
+
+	footer {
+		height: 700px;
+		margin-top: -700px;
+	}	
+
+	footer .container {
+		max-width: 480px;
 	}
 
 	.section-heading {
@@ -965,7 +964,7 @@ body .ui-tooltip { border-width: 2px; }
 @media all and (min-width: 0px) and (max-width: 479px) {
 	
 	body::before {
-			top: 32px;
+		top: 36px;
 	    background: url("../images/home-logo.png") no-repeat center 64px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed ;
 	    background-size: 240px, cover;
 	    opacity: 0.75;
@@ -985,25 +984,23 @@ body .ui-tooltip { border-width: 2px; }
 	}
 
 	header {
-		height: 32px;
-		padding: 3px 10px;
+		height: 36px;
+		padding: 0 10px;
 	}
 
-	.content-main {
-		margin-top: 32px;
-		padding-top: 32px;
-		padding-bottom: 832px;
-	}
-
-	footer {
-		height: 800px;
-		margin-top: -800px;
+	header nav {
+		margin: 4px;
 	}
 
 	.logo-container {
 		float: left;
 	}
 
+	.logo-container {
+		float: left;
+		margin: 4px 0 0 0;
+	}
+	
 	.logo {
 		width: 16px;
 	}
@@ -1023,11 +1020,12 @@ body .ui-tooltip { border-width: 2px; }
 		}
 	}
 
+
 	#nav-wrap {
 		position: relative;
 	}
 
-	#menu-icon {
+	#menu-icon, #menu-icon:visited {
 		width: auto;
 		height: 18px;
 		margin: 0;
@@ -1036,15 +1034,25 @@ body .ui-tooltip { border-width: 2px; }
 		border: none;
 		display: block;
 	}
+	
+	#menu-icon h2 {
+		margin: 0;
+		padding: 2px 8px;
+		font-size: 1em;
+	}
 
 	#menu-icon:hover, #menu-icon:active {
+		color: $gray-light;
+	}
+
+	#menu-icon h2:hover {
 		color: $gray-light;
 	}
 
 	#nav-menu {
 		clear: both;
 		position: absolute;
-		top: 24px;
+		top: 32px;
 		right: 0;
 		width: 140px;
 		z-index: 9999;
@@ -1053,9 +1061,21 @@ body .ui-tooltip { border-width: 2px; }
 		background-color: #1E1E1E;
 		background: rgba(0,0,0,0.6);
 		border: none;
+		@include border-radius(0, 0, 10px, 20px);
 		display: none;
 		line-height: 32px;
 
+	}
+
+	.content-main {
+		margin-top: 32px;
+		padding-top: 32px;
+		padding-bottom: 832px;
+	}
+
+	footer {
+		height: 800px;
+		margin-top: -800px;
 	}
 
 	.section-heading {

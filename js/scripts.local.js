@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
     /* prepend menu icon */
-    $('#nav-wrap').prepend('<div id="menu-icon"><h2>MENU</h2></div>');
+    $('#nav-wrap').prepend('<div id="menu-icon"><h2 class="button">MENU</h2></div>');
     
     /* toggle nav */
     $("#menu-icon").on("click", function(){
