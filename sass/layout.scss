@@ -965,9 +965,9 @@ body .ui-tooltip { border-width: 2px; }
 	
 	body::before {
 		top: 36px;
-	    background: url("../images/home-logo.png") no-repeat center 64px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed ;
-	    background-size: 240px, cover;
-	    opacity: 0.75;
+    background: url("../images/home-logo.png") no-repeat center 64px fixed, url("../images/home-graphic-xl.jpg") no-repeat center 0 fixed ;
+    background-size: 240px, cover;
+    opacity: 0.75;
 	}
 
 	.home-graphic {
@@ -994,11 +994,7 @@ body .ui-tooltip { border-width: 2px; }
 
 	.logo-container {
 		float: left;
-	}
-
-	.logo-container {
-		float: left;
-		margin: 4px 0 0 0;
+		margin: 6px 0 0 0;
 	}
 	
 	.logo {
@@ -1008,7 +1004,7 @@ body .ui-tooltip { border-width: 2px; }
 	.logo-copy {
 		display: inline;
 		position: relative;
-		font-size: 1.5em;
+		font-size: 1.3em;
 
 		a {
 			color: $red;
