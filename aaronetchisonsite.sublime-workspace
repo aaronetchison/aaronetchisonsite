@@ -59,7 +59,7 @@
 			"file": "js/scripts.local.js",
 			"settings":
 			{
-				"buffer_size": 2756,
+				"buffer_size": 2784,
 				"line_ending": "Windows"
 			}
 		}
@@ -92,6 +92,7 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/aaronetchisonsite/.gitignore",
 		"/C/wamp/www/aaronetchisonsite/gruntfile.js",
 		"/C/wamp/www/aaronetchisonsite/js/scripts.local.js",
 		"/C/wamp/www/cheapmuncierentals_v2/js/scripts.js",
@@ -313,7 +314,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -1150,7 +1151,7 @@
 					"file": "js/scripts.local.js",
 					"settings":
 					{
-						"buffer_size": 2756,
+						"buffer_size": 2784,
 						"regions":
 						{
 						},
