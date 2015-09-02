@@ -1,4 +1,6 @@
 node_modules/
+.sublime-project
+.sublime-workspace
 *.a
 *.o
 compass_app_log.txt
