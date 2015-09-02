@@ -19,7 +19,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 17796,
+				"buffer_size": 18114,
 				"line_ending": "Windows"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 25242,
+				"buffer_size": 25158,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 40772,
+				"buffer_size": 36376,
 				"line_ending": "Windows"
 			}
 		},
@@ -205,6 +205,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gallery-content",
+			"container module",
+			"h6",
+			"gallery-content module",
+			"module",
 			"\"",
 			"strong",
 			"Web",
@@ -276,6 +281,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"gallery-content module",
+			"container",
+			"",
+			"h2",
+			"gallery-content",
+			"",
 			"'",
 			"h2",
 			"web",
@@ -314,7 +325,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -322,15 +333,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 17796,
+						"buffer_size": 18114,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								12188,
+								12188
 							]
 						],
 						"settings":
@@ -477,7 +488,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 22116.0,
+						"translation.y": 16734.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -643,7 +654,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4496.0,
+						"translation.y": 2832.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -653,15 +664,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 25242,
+						"buffer_size": 25158,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24966,
-								24966
+								19816,
+								19816
 							]
 						],
 						"settings":
@@ -809,7 +820,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2054.0,
+						"translation.y": 8342.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -819,15 +830,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 40772,
+						"buffer_size": 36376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								40465,
-								40465
+								13653,
+								13668
 							]
 						],
 						"settings":
@@ -975,7 +986,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 17628.0,
+						"translation.y": 4936.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1141,7 +1152,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 973.0,
+						"translation.y": 609.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
