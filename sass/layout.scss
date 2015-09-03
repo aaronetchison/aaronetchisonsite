@@ -497,13 +497,14 @@ a:hover, a:active, a:focus {
 	font-weight: bold;
 	color: $red;
 	text-decoration: none;
+	text-align: center;
 	border: 1px solid $gray-dark;
 	background-color: $gray-dark;
 	background-color: rgba(0,0,0,0.2);
 	cursor: pointer;
-	@include border-radius(10px, 20px, 10px, 20px);
+	@include border-radius(5px, 10px, 5px, 10px);
 	@include box-shadow(3px, 3px, 5px, $black);
-	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
 }
 
 .button:hover, .button:active {
@@ -513,6 +514,7 @@ a:hover, a:active, a:focus {
 	border: 1px solid $gray-light;
 	background-color: $gray-medium;
 	background-color: rgba(0,0,0,0.5);
+	@include box-shadow(0, 0, 5px, $black);
 }
 
 footer {
@@ -654,11 +656,17 @@ body::before {
 /* Portfolio */
 
 .gallery-content {
+	position: relative;
 	margin: 0 10px 10px 10px;
 }
 
 .gallery-content.module {
 	min-height: 480px;
+	padding: 0;
+}
+
+.gallery-content .gallery-copy {
+	margin: 10px;	
 }
 
 .gallery-content h2 {
@@ -673,25 +681,28 @@ body::before {
 }
 
 .gallery-content a {
-	font-family: Orbitron, Verdana, sans-serif;
-	font-size: 1em;
-	color: $white;
 	cursor:pointer;	
 	margin-right: auto;
 	margin-left: auto;
 }
 
 .gallery-content img {
-	margin: 5px 0 0 0;
+	margin: 0;
 	@include border-radius(10px, 30px, 10px, 30px);
 	transition: all .3s linear 0s;
-	border: 1px solid $black;
+	border: none;
 }
 
 .gallery-content img:hover {
-	border: 1px solid $gray-light;
 	box-shadow: 0 0 5px #000;
 	transform: scale(1.02);
+}
+
+.gallery-content .button {
+	position: absolute;
+	padding: 4px;
+	right: 10px;
+	bottom: 10px;
 }
 
 .pinterest-button {
@@ -699,6 +710,12 @@ body::before {
 	bottom: 77px;
 	right: 20px;
 	margin: 0;
+}
+
+.byline {
+	font-size: 0.9em;
+	font-style: italic;
+	color: $gray-light;
 }
 
 #noMarginBot {
@@ -829,10 +846,6 @@ body .ui-tooltip { border-width: 2px; }
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
-
-
-
-
 
 
 
