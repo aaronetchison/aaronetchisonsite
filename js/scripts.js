@@ -30,8 +30,8 @@ break;case"title":$(".ui-dialog-title",this.uiDialogTitlebar).html(""+(value||"&
 
 
     $('.owl-carousel').owlCarousel({
-        items : 3,
-        itemsDesktop : [1199,3],
+        items : 4,
+        itemsDesktop : [1199,4],
         itemsDesktopSmall : [980,3],
         itemsTablet: [768,2],
         itemsTabletSmall: false,
