@@ -9,15 +9,6 @@ jQuery(document).ready(function($) {
     });
 
 
-
-    $('.tip').tooltip({ 
-        position: { 
-            my: "center top", 
-            at: "center bottom" 
-        }
-    });
-
-
     $('a.lightbox').lightBox();
 
 

@@ -17,15 +17,6 @@ break;case"title":$(".ui-dialog-title",this.uiDialogTitlebar).html(""+(value||"&
     });
 
 
-
-    $('.tip').tooltip({ 
-        position: { 
-            my: "center top", 
-            at: "center bottom" 
-        }
-    });
-
-
     $('a.lightbox').lightBox();
 
 
