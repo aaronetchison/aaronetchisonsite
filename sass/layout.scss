@@ -427,6 +427,11 @@ footer p {
 	word-spacing: normal;	
 }
 
+*::selection, *::-moz-selection {
+	color: $red;
+	background-color: $black;
+}
+
 
 
 

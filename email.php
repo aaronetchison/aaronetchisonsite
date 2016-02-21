@@ -9,17 +9,6 @@
 	$from = 'etch@aaronetchison.com';
 	$subject = 'Etchison Design and Web Development';
 
-$message = 'Name: ' . $name . "\n\n
-";
-$message .= 'E-mail: ' . $email . "\n\n
-";
-$message .= 'Refer: ' . $refer . "\n\n
-";
-$message .= 'Refer Other: ' . $referOther . "\n\n
-";
-$message .= 'Comments: ' . $comments . "\n\n
-";
-
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 $headers .= 'From: ' . '<' . $from . '>' . "\r\n";

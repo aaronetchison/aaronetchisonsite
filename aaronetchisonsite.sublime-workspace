@@ -27,7 +27,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 15984,
+				"buffer_size": 16062,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 36624,
+				"buffer_size": 36642,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,6 +103,7 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/aaronetchisonsite/email.php",
 		"/C/wamp/www/aaronetchisonsite/sass/owl.theme.scss",
 		"/C/wamp/www/aaronetchisonsite/sass/owl.carousel.scss",
 		"/C/wamp/www/aaronetchisonsite/.gitignore",
@@ -112,7 +113,6 @@
 		"/C/wamp/www/aaronetchisonsite/js/scripts.contact.js",
 		"/C/wamp/www/aaronetchisonsite/js/scripts.plugins.js",
 		"/C/wamp/www/aaronetchisonsite/js/scripts.global.js",
-		"/C/wamp/www/aaronetchisonsite/email.php",
 		"/C/wamp/www/aaronetchisonsite/contact.html",
 		"/C/wamp/www/aaronetchisonsite/services.html",
 		"/C/wamp/www/aaronetchisonsite/portfolio.html",
@@ -341,7 +341,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -515,15 +515,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 15984,
+						"buffer_size": 16062,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13974,
-								13974
+								6908,
+								6908
 							]
 						],
 						"settings":
@@ -670,7 +670,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 21594.0,
+						"translation.y": 9854.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1012,15 +1012,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 36624,
+						"buffer_size": 36642,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12266,
-								12266
+								16917,
+								16917
 							]
 						],
 						"settings":
@@ -1168,7 +1168,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3817.0,
+						"translation.y": 5138.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1185,8 +1185,8 @@
 						"selection":
 						[
 							[
-								11310,
-								11310
+								12451,
+								12451
 							]
 						],
 						"settings":
@@ -1334,7 +1334,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2739.0,
+						"translation.y": 3963.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
