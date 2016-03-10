@@ -151,7 +151,21 @@ footer {
 	border-radius: 10px 30px 10px 30px;	
 	box-shadow: 3px 3px 5px $black;
 	transition: all 0.3s ease;
+	animation: bounce-in .3s ease-in; 
 }
+
+@keyframes bounce-in {
+	0% {
+		transform: scale(.95);
+		opacity: 0;
+	} 80% {
+		transform: scale(1.05)
+	} 100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
 
 .module:hover {
 	background-color: rgba(0,0,0,0.6);
@@ -481,7 +495,7 @@ a:hover, a:active, a:focus {
 	font-family: Orbitron, Arial, sans-serif;
 	font-weight: bold;
 	color: $gray-light;
-	border: 1px solid $gray-light;
+	border: 1px solid $gray-dark;
 	background-color: $gray-medium;
 	background-color: rgba(0,0,0,0.5);
 	box-shadow: 0 0 5px $black;
@@ -799,6 +813,10 @@ input.error {
 
 /* Plugin Styles */
 
+#lightbox-nav a{
+	transition: none;
+}
+
 .ui-tooltip {
 	padding: 5px;
 	position: absolute;
@@ -885,7 +903,11 @@ body .ui-tooltip { border-width: 2px; }
 			color: $gray-light;
 		}
 	}
-
+	
+	nav .button {
+		box-shadow: none;
+		background-color: rgba(0,0,0,0);
+	}
 
 	#nav-wrap {
 		position: relative;
@@ -1015,6 +1037,10 @@ body .ui-tooltip { border-width: 2px; }
 		}
 	}
 
+	nav .button {
+		box-shadow: none;
+		background-color: rgba(0,0,0,0);
+	}
 
 	#nav-wrap {
 		position: relative;
