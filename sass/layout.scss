@@ -256,20 +256,20 @@ header {
 .logo-container {
 	float: left;
 	z-index: 11;
-	padding: 6px 10px;
+	padding: .5em .5em;
 }
 
 .logo {
-	width: 24px;
-	margin-right: 10px;
 	display: inline;
-	vertical-align: baseline;
+	width: 22px;
+	height: 22px;
+	margin-right: .5em;
 }
 
 .logo-copy {
 	display: inline;
 	position: relative;
-	font-size: 2em;
+	font-size: 1.8em;
 
 	a{
 		color: $red;
@@ -288,6 +288,10 @@ header nav {
 	color: #333;
 	word-spacing: 15px;
 	z-index: 10;
+}
+
+#nav-menu {
+	display: inline;
 }
 
 #menu-icon {
@@ -882,11 +886,12 @@ body .ui-tooltip { border-width: 2px; }
 
 	.logo-container {
 		float: left;
-		padding: 6px 10px;
+		padding: .5em .5em;
 	}
 	
 	.logo {
 		width: 16px;
+		height: 16px;
 	}
 
 	.logo-copy {
@@ -1015,17 +1020,18 @@ body .ui-tooltip { border-width: 2px; }
 
 	.logo-container {
 		float: left;
-		padding: 6px 10px;
+		padding: .5em	.5em;
 	}
 	
 	.logo {
-		width: 16px;
+		width: 13px;
+		height: 13px;
 	}
 
 	.logo-copy {
 		display: inline;
 		position: relative;
-		font-size: 1.3em;
+		font-size: 1em;
 
 		a {
 			color: $red;

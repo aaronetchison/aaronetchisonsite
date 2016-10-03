@@ -27,7 +27,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 16439,
+				"buffer_size": 16495,
 				"line_ending": "Windows"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 17266,
+				"buffer_size": 17267,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 23080,
+				"buffer_size": 23081,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,18 +51,15 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 36642,
+				"buffer_size": 36621,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<!--[if lt IE 7 ]><html class=\"ie ie6\" lang=\"en\"> <![endif]-->\n<!--[if IE 7 ]><html class=\"ie ie7\" lang=\"en\"> <![endif]-->\n<!--[if IE 8 ]><html class=\"ie ie8\" lang=\"en\"> <![endif]-->\n<!--[if (gte IE 9)|!(IE)]><!--><html lang=\"en\"> <!--<![endif]-->\n<head>\n<meta charset=\"utf-8\">\n\n<title>Contact Me | The Portfolio of Aaron Etchison</title>\n\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">\n<meta name=\"Description\" content=\"This site provides a look at the graphic design and Web development work of Aaron Etchison.\">\n<meta name=\"Keywords\" content=\"web, design, aaron etchison, aaron, etchison, web developing, web sites, interactive design, information design, ui, ux, interface, mobile, responsive, responsive design, graphic design, branding, business cards, letterheads, postcards, multimedia, dynamic, art, technology, magazines, advertising, muncie, indiana, in\">\n<meta name=\"rating\" content=\"General\">\n<meta name=\"revisit-after\" content=\"7 days\">\n<meta name=\"ROBOTS\" content=\"All\">\n\n<link rel=\"stylesheet\" href=\"http://fonts.googleapis.com/css?family=Aldrich|Questrial|Geo|Orbitron:400,700,900\"><!-- load Google fonts -->\n<link rel=\"stylesheet\" href=\"stylesheets/global.css\">\n<script src=\"js/modernizr.custom.js\"></script>\n\n<!--[if lt IE 9]>\n		<script src=\"http://html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n	<![endif]-->\n\n<link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"/apple-touch-icon-57x57.png\">\n<link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"/apple-touch-icon-114x114.png\">\n<link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"/apple-touch-icon-72x72.png\">\n<link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"/apple-touch-icon-144x144.png\">\n<link rel=\"apple-touch-icon\" sizes=\"60x60\" href=\"/apple-touch-icon-60x60.png\">\n<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"/apple-touch-icon-120x120.png\">\n<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"/apple-touch-icon-76x76.png\">\n<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"/apple-touch-icon-152x152.png\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon-180x180.png\">\n<link rel=\"icon\" type=\"image/png\" href=\"/favicon-192x192.png\" sizes=\"192x192\">\n<link rel=\"icon\" type=\"image/png\" href=\"/favicon-160x160.png\" sizes=\"160x160\">\n<link rel=\"icon\" type=\"image/png\" href=\"/favicon-96x96.png\" sizes=\"96x96\">\n<link rel=\"icon\" type=\"image/png\" href=\"/favicon-16x16.png\" sizes=\"16x16\">\n<link rel=\"icon\" type=\"image/png\" href=\"/favicon-32x32.png\" sizes=\"32x32\">\n<meta name=\"msapplication-TileColor\" content=\"#262626\">\n<meta name=\"msapplication-TileImage\" content=\"/mstile-144x144.png\">\n\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-30493428-1', 'aaronetchison.com');\n  ga('send', 'pageview');\n\n</script>\n</head>\n<body>\n    <svg style=\"display: none;\">\n        <defs>\n            <g id=\"icon-email\">\n                <title>Email Icon</title>\n                <rect x=\"8\" y=\"17\" fill=\"#666666\" width=\"48\" height=\"32\"/><path fill=\"#161616\" d=\"M55 17v31H9V17H55M56 16H8v33h48V16L56 16z\"/><polygon fill=\"#666666\" points=\"9.54 49 32.21 20.66 54.88 49 \"/><path fill=\"#161616\" d=\"M32.21 21.11l11.07 13.77L53.84 48H32.21 10.59l10.55-13.12L32.21 21.11M32.21 19.51L20.36 34.25 8.5 49h23.71 23.71L44.07 34.25 32.21 19.51 32.21 19.51z\"/><polygon fill=\"#666666\" points=\"9.71 17 54.57 17 32.14 39.9 \"/><path fill=\"#161616\" d=\"M53.38 17L43.23 27.39l-11.1 11.34 -11.1-11.35L10.89 17h21.24H53M55.76 16H32.14 8.52l11.81 12.09 11.81 12.07 11.81-12.08L55.76 16 55.76 16z\"/>\n            </g>\n\n            <g id=\"icon-phone\">\n                <title>Phone Icon</title>\n                <rect x=\"17.5\" y=\"9.5\" fill=\"#666666\" stroke=\"#161616\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" width=\"29\" height=\"46\"/><rect x=\"19\" y=\"13\" fill=\"#161616\" width=\"26\" height=\"39\"/><line fill=\"none\" stroke=\"#161616\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" x1=\"34\" y1=\"11.5\" x2=\"30\" y2=\"11.5\"/><ellipse fill=\"#161616\" cx=\"32.25\" cy=\"53.66\" rx=\"1.11\" ry=\"1.06\"/>\n            </g>\n\n            <g id=\"icon-ind\">\n                <title>Indiana Icon</title>\n                <path fill=\"#666666\" stroke=\"#161616\" stroke-miterlimit=\"10\" d=\"M45.5 8.5H27.05c0 0-2.5 2.74-6.26 0.72L19.5 36.52v1.07 1.74 0.8 1.34 0.67 1.61l0.75 0.81c0 0 0.24 0.94-1.5 2.01 0 0-0.99 3.09-3.4 4.29 0 0 1.15 1.07-0.85 2.68v2.15c0 0 0.91 0.94 1.98 0 0 0-0.42-0.54 0.39-1.75 0 0 1.8 0.94 4.08-0.27 0 0 2.85 1.77 2.98 2.43 0.13 0.66 1.36-0.95 1.22-2.16 0 0 0.81-0.94 1.48-0.54 0 0 0.67 1.74 1.48 1.74 0 0 1.34-0.8 1.61-2.15 0 0 0.67-2.42 1.95-0.81l0.6 1.21c0 0 0.81-0.4 1.61 0.13 0 0 0.81-2.55 2.28-3.22l3.62-3.62c0 0-1.34-2.82 2.42-1.61 0 0 0.27-1.48 2.82-1.07l-0.44-3.49 0.91-0.67V8.5z\"/>\n            </g>\n\n            <g id=\"icon-twitter\">\n                <title>Twitter Link Icon</title>\n                <path class=\"icon-social-content\" fill=\"#666666\" d=\"M22.18 54c-4.85 0-9.61-1.46-14.17-3.88C8.1 50.12 8.18 50 8.27 50c2.81 0 8.27-0.67 13.38-4.77l0.98-0.81 -1.25-0.12c-0.07-0.01-7.03-0.65-9.14-6.41 0.25 0.02 0.55 0.02 0.89 0.02 1.22 0 2.33-0.15 3.29-0.43l2.03-0.6 -2.09-0.37c-0.31-0.06-7.46-1.42-8.09-9.28 0.8 0.33 2.11 0.77 3.4 0.77 0.25 0 0.51-0.02 0.75-0.05l1.17-0.18 -0.95-0.72c-0.29-0.22-7-5.41-3.24-12.75C11.51 16.56 20.09 25 30.85 25c0.18 0 0.37 0 0.55-0.01l0.61-0.02 -0.13-0.59c-0.08-0.34-1.75-8.36 6.11-11.9 0.42-0.19 1.94-0.8 4.03-0.8 2.86 0 5.43 1.12 7.62 3.33l0.18 0.18 0.25-0.04c0.69-0.11 3.5-0.79 6.06-2.35 -0.37 1.11-1.4 2.92-4.18 4.57l-1.73 1.03 2.01-0.1c0.12-0.01 2.5-0.13 4.88-1.04 -0.68 1.05-2.03 2.64-4.59 4.17l-0.27 0.16 0.03 0.32c0.02 0.15 1.39 15.65-11.7 25.79C40.49 47.78 32.85 54 22.18 54 22.18 54 22.18 54 22.18 54z\"/><path fill=\"#161616\" d=\"M42.01 12.19c2.72 0 5.17 1.07 7.27 3.19l0.36 0.36 0.5-0.08c0.03 0 2.3-0.4 4.82-1.63 -0.6 0.89-1.6 1.94-3.27 2.93l-3.46 2.06 4.02-0.2c0.1 0 1.63-0.09 3.49-0.58 -0.76 0.84-1.87 1.82-3.48 2.78l-0.54 0.33 0.06 0.63c0.02 0.15 1.34 15.15-11.52 25.12 -0.07 0.06-7.6 5.93-18.08 5.93 -4.15 0-8.23-0.91-12.17-2.72 3.08-0.25 7.64-1.29 11.95-4.75l1.96-1.58 -2.51-0.4C21.35 43.57 15.28 43 13 38c0.04 0 0.08 0 0.13 0 1.27 0 2.42 0.05 3.43-0.25l4.09-1.11 -4.2-0.68c-0.29-0.05-6.6-1.2-7.59-8.01 0.8 0.27 1.81 0.53 2.81 0.53 0.29 0 0.56-0.01 0.83-0.05l2.35-0.35 -1.9-1.43c-0.27-0.21-6.28-4.83-3.4-11.47 2.79 2.86 11.07 10.33 21.3 10.33 0.19 0 0.38 0 0.57-0.01l1.21-0.03 -0.27-1.19c-0.07-0.32-1.69-7.95 5.82-11.33C38.59 12.77 40.03 12.19 42.01 12.19M42.01 11.19c-1.9 0-3.44 0.49-4.23 0.85 -8.34 3.75-6.39 12.46-6.39 12.46 -0.18 0-0.36 0.01-0.54 0.01 -12.06 0-21.54-11.06-21.54-11.06 -4.75 8.14 3.04 14 3.04 14 -0.22 0.03-0.45 0.05-0.68 0.05 -1.92 0-3.94-1.06-3.94-1.06C7.92 35.54 16.27 37 16.27 37c-1.1 0.33-2.25 0.41-3.15 0.41 -0.94 0-1.6-0.09-1.6-0.09 1.9 6.83 9.81 7.46 9.81 7.46 -4.9 3.94-10.1 4.6-13.06 4.6 -1.51 0-2.44-0.17-2.44-0.17 5.84 3.58 11.42 4.82 16.35 4.82 10.98 0 18.7-6.15 18.7-6.15 13.47-10.44 11.89-26 11.89-26 4.55-2.72 5.43-5.64 5.43-5.64 -2.67 1.41-6 1.58-6 1.58 4.68-2.78 4.64-6.08 4.64-6.08 -2.85 2.09-6.38 2.86-6.85 2.93C47.29 11.95 44.38 11.19 42.01 11.19L42.01 11.19z\"/>\n            </g>\n\n            <g id=\"icon-linkedin\">\n                <title>LinkedIn Link Icon</title>\n                <path class=\"icon-social-content\" fill=\"#666666\" d=\"M14.89 20.94c-2.53 0-4.6-2.06-4.6-4.6 0-2.53 2.06-4.6 4.6-4.6s4.6 2.06 4.6 4.6C19.49 18.87 17.42 20.94 14.89 20.94z\"/><path fill=\"#161616\" d=\"M14.89 12.24c2.26 0 4.1 1.84 4.1 4.1 0 2.26-1.84 4.1-4.1 4.1s-4.1-1.84-4.1-4.1C10.79 14.08 12.63 12.24 14.89 12.24M14.89 11.24c-2.82 0-5.1 2.28-5.1 5.1 0 2.82 2.28 5.1 5.1 5.1s5.1-2.28 5.1-5.1C19.99 13.52 17.7 11.24 14.89 11.24L14.89 11.24z\"/><rect class=\"icon-social-content\" x=\"10\" y=\"25\" fill=\"#666666\" width=\"10\" height=\"28\"/><path fill=\"#161616\" d=\"M19 25v28h-8V25H19M20 24H10v30h10V24L20 24z\"/><path class=\"icon-social-content\" fill=\"#666666\" d=\"M45 53V37.41c0-4.02-2.01-6.23-5.13-6.23 -2.97 0-4.87 2.69-4.87 5.21V53h-9V25h9v1.58c0 0.17-0.14 0.33 0 0.42 0.08 0.05 0.07 0.08 0.16 0.08 0.07 0 0.08-0.01 0.14-0.04 0.05-0.02 5.05-2.13 10.02-2.13 5.99 0 8.68 4.48 8.68 6.76V53H45z\"/><path fill=\"#161616\" d=\"M45.04 25.41c5.64 0 7.96 4.15 7.96 6.26V53h-8V37.41c0-4.28-1.74-6.73-5.13-6.73 -3.3 0-4.87 2.94-4.87 5.71V53h-9V25h8v1.58c0 0.34 0.19 0.65 0.48 0.84 0.17 0.11 0.37 0.16 0.56 0.16 0.14 0 0.22-0.03 0.34-0.08C35.43 27.48 40.19 25.41 45.04 25.41M45.02 24.41c-5.13 0-10.02 2.17-10.02 2.17V24H25v30h11c0 0 0-12.7 0-17.61 0-2.24 1.15-4.71 3.87-4.71 3.37 0 4.13 2.81 4.13 5.73C44 42.17 44 54 44 54h10c0 0 0-16.18 0-22.33C54 28.9 51.12 24.41 45.02 24.41L45.02 24.41z\"/>\n            </g>\n\n            <g id=\"icon-deviantart\">\n                <title>Deviant Art Link Icon</title>\n                <path class=\"icon-social-content\" fill=\"#666666\" d=\"M3.44 44c-0.08-1-0.19-3.69 0.02-4.55 0.27-1.15 0.85-2.25 1.56-3.33C9.17 29.7 19 26.61 22 25.9v1.32C9 30.9 10.19 41.46 10.2 41.56c0.03 0.26 0.16 0.44 0.42 0.44h13.25c0.28 0 0.13-0.2 0.13-0.47V21h5v23H3.44z\"/><path fill=\"#161616\" d=\"M28 22v22H3.91c-0.08-2-0.12-3.53 0.04-4.19 0.26-1.09 0.57-2.27 1.25-3.31C8.96 30.68 18 27.52 21 26.57v0.29C9 30.73 9.44 41.75 9.45 41.86 9.5 42.37 10.1 43 10.62 43h13.25c0.55 0 1.13-0.92 1.13-1.47V22H28M29 21h-5v21H10.62c0 0-0.62-10.9 11.38-14.4v-2.35c0 0-12.73 3-17.65 10.6 -0.71 1.08-1.16 2.46-1.47 3.72C2.58 40.85 2.97 45 2.97 45H29V21L29 21z\"/><path class=\"icon-social-content\" fill=\"#666666\" d=\"M35 44V33h4v8.53C39 41.8 39.4 42 39.67 42h14.52c0.15 0 0.28-0.05 0.38-0.16 0.1-0.11 0.14-0.29 0.11-0.43C52.4 26.77 35.43 26 32.05 26 32.04 26 32 26 32 26v-0.62c0 0 0.54 0 0.8 0 7.39 0 13.54 1.19 18.27 3.54 0.37 0.19 0.67 0.34 0.95 0.5l0.29 0.16c0.22 0.13 0.45 0.26 0.66 0.39l0.49 0.31c0.14 0.09 0.29 0.19 0.43 0.28 0.16 0.11 0.32 0.23 0.47 0.34l0.39 0.29c0.17 0.13 0.33 0.26 0.48 0.39l0.32 0.26 0.27 0.25c4.19 3.74 4.77 7.65 4.77 7.69 0.18 0.83 0.1 3.23 0.03 4.23H35z\"/><path fill=\"#161616\" d=\"M37.73 26.07c5.15 0.42 9.55 1.52 13.12 3.3l0.44-0.9 -0.37 0.93c0.29 0.15 0.58 0.3 0.86 0.45l0.28 0.16c0.22 0.13 0.44 0.25 0.65 0.38 0.12 0.07 0.24 0.15 0.36 0.23l0.04 0.03 0.07 0.05c0.14 0.09 0.28 0.18 0.42 0.27 0.16 0.11 0.31 0.22 0.47 0.34l0.11 0.08c0.09 0.06 0.17 0.12 0.25 0.19 0.16 0.13 0.32 0.25 0.51 0.41l0.12 0.1c0.05 0.04 0.1 0.08 0.15 0.12 0.05 0.04 0.1 0.09 0.15 0.13l0.12 0.11c4.01 3.59 4.6 7.39 4.61 7.43 0 0.03 0.01 0.26 0.01 0.29 0.13 0.6 0.1 1.83 0.03 3.83H36V33h3v8.53c0 0.55 0.12 1.47 0.67 1.47h14.52c0.29 0 0.57-0.36 0.76-0.59s0.27-0.63 0.23-0.92C53.5 30.74 44.18 27.17 37.73 26.07M33.05 24.88c-0.42 0-1.05 0-1.05 0.01v1.69c0 0-0.05 0.23 0.29 0.23 3.22 0 19.66 0.2 21.89 15.2H40V32h-5v13h26.08c0 0 0.26-3.87 0-5.05 0 0-0.56-4.24-4.93-8.14 -0.09-0.08-0.18-0.22-0.28-0.31 -0.09-0.08-0.19-0.18-0.29-0.26 -0.17-0.14-0.35-0.3-0.53-0.44 -0.12-0.09-0.26-0.19-0.38-0.29 -0.16-0.12-0.33-0.24-0.5-0.36 -0.17-0.11-0.34-0.23-0.51-0.34 -0.14-0.09-0.28-0.18-0.42-0.27 -0.22-0.14-0.45-0.27-0.68-0.4 -0.1-0.05-0.19-0.11-0.29-0.16 -0.29-0.16-0.59-0.32-0.89-0.47 -0.02-0.01 0.07-0.02 0.05-0.04C47.25 26.4 41.46 24.88 33.05 24.88L33.05 24.88z\"/>\n            </g>\n        </defs>\n    </svg>\n\n<div class=\"container-main\">\n    <header>\n    <div class=\"container\">\n        <div class=\"sixteen columns headerMain\" role=\"banner\">\n            <div class=\"logo-container\"><img src=\"images/logo.png\" class=\"logo\" alt=\"Etchison Media Logo\" ><h1 class=\"logo-copy\"><a href=\"index.html\">Aaron Etchison</a></h1></div>\n            <nav id=\"nav-wrap\">\n                <ul id=\"nav-menu\">\n                    <li><a href=\"index.html\">Home</a>\n                        </li>\n                    <li><a href=\"services.html\">Services</a>\n                        </li>\n                    <li><a href=\"portfolio.html\">Portfolio</a>\n                        </li>\n                    <li><a href=\"contact.html\">Contact</a>\n                        </li>\n               </ul>\n            </nav>\n        </div>\n    </div>\n    </header>\n\n    <div class=\"content-main\" role=\"main\">\n    <div class=\"container\"><!-- begin page content container -->\n        <div class=\"eight columns module\"><!-- begin contact content -->\n            <h2>E-Mail Me</h2>\n            <form  name=\"contactUs\" id=\"contactUs\" method=\"post\" action=\"email.php\" role=\"form\">\n                <div>\n                    <label for=\"name\" class=\"label1\">Name:</label>\n                    <br>\n                    <input name=\"name\" type=\"text\" class=\"required\" id=\"name\">\n                </div>\n                <div>\n                    <label for=\"email\" class=\"label1\">Email:</label>\n                    <br>\n                    <input name=\"email\" type=\"text\" class=\"required email\" id=\"email\">\n                </div>\n                <div>\n                    <label for=\"refer\" class=\"label2\">How did you find me? </label>\n                    <br>\n                    <select name=\"refer\" id=\"refer\">\n                      <option value=\"\">Select One</option>\n                      <option value=\"Google\">Google</option>\n                      <option value=\"StumpleUpon\">StumbleUpon</option>\n                      <option value=\"Facebook\">Facebook</option>\n                      <option value=\"Twitter\">Twitter</option>\n                      <option value=\"LinkedIn\">LinkedIn</option>\n                      <option value=\"Other\">Other</option>\n                    </select>\n                </div>\n                <div id=\"referOtherOpt\">\n                    <label for=\"referOther\" class=\"label2\">Other: </label>\n                    <br>\n                    <input name=\"referOther\" type=\"text\" id=\"referOther\">\n                </div>\n                <div>\n                    <label for=\"comments\" class=\"label2\">What are your questions or comments? </label>\n                    <br>\n                    <textarea name=\"comments\" rows=\"6\" class=\"required\" id=\"comments\"></textarea>\n                </div>\n                <div>\n                    <input type=\"submit\" name=\"submit\" id=\"submit\" class=\"button submitReset\" value=\"Submit\" />\n                    <input  type=\"reset\" name=\"reset\" id=\"reset\" class=\"button submitReset\" value=\"Reset\">\n                </div>\n            </form>\n        \n            <div id=\"success\"></div>\n        </div><!-- end contact content left -->\n\n        <div class=\"eight columns module\"><!-- begin contact content right -->\n            <div>\n                <h2>Contacting Me</h2>\n                <p>If you would like to hire me for a graphic design or web development project, please provide some information about the job in the contact form.</p>\n                <p>You can also check me out in other places by clicking one of the links below.</p>\n                <div class=\"icon-group\">\n                    <a href=\"http://etch83.deviantart.com/gallery\" class=\"icon-social\" target=\"_blank\">\n                        <svg viewBox=\"0 0 64 64\">\n                            <use xlink:href=\"#icon-deviantart\"></use>\n                        </svg>\n                    </a>\n                    <a href=\"http://www.linkedin.com/pub/aaron-etchison/41/210/906\" class=\"icon-social\" target=\"_blank\">\n                        <svg viewBox=\"0 0 64 64\">\n                            <use xlink:href=\"#icon-linkedin\"></use>\n                        </svg>\n                    </a>\n                    <a href=\"http://www.twitter.com/aaronetchison\" class=\"icon-social\" target=\"_blank\">\n                        <svg viewBox=\"0 0 64 64\">\n                            <use xlink:href=\"#icon-twitter\"></use>\n                        </svg>\n                    </a>\n                </div>\n            </div>\n        </div><!-- end contact content right -->\n    </div><!-- end contact content container -->\n    </div><!-- end content-main -->\n</div><!-- end container-main -->\n\n<footer>\n<div class=\"container\">\n    <div class=\"one-third column\">\n        <h2>About Me</h2>\n        <img src=\"images/etchPhoto.jpg\" alt=\"Aaron Etchison Photo\" class=\"icon-avatar\">\n        <p>Aaron Etchison is a graphic designer and web developer with over eight years of experience creating a variety of media from print marketing materials to beautiful cross-device web sites.</p>\n    </div>\n    <div class=\"one-third column\">\n        <h2>Follow Me</h2>\n        <p>If you would like to see more of my work or find out more information about me, please click the links below. </p>\n        <div class=\"icon-group\">\n            <a href=\"http://etch83.deviantart.com/gallery\" class=\"icon-social\" target=\"_blank\">\n                <svg viewBox=\"0 0 64 64\">\n                    <use xlink:href=\"#icon-deviantart\"></use>\n                </svg>\n            </a>\n            <a href=\"http://www.linkedin.com/pub/aaron-etchison/41/210/906\" class=\"icon-social\" target=\"_blank\">\n                <svg viewBox=\"0 0 64 64\">\n                    <use xlink:href=\"#icon-linkedin\"></use>\n                </svg>\n            </a>\n            <a href=\"http://www.twitter.com/aaronetchison\" class=\"icon-social\" target=\"_blank\">\n                <svg viewBox=\"0 0 64 64\">\n                    <use xlink:href=\"#icon-twitter\"></use>\n                </svg>\n            </a>\n        </div>\n    </div>\n    <div class=\"one-third column\">\n        <h2>Contact Me</h2>\n        <div class=\"row\">\n            <svg viewBox=\"0 0 64 64\" class=\"icon-contact\">\n                <use xlink:href=\"#icon-ind\"></use>\n            </svg>\n            <p>Muncie, IN</p>\n        </div>\n        <div class=\"row\">\n            <svg viewBox=\"0 0 64 64\" class=\"icon-contact\">\n                <use xlink:href=\"#icon-email\"></use>\n            </svg>\n            <p>etch@aaronetchison.com</p>\n        </div>\n        <div class=\"row\">\n            <svg viewBox=\"0 0 64 64\" class=\"icon-contact\">\n                <use xlink:href=\"#icon-phone\"></use>\n            </svg>\n            <p>&lpar;765&rpar; 215-8952</p>\n        </div>\n        <a href=\"contact.html\" class=\"button call-to-action\">Hire Me</a>\n    </div>\n</div>\n<div class=\"container\">\n    <div class=\"sixteen columns\" role=\"contentinfo\">       \n        <div class=\"hr-fade-dark\"></div>\n        <p class=\"copyright textCenter\">&copy; 2013 Aaron Etchison</p>\n    </div>\n</div>\n</footer>\n\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>\n<script src=\"js/scripts.min.js\"></script>\n\n</body>\n</html>",
 			"file": "contact.html",
-			"file_size": 19291,
-			"file_write_time": 130841779446030000,
 			"settings":
 			{
-				"buffer_size": 18509,
+				"buffer_size": 18510,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,6 +68,25 @@
 			"settings":
 			{
 				"buffer_size": 7454,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/**\n * jQuery lightBox plugin\n * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)\n * and adapted to me for use like a plugin from jQuery.\n * @name jquery-lightbox-0.5.css\n * @author Leandro Vieira Pinho - http://leandrovieira.com\n * @version 0.5\n * @date April 11, 2008\n * @category jQuery plugin\n * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)\n * @license CCAttribution-ShareAlike 2.5 Brazil - http://creativecommons.org/licenses/by-sa/2.5/br/deed.en_US\n * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin\n */\n#jquery-overlay {\n	position: absolute;\n	top: 0;\n	left: 0;\n	z-index: 90;\n	width: 100%;\n	height: 500px;\n}\n#jquery-lightbox {\n	position: absolute;\n	top: 0;\n	left: 0;\n	width: 100%;\n	z-index: 100;\n	text-align: center;\n	line-height: 0;\n}\n#jquery-lightbox a img { border: none; }\n#lightbox-container-image-box {\n	position: relative;\n	background-color: #000000;\n	min-width: 250px;\n	height: 250px;\n	margin: 0 auto;\n}\n#lightbox-container-image { \n	padding: 10px; \n}\n#lightbox-loading {\n	position: absolute;\n	top: 40%;\n	left: 0%;\n	height: 25%;\n	width: 100%;\n	text-align: center;\n	line-height: 0;\n}\n#lightbox-nav {\n	position: absolute;\n	top: 0;\n	left: 0;\n	height: 100%;\n	width: 100%;\n	z-index: 10;\n}\n#lightbox-container-image-box > #lightbox-nav { left: 0; }\n#lightbox-nav a { outline: none;}\n#lightbox-nav-btnPrev, #lightbox-nav-btnNext {\n	width: 49%;\n	height: 100%;\n	zoom: 1;\n	display: block;\n}\n#lightbox-nav-btnPrev { \n	left: 0; \n	float: left;\n}\n#lightbox-nav-btnNext { \n	right: 0; \n	float: right;\n}\n#lightbox-container-image-data-box {\n	background-color: #000000;\n	margin: 0 auto;\n	line-height: 1.4em;\n	overflow: auto;\n	width: 100%;\n	padding: 0 10px 0;\n	font-family: Questrial, Helvetica, sans-serif;\n	font-size: 14px;\n}\n#lightbox-container-image-data {\n	padding: 0 10px; \n	color: #b01817; \n}\n#lightbox-container-image-data #lightbox-image-details { \n	width: 70%; \n	float: left; \n	text-align: left; \n}	\n#lightbox-image-details-caption { font-weight: bold; }\n#lightbox-image-details-currentNumber {\n	display: block; \n	clear: left; \n	padding-bottom: 1.0em;	\n}			\n#lightbox-secNav-btnClose {\n	width: 66px; \n	float: right;\n	padding-bottom: 0.7em;	\n}\n",
+			"file": "sass/jquery.lightbox-0.5.scss",
+			"file_size": 2445,
+			"file_write_time": 131028399447228000,
+			"settings":
+			{
+				"buffer_size": 2305,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/jquery.lightbox-0.5.min.js",
+			"settings":
+			{
+				"buffer_size": 8970,
 				"line_ending": "Windows"
 			}
 		}
@@ -103,11 +119,14 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/aaronetchisonsite/gruntfile.js",
+		"/C/wamp/www/aaronetchisonsite/js/lightbox.js",
+		"/C/wamp/www/aaronetchisonsite/js/jquery.lightbox-0.6.js",
+		"/C/wamp/www/aaronetchisonsite/js/jquery.lightbox-0.5.min.js",
 		"/C/wamp/www/aaronetchisonsite/email.php",
 		"/C/wamp/www/aaronetchisonsite/sass/owl.theme.scss",
 		"/C/wamp/www/aaronetchisonsite/sass/owl.carousel.scss",
 		"/C/wamp/www/aaronetchisonsite/.gitignore",
-		"/C/wamp/www/aaronetchisonsite/gruntfile.js",
 		"/C/wamp/www/aaronetchisonsite/js/scripts.local.js",
 		"/C/wamp/www/cheapmuncierentals_v2/js/scripts.js",
 		"/C/wamp/www/aaronetchisonsite/js/scripts.contact.js",
@@ -133,7 +152,6 @@
 		"/C/wamp/www/playground/responsivemenu/index.html",
 		"/C/wamp/www/live_backups/aaronetchisonsite_backup/contact.html",
 		"/C/wamp/www/live_backups/aaronetchisonsite_backup/index.html",
-		"/C/wamp/www/aaronetchisonsite/js/jquery.lightbox-0.5.min.js",
 		"/C/wamp/www/aaronetchisonsite/js/jquery-ui-1.9.2.custom.js",
 		"/C/wamp/www/aaronetchisonsite/package.json",
 		"/C/wamp/www/aaronetchisonsite/graphic-design.html",
@@ -216,6 +234,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nav-menu",
+			"outerHeight",
+			"imageWidth",
+			"lightbox-container-image-box",
+			"sizeContainer",
+			"imageWidth",
 			"transition",
 			"button",
 			"menu",
@@ -343,7 +367,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -517,15 +541,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 16439,
+						"buffer_size": 16495,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12253,
-								12253
+								15288,
+								15288
 							]
 						],
 						"settings":
@@ -672,7 +696,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 17705.0,
+						"translation.y": 17668.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -682,15 +706,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 17266,
+						"buffer_size": 17267,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14413,
-								14409
+								11728,
+								11728
 							]
 						],
 						"settings":
@@ -838,7 +862,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 853.0,
+						"translation.y": 2588.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -848,15 +872,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 23080,
+						"buffer_size": 23081,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18150,
-								18150
+								23022,
+								23022
 							]
 						],
 						"settings":
@@ -1004,7 +1028,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 492.0,
+						"translation.y": 2739.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1014,15 +1038,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 36642,
+						"buffer_size": 36621,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16917,
-								16917
+								14129,
+								14129
 							]
 						],
 						"settings":
@@ -1170,7 +1194,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4994.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1180,15 +1204,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 18509,
+						"buffer_size": 18510,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12451,
-								12451
+								18451,
+								18451
 							]
 						],
 						"settings":
@@ -1336,7 +1360,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3963.0,
+						"translation.y": 5559.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1503,6 +1527,335 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 390.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "sass/jquery.lightbox-0.5.scss",
+					"settings":
+					{
+						"buffer_size": 2305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1105,
+								1105
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 340.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "js/jquery.lightbox-0.5.min.js",
+					"settings":
+					{
+						"buffer_size": 8970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
