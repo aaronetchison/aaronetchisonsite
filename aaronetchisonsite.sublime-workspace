@@ -35,7 +35,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 17267,
+				"buffer_size": 17220,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 23081,
+				"buffer_size": 23034,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 36621,
+				"buffer_size": 36565,
 				"line_ending": "Windows"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 18510,
+				"buffer_size": 18463,
 				"line_ending": "Windows"
 			}
 		},
@@ -119,6 +119,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Aod/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Aod/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/wamp/www/aaronetchisonsite/gruntfile.js",
 		"/C/wamp/www/aaronetchisonsite/js/lightbox.js",
 		"/C/wamp/www/aaronetchisonsite/js/jquery.lightbox-0.6.js",
@@ -199,7 +201,6 @@
 		"/C/wamp/www/aaronetchison_v2-1/email.php",
 		"/C/Users/Aod/Desktop/NEURAL/Etch_WebSites/GriffeysLeather/griffeysleather_v2/index.html",
 		"/C/Users/Aod/Desktop/NEURAL/Etch_WebSites/GriffeysLeather/griffeysleather_v2/css/layout.css",
-		"/C/Users/Aod/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/wamp/www/aaronetchison_v2-1/stylesheets/jquery.lightbox-0.5.css",
 		"/C/wamp/www/aaronetchison_v2-1/sass/skeleton.scss",
 		"/C/wamp/www/aaronetchison_v2-1/stylesheets/custom-theme/jquery-ui-1.9.2.custom.css",
@@ -209,7 +210,6 @@
 		"/C/wamp/www/aaronetchison_v2-1/stylesheets/skeleton.css",
 		"/C/wamp/www/mymixins.scss",
 		"/C/wamp/www/aaronetchison_v2-1/stylesheets/layout.css",
-		"/C/Users/Aod/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/C/wamp/www/griffeyscustomleather_v3/index.html",
 		"/C/Users/Aod/Desktop/NEURAL/Etch_WebSites/AaronEtchison/aaronetchison_v3/stylesheets/sass/layout.scss",
 		"/C/Users/Aod/Desktop/NEURAL/Etch_WebSites/AaronEtchison/aaronetchison_v3/index.html",
@@ -234,6 +234,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"http://dhay53sybvpex.cloudfront.net",
+			"images/previews/",
+			"images/thumbs/",
+			"http://dhay53sybvpex.cloudfront.net/",
+			"https://dhay53sybvpex.cloudfront.net/",
+			"http://dhay53sybvpex.cloudfront.net/",
+			"https://dhay53sybvpex.cloudfront.net/",
+			"images/previews/",
+			"images/thumbs/",
 			"nav-menu",
 			"outerHeight",
 			"imageWidth",
@@ -323,6 +332,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"http://dhay53sybvpex.cloudfront.net/images/previews/",
+			"http://dhay53sybvpex.cloudfront.net/images/thumbs/",
+			"http://dhay53sybvpex.cloudfront.net/",
+			"https://dhay53sybvpex.cloudfront.net/",
+			"http://dhay53sybvpex.cloudfront.net/",
+			"https://dhay53sybvpex.cloudfront.net/",
 			"gallery-content module",
 			"container",
 			"",
@@ -706,15 +721,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 17267,
+						"buffer_size": 17220,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11728,
-								11728
+								1228,
+								1228
 							]
 						],
 						"settings":
@@ -862,7 +877,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2588.0,
+						"translation.y": 75.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -872,15 +887,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 23081,
+						"buffer_size": 23034,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								23022,
-								23022
+								1247,
+								1247
 							]
 						],
 						"settings":
@@ -1028,7 +1043,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2739.0,
+						"translation.y": 150.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1038,15 +1053,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 36621,
+						"buffer_size": 36565,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14129,
-								14129
+								1234,
+								1234
 							]
 						],
 						"settings":
@@ -1194,7 +1209,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 150.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1204,15 +1219,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 18510,
+						"buffer_size": 18463,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18451,
-								18451
+								1234,
+								1234
 							]
 						],
 						"settings":
@@ -1360,7 +1375,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5559.0,
+						"translation.y": 40.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
