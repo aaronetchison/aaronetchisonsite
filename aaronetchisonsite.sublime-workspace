@@ -27,7 +27,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 16495,
+				"buffer_size": 21431,
 				"line_ending": "Windows"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 17220,
+				"buffer_size": 17081,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 23034,
+				"buffer_size": 22895,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 36565,
+				"buffer_size": 36425,
 				"line_ending": "Windows"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 18463,
+				"buffer_size": 18324,
 				"line_ending": "Windows"
 			}
 		},
@@ -556,15 +556,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 16495,
+						"buffer_size": 21431,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15288,
-								15288
+								5369,
+								5369
 							]
 						],
 						"settings":
@@ -711,7 +711,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 17668.0,
+						"translation.y": 600.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -721,15 +721,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 17220,
+						"buffer_size": 17081,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1228,
-								1228
+								2859,
+								2859
 							]
 						],
 						"settings":
@@ -877,7 +877,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 75.0,
+						"translation.y": 975.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -887,15 +887,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 23034,
+						"buffer_size": 22895,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1247,
-								1247
+								1054,
+								1054
 							]
 						],
 						"settings":
@@ -1053,15 +1053,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 36565,
+						"buffer_size": 36425,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1234,
-								1234
+								1040,
+								1040
 							]
 						],
 						"settings":
@@ -1219,15 +1219,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 18463,
+						"buffer_size": 18324,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1234,
-								1234
+								1041,
+								1041
 							]
 						],
 						"settings":
