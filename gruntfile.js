@@ -28,7 +28,6 @@ module.exports = function(grunt) {
 				'tagname-lowercase': false,
 				'attr-lowercase': false,
 				'attr-value-double-quotes': false,
-				'doctype-first': true,
 				'spec-char-escape': true,
 				'id-unique': true,
 				'head-script-disabled': false,
@@ -43,8 +42,8 @@ module.exports = function(grunt) {
 			options: {
 				browsers: ['last 2 version', 'ie 8', 'ie 9']
 			},
-	      src: 'stylesheets/global.css',
-	      dest: 'stylesheets/global.css'
+				src: 'stylesheets/global.css',
+				dest: 'stylesheets/global.css'
 	  },
   },
 
@@ -69,16 +68,29 @@ module.exports = function(grunt) {
 		},
 	},
 
-
-
-  svgstore: {
-    options: {},
-    default : {
-      files: {
-        'images/icons/icons-sprite.svg': ['images/icons/*.svg'],
-      },
-    },
-  },
+  responsive_images: {
+    resize: {
+			options: {
+				engine: 'im',
+				sizes: [{
+					name: 'sm',
+					width: 190
+					},{
+					name: 'md',
+					width: 269
+					},{
+					name: 'lg',
+					width: 424
+				}]
+			},
+			files: [{
+				expand: true,
+				cwd: 'images/',
+				src: ['thumbs/**/*.{jpg,gif,png}'],
+				dest: 'images/'
+			}]
+		},
+	},
 	
 	watch: {
 		html: {
@@ -115,9 +127,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-htmlhint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-svgstore');
+  grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['sass', 'autoprefixer', 'uglify', 'concat', 'svgstore']);
+  grunt.registerTask('default', ['sass', 'autoprefixer', 'uglify', 'concat', 'responsive_images']);
 
 };

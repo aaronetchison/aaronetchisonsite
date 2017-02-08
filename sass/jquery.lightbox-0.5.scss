@@ -37,8 +37,6 @@
 	margin: 0 auto;
 }
 #lightbox-container-image { 
-	min-width: 320px;
-	height: auto;
 	padding: 10px; 
 }
 #lightbox-loading {
@@ -103,4 +101,23 @@
 	width: 66px; 
 	float: right;
 	padding-bottom: 0.7em;	
+}
+
+@media all and (min-width: 0) and (max-width: 767px) {
+	#lightbox-nav-btnPrev {
+		position: fixed; 
+		top: 36px;
+		left: 0; 
+	}
+	#lightbox-nav-btnNext { 
+		position: fixed;
+		top: 36px;
+		right: 0;
+	}
+
+	#lightbox-secNav-btnClose {
+		position: fixed;
+		top: 12px;
+		right: 0;	
+	}
 }

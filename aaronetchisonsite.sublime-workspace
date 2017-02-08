@@ -43,7 +43,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 22895,
+				"buffer_size": 25585,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 36425,
+				"buffer_size": 42013,
 				"line_ending": "Windows"
 			}
 		},
@@ -72,13 +72,10 @@
 			}
 		},
 		{
-			"contents": "/**\n * jQuery lightBox plugin\n * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)\n * and adapted to me for use like a plugin from jQuery.\n * @name jquery-lightbox-0.5.css\n * @author Leandro Vieira Pinho - http://leandrovieira.com\n * @version 0.5\n * @date April 11, 2008\n * @category jQuery plugin\n * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)\n * @license CCAttribution-ShareAlike 2.5 Brazil - http://creativecommons.org/licenses/by-sa/2.5/br/deed.en_US\n * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin\n */\n#jquery-overlay {\n	position: absolute;\n	top: 0;\n	left: 0;\n	z-index: 90;\n	width: 100%;\n	height: 500px;\n}\n#jquery-lightbox {\n	position: absolute;\n	top: 0;\n	left: 0;\n	width: 100%;\n	z-index: 100;\n	text-align: center;\n	line-height: 0;\n}\n#jquery-lightbox a img { border: none; }\n#lightbox-container-image-box {\n	position: relative;\n	background-color: #000000;\n	min-width: 250px;\n	height: 250px;\n	margin: 0 auto;\n}\n#lightbox-container-image { \n	padding: 10px; \n}\n#lightbox-loading {\n	position: absolute;\n	top: 40%;\n	left: 0%;\n	height: 25%;\n	width: 100%;\n	text-align: center;\n	line-height: 0;\n}\n#lightbox-nav {\n	position: absolute;\n	top: 0;\n	left: 0;\n	height: 100%;\n	width: 100%;\n	z-index: 10;\n}\n#lightbox-container-image-box > #lightbox-nav { left: 0; }\n#lightbox-nav a { outline: none;}\n#lightbox-nav-btnPrev, #lightbox-nav-btnNext {\n	width: 49%;\n	height: 100%;\n	zoom: 1;\n	display: block;\n}\n#lightbox-nav-btnPrev { \n	left: 0; \n	float: left;\n}\n#lightbox-nav-btnNext { \n	right: 0; \n	float: right;\n}\n#lightbox-container-image-data-box {\n	background-color: #000000;\n	margin: 0 auto;\n	line-height: 1.4em;\n	overflow: auto;\n	width: 100%;\n	padding: 0 10px 0;\n	font-family: Questrial, Helvetica, sans-serif;\n	font-size: 14px;\n}\n#lightbox-container-image-data {\n	padding: 0 10px; \n	color: #b01817; \n}\n#lightbox-container-image-data #lightbox-image-details { \n	width: 70%; \n	float: left; \n	text-align: left; \n}	\n#lightbox-image-details-caption { font-weight: bold; }\n#lightbox-image-details-currentNumber {\n	display: block; \n	clear: left; \n	padding-bottom: 1.0em;	\n}			\n#lightbox-secNav-btnClose {\n	width: 66px; \n	float: right;\n	padding-bottom: 0.7em;	\n}\n",
 			"file": "sass/jquery.lightbox-0.5.scss",
-			"file_size": 2445,
-			"file_write_time": 131028399447228000,
 			"settings":
 			{
-				"buffer_size": 2305,
+				"buffer_size": 2586,
 				"line_ending": "Windows"
 			}
 		},
@@ -119,9 +116,11 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/aaronetchisonsite/js/picturefill-3.0.2.js",
+		"/C/wamp/www/aaronetchisonsite/gruntfile.js",
+		"/C/wamp/www/aaronetchisonsite/package.json",
 		"/C/Users/Aod/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Aod/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/wamp/www/aaronetchisonsite/gruntfile.js",
 		"/C/wamp/www/aaronetchisonsite/js/lightbox.js",
 		"/C/wamp/www/aaronetchisonsite/js/jquery.lightbox-0.6.js",
 		"/C/wamp/www/aaronetchisonsite/js/jquery.lightbox-0.5.min.js",
@@ -155,7 +154,6 @@
 		"/C/wamp/www/live_backups/aaronetchisonsite_backup/contact.html",
 		"/C/wamp/www/live_backups/aaronetchisonsite_backup/index.html",
 		"/C/wamp/www/aaronetchisonsite/js/jquery-ui-1.9.2.custom.js",
-		"/C/wamp/www/aaronetchisonsite/package.json",
 		"/C/wamp/www/aaronetchisonsite/graphic-design.html",
 		"/C/wamp/www/aaronetchisonsite/web-development.html",
 		"/C/wamp/www/theundergroundmind_backup/wp-content/themes/responsive/core/includes/version.php",
@@ -234,6 +232,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"(max-width: 980px) 50vw",
+			"content-main .container",
 			"http://dhay53sybvpex.cloudfront.net",
 			"images/previews/",
 			"images/thumbs/",
@@ -332,6 +332,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"(max-width: 980px) 100vw",
 			"http://dhay53sybvpex.cloudfront.net/images/previews/",
 			"http://dhay53sybvpex.cloudfront.net/images/thumbs/",
 			"http://dhay53sybvpex.cloudfront.net/",
@@ -382,7 +383,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -546,7 +547,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 75.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -563,8 +564,8 @@
 						"selection":
 						[
 							[
-								5369,
-								5369
+								17840,
+								17782
 							]
 						],
 						"settings":
@@ -711,7 +712,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 600.0,
+						"translation.y": 23367.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -877,7 +878,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 975.0,
+						"translation.y": 7975.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -887,15 +888,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 22895,
+						"buffer_size": 25585,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1054,
-								1054
+								20404,
+								20404
 							]
 						],
 						"settings":
@@ -1043,7 +1044,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 150.0,
+						"translation.y": 797.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1053,15 +1054,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 36425,
+						"buffer_size": 42013,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1040,
-								1040
+								13792,
+								13792
 							]
 						],
 						"settings":
@@ -1209,7 +1210,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 150.0,
+						"translation.y": 4410.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1551,15 +1552,15 @@
 					"file": "sass/jquery.lightbox-0.5.scss",
 					"settings":
 					{
-						"buffer_size": 2305,
+						"buffer_size": 2586,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1105,
-								1105
+								2565,
+								2565
 							]
 						],
 						"settings":
@@ -1706,7 +1707,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 340.0,
+						"translation.y": 2325.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

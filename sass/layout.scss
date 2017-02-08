@@ -1068,10 +1068,6 @@ body .ui-tooltip { border-width: 2px; }
 		padding-bottom: 732px;
 	}
 
-	.content-main .container {
-		max-width: 480px;
-	}
-
 	footer {
 		height: 700px;
 		margin-top: -700px;
@@ -1211,6 +1207,11 @@ body .ui-tooltip { border-width: 2px; }
 		margin-bottom: 10px;
 		font-size: 1.6em;
 	}
+
+	.gallery-content.module {
+		min-height: 520px;
+}
+
 
 	.vrFade {
 		border: none;
