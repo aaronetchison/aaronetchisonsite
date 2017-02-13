@@ -1,4 +1,20 @@
 jQuery(document).ready(function($) {
+    $("#nav-menu").css("display", "none");
+    // run test on initial page load
+    checkSize();
+    $(window).load(checkSize);
+    // run test on resize of the window
+    $(window).resize(checkSize);
+
+    //Function to the css rule
+    function checkSize(){
+        if ($("#menu-icon").css("display") == "block" ){
+            $("#nav-menu").css("display", "none");
+        } else {
+            $("#nav-menu").css("display", "inline-block");
+        }
+    }
+
     /* prepend menu icon */
     $('#nav-wrap').prepend('<div id="menu-icon"><h2 class="button">MENU</h2></div>');
     
