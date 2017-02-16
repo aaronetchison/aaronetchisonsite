@@ -31,7 +31,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 22613,
+				"buffer_size": 22742,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,7 +39,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 17278,
+				"buffer_size": 15023,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 26116,
+				"buffer_size": 23861,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 42217,
+				"buffer_size": 39962,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +63,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 18644,
+				"buffer_size": 16469,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,7 +95,7 @@
 			"file": "sass/owl.theme.scss",
 			"settings":
 			{
-				"buffer_size": 1346,
+				"buffer_size": 1373,
 				"line_ending": "Windows"
 			}
 		}
@@ -244,6 +244,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"section-page",
+			"icon-",
+			"img",
+			"input",
+			"border-radius",
+			"form",
 			"65,0,2",
 			"module",
 			"rounded",
@@ -365,11 +371,7 @@
 			"border-radius",
 			".logo",
 			"tooltip",
-			"tip",
-			"class=\"lightbox\"",
-			"class=\"tip\"",
-			"$.fn.lightBox",
-			"nav-icon"
+			"tip"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -431,7 +433,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -605,15 +607,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 22613,
+						"buffer_size": 22742,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22607,
-								22607
+								7298,
+								7298
 							]
 						],
 						"settings":
@@ -760,7 +762,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 31434.0,
+						"translation.y": 5181.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -770,15 +772,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 17278,
+						"buffer_size": 15023,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11602,
-								11602
+								10630,
+								10630
 							]
 						],
 						"settings":
@@ -926,7 +928,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 145.0,
+						"translation.y": 3593.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -936,15 +938,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 26116,
+						"buffer_size": 23861,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11690,
-								11690
+								2941,
+								2941
 							]
 						],
 						"settings":
@@ -1092,7 +1094,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1342.0,
+						"translation.y": 4894.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1102,15 +1104,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 42217,
+						"buffer_size": 39962,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11806,
-								11806
+								2927,
+								2927
 							]
 						],
 						"settings":
@@ -1258,7 +1260,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5350.0,
+						"translation.y": 361.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1268,15 +1270,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 18644,
+						"buffer_size": 16469,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11845,
-								11845
+								2930,
+								2930
 							]
 						],
 						"settings":
@@ -1424,7 +1426,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3478.0,
+						"translation.y": 865.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1929,15 +1931,15 @@
 					"file": "sass/owl.theme.scss",
 					"settings":
 					{
-						"buffer_size": 1346,
+						"buffer_size": 1373,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								854,
-								854
+								932,
+								932
 							]
 						],
 						"settings":
@@ -2084,7 +2086,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
+						"translation.y": 1200.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
