@@ -31,7 +31,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 22742,
+				"buffer_size": 22666,
 				"line_ending": "Windows"
 			}
 		},
@@ -244,6 +244,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$gray-light",
 			"section-page",
 			"icon-",
 			"img",
@@ -370,8 +371,7 @@
 			";\n",
 			"border-radius",
 			".logo",
-			"tooltip",
-			"tip"
+			"tooltip"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -379,6 +379,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$white",
 			"fill=\"#b01817\"",
 			"hero",
 			"h3",
@@ -433,7 +434,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -607,15 +608,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 22742,
+						"buffer_size": 22666,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7298,
-								7298
+								15184,
+								15184
 							]
 						],
 						"settings":
@@ -762,7 +763,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5181.0,
+						"translation.y": 18962.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -928,7 +929,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3593.0,
+						"translation.y": 3418.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1260,7 +1261,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 361.0,
+						"translation.y": 3736.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
