@@ -93,55 +93,12 @@
     <div class="content-main" role="main">
     <div class="section-page">
     <section class="container"><!-- begin page content container -->
-        <div class="eight columns module"><!-- begin contact content -->
-            <h3>E-Mail Me</h3>
-            <form  name="contactUs" id="contactUs" method="post" action="email.php" role="form">
-                <div>
-                    <label for="name" class="label1">Name:</label>
-                    <br>
-                    <input name="name" type="text" class="required" id="name" placeholder="Name">
-                </div>
-                <div>
-                    <label for="email" class="label1">Email:</label>
-                    <br>
-                    <input name="email" type="text" class="required email" id="email" placeholder="Email">
-                </div>
-                <div>
-                    <label for="refer" class="label2">How did you find me? </label>
-                    <br>
-                    <select name="refer" id="refer">
-                      <option value="">Select One</option>
-                      <option value="Google">Google</option>
-                      <option value="StumpleUpon">StumbleUpon</option>
-                      <option value="Facebook">Facebook</option>
-                      <option value="Twitter">Twitter</option>
-                      <option value="LinkedIn">LinkedIn</option>
-                      <option value="Other">Other</option>
-                    </select>
-                </div>
-                <div id="referOtherOpt">
-                    <label for="referOther" class="label2">Other: </label>
-                    <br>
-                    <input name="referOther" type="text" id="referOther">
-                </div>
-                <div>
-                    <label for="comments" class="label2">What are your questions or comments? </label>
-                    <br>
-                    <textarea name="comments" rows="6" class="required" id="comments" placeholder="Tell me about your project"></textarea>
-                </div>
-                <div>
-                    <input type="submit" name="submit" id="submit" class="button submitReset" value="Submit" />
-                    <input  type="reset" name="reset" id="reset" class="button submitReset" value="Reset">
-                </div>
-            </form>
-        
-            <div id="success"></div>
-        </div><!-- end contact content left -->
-
         <div class="eight columns module"><!-- begin contact content right -->
             <div>
                 <h3>Contacting Me</h3>
                 <p>If you would like to hire me for a graphic design or web development project, please provide some information about the job in the contact form.</p>
+
+                <h3>Following Me </h3>
                 <p>You can also check me out in other places by clicking one of the links below.</p>
                 <div class="icon-group">
                     <a href="http://etch83.deviantart.com/gallery" class="icon-social" target="_blank">
@@ -162,6 +119,64 @@
                 </div>
             </div>
         </div><!-- end contact content right -->
+
+        <div class="eight columns module"><!-- begin contact content -->
+            <h3>E-Mail Me</h3>
+            <form  name="contactUs" id="contactUs" method="post" action="email.php" role="form">
+                <div>
+                    <label for="name" class="label1">Name:</label>
+                    <input name="name" type="text" class="required" id="name" placeholder="Name">
+                </div>
+
+                <div>
+                    <label for="email" class="label1">Email:</label>
+                    <input name="email" type="text" class="required email" id="email" placeholder="Email">
+                </div>
+
+                <div>
+                    <label for ="jobtype" class="label2">What type of work do you need?</label>
+                    <select name="jobtype" id="jobtype">
+                        <option value="">Select One</option>
+                        <option value="Web Design">Web Design</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Web Marketing">Web Marketing</option>
+                        <option value="Web Consulting">Web Consulting</option>
+                        <option value="Logo Design">Logo Design</option>
+                        <option value="Business Branding">Business Branding</option>
+                        <option value="Print Marketing">Print Marketing</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="refer" class="label2">How did you find me? </label>
+                    <select name="refer" id="refer">
+                        <option value="">Select One</option>
+                        <option value="Google">Google</option>
+                        <option value="StumpleUpon">StumbleUpon</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="LinkedIn">LinkedIn</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div id="referOtherOpt">
+                    <label for="referOther" class="label2">Other: </label>
+                    <input name="referOther" type="text" id="referOther">
+                </div>
+
+                <div>
+                    <label for="comments" class="label2">Briefly describe your project:</label>
+                    <textarea name="comments" rows="6" class="required" id="comments" placeholder="Tell me about your project"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" name="submit" id="submit" class="button button-submit" value="Submit" />
+                </div>
+            </form>
+        
+            <div id="success"></div>
+        </div><!-- end contact content left -->
     </section><!-- end contact content container -->
     </div>
     </div><!-- end content-main -->

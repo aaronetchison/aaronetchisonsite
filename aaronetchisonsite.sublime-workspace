@@ -31,7 +31,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 22666,
+				"buffer_size": 22939,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 23861,
+				"buffer_size": 23689,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 39962,
+				"buffer_size": 54217,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +63,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 16469,
+				"buffer_size": 17128,
 				"line_ending": "Windows"
 			}
 		},
@@ -237,6 +237,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -244,6 +245,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gallery-content",
+			"<div class=\"gallery-copy\">",
+			"</a> <div class=\"gallery-copy\">",
+			"</a><div class=\"gallery-copy\">",
+			".submitReset",
 			"$gray-light",
 			"section-page",
 			"icon-",
@@ -366,12 +372,7 @@
 			"#CCCCCC",
 			"'",
 			"home-graphic",
-			"homeGraphic",
-			"icon-social\n",
-			";\n",
-			"border-radius",
-			".logo",
-			"tooltip"
+			"homeGraphic"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -379,6 +380,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"services-img",
+			"services-img\n                    <a class=\"icon-pinterest\" href=\"https://www.pinterest.com/pin/create/button/\" class=\"icon-pinterest\" data-pin-do=\"buttonPin\" data-pin-media=\"http://www.aaronetchison.com/images/previews/gcl.jpg\" data-pin-description=\"Griffey's Custom Leather and Upholstery web site designed and built by Aaron Etchison\" data-pin-round=\"true\" data-pin-tall=\"32px\">\n                        <img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png\" />\n                    </a>                    \n    \n                    <div class=\"gallery-copy\">",
+			"\n                    <a class=\"icon-pinterest\" href=\"https://www.pinterest.com/pin/create/button/\" class=\"icon-pinterest\" data-pin-do=\"buttonPin\" data-pin-media=\"http://www.aaronetchison.com/images/previews/gcl.jpg\" data-pin-description=\"Griffey's Custom Leather and Upholstery web site designed and built by Aaron Etchison\" data-pin-round=\"true\" data-pin-tall=\"32px\">\n                        <img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png\" />\n                    </a>                    \n    \n                    <div class=\"gallery-copy\">",
 			"$white",
 			"fill=\"#b01817\"",
 			"hero",
@@ -608,15 +612,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 22666,
+						"buffer_size": 22939,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15184,
-								15184
+								22874,
+								22863
 							]
 						],
 						"settings":
@@ -763,7 +767,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 18962.0,
+						"translation.y": 33650.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -780,8 +784,8 @@
 						"selection":
 						[
 							[
-								10630,
-								10630
+								14846,
+								14846
 							]
 						],
 						"settings":
@@ -929,7 +933,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3418.0,
+						"translation.y": 5347.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -939,15 +943,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 23861,
+						"buffer_size": 23689,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2941,
-								2941
+								15026,
+								15026
 							]
 						],
 						"settings":
@@ -1095,7 +1099,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4894.0,
+						"translation.y": 4299.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1105,15 +1109,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 39962,
+						"buffer_size": 54217,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2927,
-								2927
+								16805,
+								16805
 							]
 						],
 						"settings":
@@ -1261,7 +1265,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3736.0,
+						"translation.y": 600.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1271,15 +1275,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 16469,
+						"buffer_size": 17128,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2930,
-								2930
+								16948,
+								16948
 							]
 						],
 						"settings":
@@ -1427,7 +1431,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 865.0,
+						"translation.y": 6472.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -2128,7 +2132,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 64.0
+		"height": 105.0
 	},
 	"save_all_on_build": true,
 	"select_file":

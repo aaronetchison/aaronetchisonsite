@@ -232,7 +232,7 @@ footer {
 
 .module {
 	margin-bottom: 10px;
-	padding: 15px;
+	padding: 12px;
 	border-radius: 10px 30px 10px 30px;	
 	transition: all 0.3s ease;
 	animation: bounce-in .3s ease-in;
@@ -796,6 +796,27 @@ p a:hover, p a:active {
 
 
 
+/* Services */
+.services-examples {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.services-img {
+	max-width: 44%;
+}
+.services-img img {
+	border-radius: 10px 30px 10px 30px;
+}
+
+
+
+
+
+
+
 
 /* Portfolio */
 
@@ -857,11 +878,14 @@ p a:hover, p a:active {
 	border: none;
 }
 
-.pinterest-button {
-	position: absolute !important;
-	bottom: 77px;
-	right: 20px;
-	margin: 0;
+.gallery-image {
+	position: relative;
+}
+
+.gallery-content span {
+	position: absolute;
+	top: 6px;
+	right: 6px;
 }
 
 .byline {
@@ -877,15 +901,16 @@ p a:hover, p a:active {
 
 
 
-/* Services */
-
-
 
 
 
 
 
 /* Forms */
+
+label {
+	display: block;
+}
 
 .label1 {
 	font-family: Orbitron, Verdana, sans-serif;
@@ -923,12 +948,10 @@ input:focus, textarea:focus, select:focus {
 	outline: 0;
 }
 
-.submitReset {
+.button-submit {
+	text-align: center;
 	font-size: 1em;
-	width: 112px;
-	height: 32px;
-	margin-right: 10px;
-	padding: 6px;
+	width: 100%;
 }
 
 .inputFocus {
@@ -1344,7 +1367,11 @@ body .ui-tooltip { border-width: 2px; }
 
 	.gallery-content.module {
 		min-height: 520px;
-}
+	}
+
+	.services-img {
+		width: 40%;
+	}
 
 
 	.vrFade {
