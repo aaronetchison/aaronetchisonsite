@@ -31,7 +31,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 22939,
+				"buffer_size": 23417,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,7 +39,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 15023,
+				"buffer_size": 15599,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 23689,
+				"buffer_size": 23415,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 54217,
+				"buffer_size": 54475,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +63,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 17128,
+				"buffer_size": 17219,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,7 +95,7 @@
 			"file": "sass/owl.theme.scss",
 			"settings":
 			{
-				"buffer_size": 1373,
+				"buffer_size": 1332,
 				"line_ending": "Windows"
 			}
 		}
@@ -245,6 +245,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hero",
+			"section-heading",
+			"eight columns",
+			"eight",
+			"sixteen",
+			"section-page",
+			"owl",
+			"gallery1",
+			"section-heading",
+			"module module",
+			"services-img",
+			"services",
+			"module",
+			"services",
 			"gallery-content",
 			"<div class=\"gallery-copy\">",
 			"</a> <div class=\"gallery-copy\">",
@@ -358,21 +372,7 @@
 			"#666666",
 			"#161616",
 			"#262626",
-			"url(\"../images/dark_mosaic.png\")",
-			"div class=\"gallery-content module\"",
-			"data-pin-color=\"red\"",
-			"en_rect_red",
-			"portfolioH",
-			"galleryContent",
-			"home-graphic",
-			"z-index",
-			"home-graphic",
-			"bg",
-			"home-graphic",
-			"#CCCCCC",
-			"'",
-			"home-graphic",
-			"homeGraphic"
+			"url(\"../images/dark_mosaic.png\")"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -380,6 +380,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"module",
+			"services-img module",
 			"services-img",
 			"services-img\n                    <a class=\"icon-pinterest\" href=\"https://www.pinterest.com/pin/create/button/\" class=\"icon-pinterest\" data-pin-do=\"buttonPin\" data-pin-media=\"http://www.aaronetchison.com/images/previews/gcl.jpg\" data-pin-description=\"Griffey's Custom Leather and Upholstery web site designed and built by Aaron Etchison\" data-pin-round=\"true\" data-pin-tall=\"32px\">\n                        <img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png\" />\n                    </a>                    \n    \n                    <div class=\"gallery-copy\">",
 			"\n                    <a class=\"icon-pinterest\" href=\"https://www.pinterest.com/pin/create/button/\" class=\"icon-pinterest\" data-pin-do=\"buttonPin\" data-pin-media=\"http://www.aaronetchison.com/images/previews/gcl.jpg\" data-pin-description=\"Griffey's Custom Leather and Upholstery web site designed and built by Aaron Etchison\" data-pin-round=\"true\" data-pin-tall=\"32px\">\n                        <img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png\" />\n                    </a>                    \n    \n                    <div class=\"gallery-copy\">",
@@ -612,15 +614,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 22939,
+						"buffer_size": 23417,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22874,
-								22863
+								15795,
+								15795
 							]
 						],
 						"settings":
@@ -767,7 +769,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 33650.0,
+						"translation.y": 20151.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -777,15 +779,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 15023,
+						"buffer_size": 15599,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14846,
-								14846
+								10756,
+								10756
 							]
 						],
 						"settings":
@@ -933,7 +935,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5347.0,
+						"translation.y": 3497.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -943,15 +945,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 23689,
+						"buffer_size": 23415,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15026,
-								15026
+								15901,
+								15901
 							]
 						],
 						"settings":
@@ -1099,7 +1101,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4299.0,
+						"translation.y": 5564.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1109,15 +1111,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 54217,
+						"buffer_size": 54475,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16805,
-								16805
+								29929,
+								29929
 							]
 						],
 						"settings":
@@ -1265,7 +1267,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 600.0,
+						"translation.y": 11468.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1275,15 +1277,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 17128,
+						"buffer_size": 17219,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16948,
-								16948
+								10254,
+								10254
 							]
 						],
 						"settings":
@@ -1431,7 +1433,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6472.0,
+						"translation.y": 3272.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1448,8 +1450,8 @@
 						"selection":
 						[
 							[
-								518,
-								518
+								686,
+								656
 							]
 						],
 						"settings":
@@ -1597,7 +1599,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1890.0,
+						"translation.y": 375.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1936,15 +1938,15 @@
 					"file": "sass/owl.theme.scss",
 					"settings":
 					{
-						"buffer_size": 1373,
+						"buffer_size": 1332,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								932,
-								932
+								891,
+								891
 							]
 						],
 						"settings":
@@ -2091,7 +2093,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1200.0,
+						"translation.y": 675.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
