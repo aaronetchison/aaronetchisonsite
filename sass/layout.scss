@@ -21,12 +21,14 @@ Forms
 Media Queries
 */
 
-$white: #CCCCCC;
+$white: #FFFFFF;
+$white-trans-light: rgba(255,255,255,0.5);
 $gray-light: #999999;
-$gray-medium: #262626;
+$gray-medium: #555555;
 $gray-dark: #161616;
 $black: #000000;
-$black-trans: rgba(0,0,0,0.5);
+$black-trans-light: rgba(0,0,0,0.1);
+$black-trans-dark: rgba(0,0,0,0.3);
 $red: #B01817;
 $red-dark: #410002;
 $red-trans: rgba(68,0,2,0.5);
@@ -154,8 +156,7 @@ html, body, .container-main {
 }
 
 body {
-	background-color: $black;
-
+	background-color: $white;
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -182,9 +183,8 @@ body::before {
 .content-main {
 	width: 100%;
 	height: 100%;
-	margin-top: 48px;
-	padding-top: 60px;
-	padding-bottom: 660px;
+	margin-top: 128px;
+	padding-bottom: 664px;
 }
 
 footer {
@@ -196,7 +196,7 @@ footer {
 	margin-top: -600px;
 	padding: 120px 12px;
 	background-color: $black;
-	background-color: rgba(0,0,0,0.3);
+	background-color: $black-trans-light;
 
 	img + p {
 		text-align: left;
@@ -220,10 +220,10 @@ footer {
 .section-page {
 	position: relative;
 	width: 100%;
-	margin: 0 0 120px 0;
-	padding: 60px 0;
-	background-color: $black;
-	background-color: rgba(0,0,0,0.3);
+	margin: 64px 0 128px 0;
+	padding: 64px 0;
+	background-color: $gray-light;
+	background-color: $black-trans-light;
 	//transform: skewY(-25deg);
 
 	//.section-content {
@@ -237,6 +237,7 @@ footer {
 	border-radius: 10px 30px 10px 30px;	
 	transition: all 0.3s ease;
 	animation: bounce-in .3s ease-in;
+	background-color: $black-trans-light;
 }
 
 @keyframes bounce-in {
@@ -252,7 +253,7 @@ footer {
 }
 
 .module:hover, .module:active {
-	background-color: $red-trans;
+	background-color: $black-trans-dark;
 	transition: all 0.3s ease;
 }
 
@@ -333,7 +334,7 @@ header {
 	padding: 0;
 	border: 0;
 	background-color: #000000;
-	background-color: rgba(0,0,0,0.5);
+	background-color: $black-trans-light;
 
 	z-index: 9;
 	-webkit-transform: translateZ(0);
@@ -402,13 +403,13 @@ header nav li, header nav li:visited {
 	font-weight: 900;
 	list-style: none;
 	color: $red;
-	text-shadow: 3px 3px 5px $black;
+	text-shadow: 1px 1px 2px $black;
 	border-style: none;
 	transition: background-color 0.3s linear 0s;
 }
 
 header nav li:hover, header nav li:active {
-	background-color: rgba(68,0,2,0.8);
+	background-color: $black-trans-dark;
 	text-decoration: none;
 	color: $white;
 	border-style: none;
@@ -428,7 +429,7 @@ header nav li a:hover, header nav li a:active {
 
 
 header nav li.current-page {
-	background-color: rgba(68,0,2,0.8);
+	background-color: $black-trans-dark;
 
 	a {
 		color: $white;
@@ -452,7 +453,7 @@ h1 {
 	color: $red;
 	padding: 0;
 	margin: 0;
-	text-shadow: 3px 3px 5px $black;
+	text-shadow: 1px 1px 2px $black;
 }
 
 h2 {
@@ -463,7 +464,7 @@ h2 {
 	color: $red;
 	padding: 0;
 	margin: 0 0 5px 0;
-	text-shadow: 3px 3px 5px $black;
+	text-shadow: 1px 1px 2px $black;
 }
 
 h3 {
@@ -474,7 +475,6 @@ h3 {
 	color: $red;
 	padding: 0;
 	margin: 0 0 5px 0;
-	text-shadow: 3px 3px 5px $black;
 }
 
 img + h3 {
@@ -510,7 +510,7 @@ h6 {
 } 
 
 .section-heading {
-	margin: 0 0 20px 1.04166666666667%;
+	margin: 0 0 20px 0;
 	font-size: 4em;
 }
 
@@ -518,7 +518,7 @@ p {
 	font-family: Questrial, Helvetica, sans-serif;
 	font-size: 1.125em;
 	line-height: 1.4em;
-	color: $white;
+	color: $black;
 	padding: 0;
 	margin: 0 0 10px 0;
 }
@@ -536,9 +536,9 @@ p {
 }
 
 .byline {
-	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
 	font-size: .8em;
-	color: $white;
+	color: $gray-medium;
 	padding: 0px;
 	margin: 0 20px 10px 0;
 }
@@ -589,7 +589,7 @@ a:hover, a:active, a:focus {
 	text-decoration: none;
 	text-align: center;
 	background-color: $gray-dark;
-	background-color: rgba(0,0,0,0.2);
+	background-color: $black-trans-light;
 	cursor: pointer;
 	border: 1px solid $black;
 	border-radius: 5px 10px 5px 10px;
@@ -602,7 +602,7 @@ a:hover, a:active, a:focus {
 	font-weight: bold;
 	color: $white;
 	background-color: $gray-medium;
-	background-color: rgba(68,0,2,0.3);
+	background-color: $black-trans-dark;
 	border: 1px solid $red;
 	box-shadow: 0 0 5px $black;
 }
@@ -707,7 +707,7 @@ p a:hover, p a:active {
 	padding: 0;
 	fill: $red;
   background-size: 64px 64px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: $black-trans-light;
   border: 1px solid $gray-dark;
   transition: all 0.3s linear 0s;
 	border-radius: 10px 20px 10px 20px;
@@ -715,7 +715,7 @@ p a:hover, p a:active {
 }
 
 .icon-social:hover, .icon-social:active {
-	background-color: rgba(68,0,2,0.5);
+	background-color: $black-trans-dark;
 	border: 1px solid $red;
 	transform: scale(1.02);
 }
@@ -746,14 +746,43 @@ p a:hover, p a:active {
 	height: 200px;
 	margin: 0 auto;
 	padding: 50px 0;
-	background-color: rgba(0,0,0,0.5);
+	background-color: $black-trans-dark;
 	border: 1px solid $gray-dark;
 	border-radius: 50%;
 }
 
+.home-services-rowa {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 120px;
+
+	img {
+		float: right;
+		width: 50%;
+		padding: 0 10%;
+	}
+}
+
+.home-services-rowb {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	
+	img {
+		float: left;
+		width: 50%;
+		padding: 0 10%;
+	}
+}
+
 .hero {
-	padding-top: 240px;
-	padding-bottom: 120px;
+	padding-top: 180px;
+	padding-bottom: 60px;
 
 	img {
 		display: block;
@@ -774,7 +803,6 @@ p a:hover, p a:active {
 
 	p {
 		font-size: 2em;
-		color: $white;
 		text-align: center;
 	}
 
@@ -803,6 +831,7 @@ p a:hover, p a:active {
 		position: absolute;
 		display: block;
 		top:-48px;
+		left: -9999px;
 		left: calc(50% - 32px);
 		width: 64px;
 		height: auto;
@@ -819,6 +848,7 @@ p a:hover, p a:active {
 .services-img {
 	max-width: 44%;
 }
+
 .services-img img {
 	border-radius: 10px 30px 10px 30px;
 }
@@ -830,13 +860,22 @@ p a:hover, p a:active {
 	justify-content: center;
 	margin: 0 auto;
 
+	.services-icon {
+		flex-grow: 1;
+		margin-right: 6px;
+		margin-left: 6px;
+		text-align: center;
+	}
+
 	img {
-		height: 72px;
-		margin-right: 12px;
-		margin-bottom: 60px;
-		padding: 12px;
+		height: 80px;
+		padding: 16px;
 		background: url("../images/icons/icon-hex.svg") no-repeat center;
-		background-size: cover;
+		background-size: contain;
+	}
+
+	p {
+		font-size: 1.125em;
 	}
 }
 
@@ -914,12 +953,6 @@ p a:hover, p a:active {
 	position: absolute;
 	top: 6px;
 	right: 6px;
-}
-
-.byline {
-	font-size: 0.9em;
-	font-style: italic;
-	color: $gray-light;
 }
 
 #noMarginBot {
@@ -1082,7 +1115,6 @@ body .ui-tooltip { border-width: 2px; }
 @media all and (min-width: 480px) and (max-width: 767px) {
 
 	body::before {
-		top: 48px;
 		background: url("../images/bg_3dhex.jpg") no-repeat center 0 fixed ;
 		background-size: cover;
 	}
@@ -1192,7 +1224,7 @@ body .ui-tooltip { border-width: 2px; }
 		padding: 8px 0;
 		text-align: center;
 		background-color: $black;
-		background: rgba(0,0,0,0.8);
+		background: $black-trans-light;
 		border: none;
 		border-radius: 0 0 10px 20px;
 		line-height: 32px;
@@ -1233,16 +1265,32 @@ body .ui-tooltip { border-width: 2px; }
 
 	.section-heading {
 		font-size: 2em;
-		padding-left: 12px;
 	}
 	.vrFade {
 		border: none;
 	}
+
+	.home-services-rowa {
+		margin-bottom: 16px;
+
+		img {
+			float: none;
+			clear: all;
+		}
+	}
+
+	.home-services-rowb {
+
+		img {
+			float: none;
+			clear: all;
+		}
+	}
+
 }
 @media all and (min-width: 0px) and (max-width: 479px) {
 	
 	body::before {
-		top: 48px;
     background: url("../images/bg_3dhex.jpg") no-repeat center 0 fixed ;
   	background-size: cover;
 	}
@@ -1351,7 +1399,7 @@ body .ui-tooltip { border-width: 2px; }
 		padding: 8px 0;
 		text-align: center;
 		background-color: $black;
-		background: rgba(0,0,0,0.8);
+		background: $black-trans-light;
 		border: none;
 		border-radius: 0 0 10px 20px;
 		line-height: 1.25;
@@ -1389,7 +1437,6 @@ body .ui-tooltip { border-width: 2px; }
 
 	.section-heading {
 		margin-bottom: 10px;
-		text-align: center;
 		font-size: 1.6em;
 	}
 
@@ -1408,6 +1455,23 @@ body .ui-tooltip { border-width: 2px; }
 
 	p {
 		font-size: 1em;
+	}
+
+	.home-services-rowa {
+		margin-bottom: 16px;
+
+		img {
+			float: none;
+			clear: all;
+		}
+	}
+
+	.home-services-rowb {
+
+		img {
+			float: none;
+			clear: all;
+		}
 	}
 
 }

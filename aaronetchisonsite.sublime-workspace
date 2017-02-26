@@ -31,7 +31,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 23417,
+				"buffer_size": 24171,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,7 +39,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 15599,
+				"buffer_size": 16823,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 23415,
+				"buffer_size": 25201,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 54475,
+				"buffer_size": 54201,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +63,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 17219,
+				"buffer_size": 17114,
 				"line_ending": "Windows"
 			}
 		},
@@ -79,7 +79,7 @@
 			"file": "sass/jquery.lightbox-0.5.scss",
 			"settings":
 			{
-				"buffer_size": 2586,
+				"buffer_size": 2605,
 				"line_ending": "Windows"
 			}
 		},
@@ -245,6 +245,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h2",
+			"header",
+			"byline",
+			"text-shadow",
+			"hero",
+			"services-icon-set",
+			"logo",
+			"module",
+			"gallery-content",
+			"section-page",
+			"module",
+			"$black-trans",
+			"rgba(0,0,0,0.5)",
+			"rgba(0,0,0,0.2)",
+			"$red-trans",
+			"module",
+			"p {",
 			"hero",
 			"section-heading",
 			"eight columns",
@@ -355,24 +372,7 @@
 			"footer",
 			"gallery-heading",
 			"services-heading",
-			"gallery-heading",
-			"h4",
-			"h2",
-			"nav-menu",
-			"transform",
-			"0",
-			"68",
-			"#0e0e0e",
-			"hrFade",
-			"hrF",
-			"#000000",
-			"#B01817",
-			"#CCCCCC",
-			"#262626",
-			"#666666",
-			"#161616",
-			"#262626",
-			"url(\"../images/dark_mosaic.png\")"
+			"gallery-heading"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -380,6 +380,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$black-trans-dark",
+			"$black-trans-light",
 			"module",
 			"services-img module",
 			"services-img",
@@ -614,15 +616,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 23417,
+						"buffer_size": 24171,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15795,
-								15795
+								7294,
+								7294
 							]
 						],
 						"settings":
@@ -769,7 +771,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 20151.0,
+						"translation.y": 5130.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -779,15 +781,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 15599,
+						"buffer_size": 16823,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10756,
-								10756
+								12283,
+								12283
 							]
 						],
 						"settings":
@@ -935,7 +937,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3497.0,
+						"translation.y": 3335.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -945,15 +947,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 23415,
+						"buffer_size": 25201,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15901,
-								15901
+								10163,
+								10163
 							]
 						],
 						"settings":
@@ -1101,7 +1103,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5564.0,
+						"translation.y": 3126.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1111,15 +1113,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 54475,
+						"buffer_size": 54201,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29929,
-								29929
+								31188,
+								31188
 							]
 						],
 						"settings":
@@ -1267,7 +1269,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 11468.0,
+						"translation.y": 3243.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1277,15 +1279,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 17219,
+						"buffer_size": 17114,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10254,
-								10254
+								10163,
+								10163
 							]
 						],
 						"settings":
@@ -1433,7 +1435,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3272.0,
+						"translation.y": 3322.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1609,15 +1611,15 @@
 					"file": "sass/jquery.lightbox-0.5.scss",
 					"settings":
 					{
-						"buffer_size": 2586,
+						"buffer_size": 2605,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2565,
-								2565
+								829,
+								829
 							]
 						],
 						"settings":
@@ -1764,7 +1766,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2325.0,
+						"translation.y": 1050.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

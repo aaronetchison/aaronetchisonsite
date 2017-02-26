@@ -4,7 +4,6 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
 <g>
-	<rect y="9" width="63" height="47"/>
 	<path fill="#B01817" d="M63,9v46H1V9H63 M64,8H0v48h64V8L64,8z"/>
 </g>
 <line fill="none" stroke="#B01817" stroke-miterlimit="10" x1="0" y1="16.5" x2="64" y2="16.5"/>
@@ -12,7 +11,7 @@
 <circle fill="none" stroke="#B01817" stroke-miterlimit="10" cx="8.5" cy="12.5" r="0.5"/>
 <circle fill="none" stroke="#B01817" stroke-miterlimit="10" cx="12.5" cy="12.5" r="0.5"/>
 <g>
-	<path stroke="#B01817" stroke-miterlimit="10" d="M47.33,43.55c0.37,0.37,0.22,0.86-0.17,1.25l-6.36,6.36
+	<path fill="none" stroke="#B01817" stroke-miterlimit="10" d="M47.33,43.55c0.37,0.37,0.22,0.86-0.17,1.25l-6.36,6.36
 		c-0.39,0.39-0.88,0.54-1.25,0.17L16.72,28.5c-0.37-0.37-0.36-0.99,0.04-1.38l6.36-6.36c0.39-0.39,1.01-0.41,1.38-0.04L47.33,43.55z
 		"/>
 	<line fill="none" stroke="#B01817" stroke-miterlimit="10" x1="17.11" y1="29.6" x2="19.23" y2="27.48"/>
@@ -32,8 +31,6 @@
 	<line fill="none" stroke="#B01817" stroke-miterlimit="10" x1="36.91" y1="49.4" x2="39.03" y2="47.27"/>
 	<line fill="none" stroke="#B01817" stroke-miterlimit="10" x1="38.33" y1="50.81" x2="41.15" y2="47.98"/>
 </g>
-<path d="M30.41,41.8c-0.32,0.32-0.96,0.21-1.42-0.26l-2.52-2.52c-0.46-0.46-0.58-1.1-0.26-1.42l7.55-7.56
-	c0.32-0.32,0.96-0.21,1.42,0.26l2.52,2.52c0.46,0.46,0.58,1.1,0.26,1.42L30.41,41.8z"/>
 <g>
 	
 		<line fill="none" stroke="#B01817" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="39.04" y1="24.68" x2="22.78" y2="40.94"/>

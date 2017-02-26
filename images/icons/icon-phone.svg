@@ -5,10 +5,8 @@
 	 width="36px" height="36px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
 <g>
 	<g>
-		<rect x="7" y="1" width="22" height="35"/>
 		<path fill="#B01817" d="M29,1v34H8V1H29 M30,0H7v36h23V0L30,0z"/>
 	</g>
-	<rect x="8" y="4" width="21" height="29"/>
 	
 		<line fill="none" stroke="#B01817" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="20" y1="2.5" x2="17" y2="2.5"/>
 	<ellipse fill="#B01817" cx="18.45" cy="33.82" rx="0.86" ry="0.82"/>

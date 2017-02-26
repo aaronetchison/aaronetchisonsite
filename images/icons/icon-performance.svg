@@ -5,7 +5,6 @@
 	 height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
 <g id="Layer_1">
 	<g>
-		<rect y="9" width="63" height="47"/>
 		<path fill="#B01817" d="M63,9v46H1V9H63 M64,8H0v48h64V8L64,8z"/>
 	</g>
 	<line fill="none" stroke="#B01817" stroke-miterlimit="10" x1="0" y1="16.5" x2="64" y2="16.5"/>
@@ -14,7 +13,7 @@
 	<circle fill="none" stroke="#B01817" stroke-miterlimit="10" cx="12.5" cy="12.5" r="0.5"/>
 </g>
 <g id="Layer_2">
-	<circle stroke="#B01817" stroke-miterlimit="10" cx="32" cy="36" r="15"/>
+	<circle fill="none" stroke="#B01817" stroke-miterlimit="10" cx="32" cy="36" r="15"/>
 	<g>
 		<path fill="#B01817" d="M45.87,40.76l-3.83-1.23l0.16-0.51l3.83,1.23L45.87,40.76z"/>
 		<path fill="#B01817" d="M46.32,39.17l-2.63-0.54l0.07-0.35l2.63,0.54L46.32,39.17z"/>
