@@ -12,13 +12,13 @@
 <g id="Layer_1">
 	<g>
 		<g>
-			<rect x="34" y="65" width="121" height="75"/>
+			<rect x="34" y="65" fill="#FFFFFF" width="121" height="75"/>
 			<path fill="#B01817" d="M153,67v71H36V67H153 M157,63H32v79h125V63L157,63z"/>
 		</g>
 	</g>
 	<g>
 		<g>
-			<rect x="118" y="127" width="73" height="45"/>
+			<rect x="118" y="127" fill="#FFFFFF" width="73" height="45"/>
 			<path fill="#B01817" d="M189,129v41h-69v-41H189 M193,125h-77v49h77V125L193,125z"/>
 		</g>
 	</g>
@@ -3226,7 +3226,7 @@
 	</g>
 	<g>
 		<g>
-			<rect x="22" y="124" width="22" height="36"/>
+			<rect x="22" y="124" fill="#FFFFFF" width="22" height="36"/>
 			<path fill="#B01817" d="M43,125v34H23v-34H43 M45,123H21v38h24V123L45,123z"/>
 		</g>
 		<g>
@@ -4739,7 +4739,7 @@
 				C37.37,141.98,37.37,141.98,37.36,141.98z"/>
 		</g>
 		<g>
-			<rect x="15" y="147" width="12" height="20"/>
+			<rect x="15" y="147" fill="#FFFFFF" width="12" height="20"/>
 			<path fill="#B01817" d="M26,148v18H16v-18H26 M28,146H14v22h14V146L28,146z"/>
 		</g>
 		<g>

@@ -22,7 +22,7 @@ Media Queries
 */
 
 $white: #FFFFFF;
-$white-trans-light: rgba(255,255,255,0.5);
+$white-trans-light: rgba(255,255,255,0.3);
 $gray-light: #999999;
 $gray-medium: #555555;
 $gray-dark: #161616;
@@ -195,8 +195,8 @@ footer {
 	height: 600px;
 	margin-top: -600px;
 	padding: 120px 12px;
-	background-color: $black;
-	background-color: $black-trans-light;
+	background-color: $white;
+	background-color: $white-trans-light;
 
 	img + p {
 		text-align: left;
@@ -222,8 +222,8 @@ footer {
 	width: 100%;
 	margin: 64px 0 128px 0;
 	padding: 64px 0;
-	background-color: $gray-light;
-	background-color: $black-trans-light;
+	background-color: $white;
+	background-color: $white-trans-light;
 	//transform: skewY(-25deg);
 
 	//.section-content {
@@ -253,7 +253,7 @@ footer {
 }
 
 .module:hover, .module:active {
-	background-color: $black-trans-dark;
+	background-color: $white-trans-light;
 	transition: all 0.3s ease;
 }
 
@@ -290,7 +290,7 @@ hr {
 	max-width: 960px;
 	height: 3px;
 	margin: 20px auto 20px auto;
-	border-top: 1px solid $black;
+	border-bottom: 1px solid $white;
 	background: linear-gradient(to right,  rgba(68,0,2,0) 0%,rgba(68,0,2,0.3) 50%,rgba(68,0,2,0) 100%);
 }
 
@@ -334,7 +334,7 @@ header {
 	padding: 0;
 	border: 0;
 	background-color: #000000;
-	background-color: $black-trans-light;
+	background-color: $white-trans-light;
 
 	z-index: 9;
 	-webkit-transform: translateZ(0);
@@ -674,9 +674,6 @@ p a:hover, p a:active {
 	width: 64px;
 	height: auto;
 	margin-right: .5em;
-	border: 1px solid $gray-dark;
-	border-radius: 10px 20px 10px 20px;
-  box-shadow: 3px 3px 5px $black;
 }
 
 .icon-group {
@@ -976,7 +973,7 @@ label {
 .label1 {
 	font-family: Orbitron, Verdana, sans-serif;
 	font-size: 1em;
-	color: $white;
+	color: $red;
 	text-align:left;
 	clear:left;
 	margin-right:10px;
@@ -986,7 +983,7 @@ label {
 .label2 {
 	font-family: Orbitron, Verdana, sans-serif;
 	font-size: 1em;
-	color: $white;
+	color: $red;
 	text-align:left;
 	clear:left;
 	margin-right:10px;

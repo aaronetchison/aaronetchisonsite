@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"white",
+				"white"
+			],
+			[
 				"black",
 				"black"
 			],
@@ -31,7 +35,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 24171,
+				"buffer_size": 24064,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,7 +43,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 16823,
+				"buffer_size": 16829,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,7 +51,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 25201,
+				"buffer_size": 25207,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +59,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 54201,
+				"buffer_size": 54207,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +67,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 17114,
+				"buffer_size": 17120,
 				"line_ending": "Windows"
 			}
 		},
@@ -245,6 +249,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"icon-avatar",
 			"h2",
 			"header",
 			"byline",
@@ -371,8 +376,7 @@
 			"main-content",
 			"footer",
 			"gallery-heading",
-			"services-heading",
-			"gallery-heading"
+			"services-heading"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -442,7 +446,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -616,15 +620,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 24171,
+						"buffer_size": 24064,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7294,
-								7294
+								13740,
+								13740
 							]
 						],
 						"settings":
@@ -771,7 +775,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5130.0,
+						"translation.y": 16476.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -781,15 +785,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 16823,
+						"buffer_size": 16829,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12283,
-								12283
+								14641,
+								14556
 							]
 						],
 						"settings":
@@ -937,7 +941,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3335.0,
+						"translation.y": 5651.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -947,15 +951,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 25201,
+						"buffer_size": 25207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10163,
-								10163
+								22994,
+								22994
 							]
 						],
 						"settings":
@@ -1103,7 +1107,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3126.0,
+						"translation.y": 8868.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1113,15 +1117,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 54201,
+						"buffer_size": 54207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31188,
-								31188
+								51982,
+								51982
 							]
 						],
 						"settings":
@@ -1269,7 +1273,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3243.0,
+						"translation.y": 20291.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1279,15 +1283,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 17114,
+						"buffer_size": 17120,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10163,
-								10163
+								14908,
+								14908
 							]
 						],
 						"settings":
@@ -1435,7 +1439,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3322.0,
+						"translation.y": 6043.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1947,8 +1951,8 @@
 						"selection":
 						[
 							[
-								891,
-								891
+								1291,
+								1291
 							]
 						],
 						"settings":
@@ -2095,7 +2099,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 675.0,
+						"translation.y": 825.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
