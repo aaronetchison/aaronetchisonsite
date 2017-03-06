@@ -35,7 +35,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 24064,
+				"buffer_size": 25050,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 16829,
+				"buffer_size": 16827,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 25207,
+				"buffer_size": 18836,
 				"line_ending": "Windows"
 			}
 		},
@@ -75,7 +75,7 @@
 			"file": "sass/skeleton.scss",
 			"settings":
 			{
-				"buffer_size": 7454,
+				"buffer_size": 7456,
 				"line_ending": "Windows"
 			}
 		},
@@ -249,6 +249,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"home-services",
+			"services-icon",
+			"hero",
+			"button",
+			"section-page",
+			"content-main",
+			"footer",
+			".one-third",
 			"icon-avatar",
 			"h2",
 			"header",
@@ -368,15 +376,7 @@
 			"button",
 			"border-radius",
 			"owl",
-			"module",
-			"module-services-carousel",
-			"z-index",
-			"header",
-			"overflow:",
-			"main-content",
-			"footer",
-			"gallery-heading",
-			"services-heading"
+			"module"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -446,7 +446,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -461,8 +461,8 @@
 						"selection":
 						[
 							[
-								79,
-								37
+								591,
+								576
 							]
 						],
 						"settings":
@@ -620,15 +620,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 24064,
+						"buffer_size": 25050,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13740,
-								13740
+								21054,
+								21054
 							]
 						],
 						"settings":
@@ -775,7 +775,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 16476.0,
+						"translation.y": 29926.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -785,15 +785,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 16829,
+						"buffer_size": 16827,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14641,
-								14556
+								12213,
+								12213
 							]
 						],
 						"settings":
@@ -941,7 +941,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5651.0,
+						"translation.y": 4901.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -951,15 +951,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 25207,
+						"buffer_size": 18836,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22994,
-								22994
+								12059,
+								12059
 							]
 						],
 						"settings":
@@ -1107,7 +1107,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8868.0,
+						"translation.y": 4176.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1273,7 +1273,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 20291.0,
+						"translation.y": 3416.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1439,7 +1439,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6043.0,
+						"translation.y": 3568.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1449,15 +1449,15 @@
 					"file": "sass/skeleton.scss",
 					"settings":
 					{
-						"buffer_size": 7454,
+						"buffer_size": 7456,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								686,
-								656
+								6598,
+								6598
 							]
 						],
 						"settings":
@@ -1605,7 +1605,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 375.0,
+						"translation.y": 3225.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
