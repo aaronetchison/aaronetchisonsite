@@ -1,9 +1,10 @@
 <?php
-  $name = $_POST['name'];
-  $email = $_POST['email'];
-	$refer = $_POST['refer'];
-	$referOther = $_POST['referOther'];
-	$comments = $_POST['comments'];
+  $name = trim(stripslashes($_POST['name']));
+  $email = trim(stripslashes($_POST['email']));
+  $jobtype = trim(stripslashes($_POST['jobtype']));
+  $refer = trim(stripslashes($_POST['refer']));
+  $referOther = trim(stripslashes($_POST['referOther']));
+  $comments = trim(stripslashes($_POST['comments']));
 
 	$to = 'etch@aaronetchison.com, ' . $email;
 	$from = 'etch@aaronetchison.com';
@@ -71,6 +72,11 @@ $message = "
 																																<td style='font-family: Verdana, Arial;font-size: 16px;color: #CCCCCC;border-collapse: collapse;'><h2 style='color: #b01817;display: block;font-family: Arial;font-size: 18px;font-weight: bold;line-height: 100%;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;'>E-mail address:</h2></td>
 																																<td style='font-family: Verdana, Arial;font-size: 16px;color: #CCCCCC;border-collapse: collapse;'><p style='color: #cccccc;display: block;font-family: Arial;font-size: 18px;line-height: 100%;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;'>".$email."</p></td>
 																																</tr>
+
+                                                                <tr>
+                                                                <td style='font-family: Verdana, Arial;font-size: 16px;color: #CCCCCC;border-collapse: collapse;'><h2 style='color: #b01817;display: block;font-family: Arial;font-size: 18px;font-weight: bold;line-height: 100%;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;'>Job type:</h2></td>
+                                                                <td style='font-family: Verdana, Arial;font-size: 16px;color: #CCCCCC;border-collapse: collapse;'><p style='color: #cccccc;display: block;font-family: Arial;font-size: 18px;line-height: 100%;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;'>".$jobtype."</p></td>
+                                                                </tr>
 
 																																<tr>
 																																<td style='font-family: Verdana, Arial;font-size: 16px;color: #CCCCCC;border-collapse: collapse;'><h2 style='color: #b01817;display: block;font-family: Arial;font-size: 18px;font-weight: bold;line-height: 100%;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;'>Referred By:</h2></td>
