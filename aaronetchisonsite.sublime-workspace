@@ -59,7 +59,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 54207,
+				"buffer_size": 62690,
 				"line_ending": "Windows"
 			}
 		},
@@ -1104,15 +1104,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 54207,
+						"buffer_size": 62690,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11682,
-								11682
+								30586,
+								30586
 							]
 						],
 						"settings":
@@ -1260,7 +1260,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 15916.0,
+						"translation.y": 11900.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
