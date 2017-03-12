@@ -172,7 +172,7 @@ body::before {
   top: 0;
   -webkit-transform: translateZ(0);
   z-index: -1;
-  background: url("../images/bg_3dhex.jpg") no-repeat center 0 fixed ;
+  background: url("../images/bg_3dhex-lg.jpg") no-repeat center 0 fixed ;
   background-size: cover;
 }
 
@@ -218,7 +218,6 @@ footer {
 }
 
 .section-page {
-	position: relative;
 	width: 100%;
 	margin: 64px 0 128px 0;
 	padding: 64px 0;
@@ -403,7 +402,7 @@ header nav li, header nav li:visited {
 	font-weight: 900;
 	list-style: none;
 	color: $red;
-	text-shadow: 1px 1px 2px $black;
+	text-shadow: .5px .5px 1px $black;
 	border-style: none;
 	transition: background-color 0.3s linear 0s;
 }
@@ -453,7 +452,7 @@ h1 {
 	color: $red;
 	padding: 0;
 	margin: 0;
-	text-shadow: 1px 1px 2px $black;
+	text-shadow: .5px .5px 1px $black;
 }
 
 h2 {
@@ -464,7 +463,7 @@ h2 {
 	color: $red;
 	padding: 0;
 	margin: 0 0 8px 0;
-	text-shadow: 1px 1px 2px $black;
+	text-shadow: .5px .5px 1px $black;
 }
 
 h3 {
@@ -498,7 +497,7 @@ h5 {
 	color: $red;
 	text-align: center;
 	margin: 0 0 10px 0;
-	text-shadow: 3px 3px 5px $black;
+	text-shadow: 1px 1px 2px $black;
 }
 
 h6 {
@@ -593,7 +592,7 @@ a:hover, a:active, a:focus {
 	cursor: pointer;
 	border: 1px solid $black;
 	border-radius: 5px 10px 5px 10px;
-	box-shadow: 3px 3px 5px $black;
+	box-shadow: 1px 1px 2px $black;
 	transition: all 0.3s linear 0s;
 }
 
@@ -604,7 +603,7 @@ a:hover, a:active, a:focus {
 	background-color: $gray-medium;
 	background-color: $black-trans-dark;
 	border: 1px solid $red;
-	box-shadow: 0 0 5px $black;
+	box-shadow: 0 0 2px $black;
 }
 
 footer a {
@@ -708,13 +707,14 @@ p a:hover, p a:active {
   border: 1px solid $gray-dark;
   transition: all 0.3s linear 0s;
 	border-radius: 10px 20px 10px 20px;
-  box-shadow: 3px 3px 5px $black;
+  box-shadow: 1px 1px 2px $black;
 }
 
 .icon-social:hover, .icon-social:active {
 	background-color: $black-trans-dark;
 	border: 1px solid $red;
-	transform: scale(1.02);
+	box-shadow: 0 0 5px;
+	transform: scale(1.05);
 }
 
 .icon-social:hover .icon-social-content, .icon-social:active .icon-social-content {
@@ -787,7 +787,7 @@ p a:hover, p a:active {
 		color: $red;
 		text-align: center;
 		margin-bottom: 10px;
-		text-shadow: 3px 3px 5px $black;
+		text-shadow: 1px 1px 2px $black;
 	}	
 
 	p {
@@ -1075,7 +1075,7 @@ input.error {
 	z-index: 9999;
 	width: 75%;
 	border: 2px solid #4F4F4F;
-	box-shadow: 3px 3px 5px $black;
+	box-shadow: 1px 1px 2px $black;
 }
 
 .ui-tooltip-content {
@@ -1113,7 +1113,7 @@ body .ui-tooltip { border-width: 2px; }
 @media all and (min-width: 480px) and (max-width: 767px) {
 
 	body::before {
-		background: url("../images/bg_3dhex.jpg") no-repeat center 0 fixed ;
+		background: url("../images/bg_3dhex-md.jpg") no-repeat center 0 fixed ;
 		background-size: cover;
 	}
 
@@ -1329,7 +1329,7 @@ body .ui-tooltip { border-width: 2px; }
 @media all and (min-width: 0px) and (max-width: 479px) {
 	
 	body::before {
-    background: url("../images/bg_3dhex.jpg") no-repeat center 0 fixed ;
+    background: url("../images/bg_3dhex-sm.jpg") no-repeat center 0 fixed ;
   	background-size: cover;
 	}
 
