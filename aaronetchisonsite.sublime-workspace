@@ -35,7 +35,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 25066,
+				"buffer_size": 25127,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 18836,
+				"buffer_size": 20034,
 				"line_ending": "Windows"
 			}
 		},
@@ -83,7 +83,7 @@
 			"file": "sass/jquery.lightbox-0.5.scss",
 			"settings":
 			{
-				"buffer_size": 2397,
+				"buffer_size": 2414,
 				"line_ending": "Windows"
 			}
 		},
@@ -241,6 +241,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"btnNext",
 			"imageBlank",
 			"lightbox-nav-btnPrev",
 			"position: relative",
@@ -367,8 +368,7 @@
 			"strong",
 			"Web",
 			"transform",
-			"footer",
-			"border-radius"
+			"footer"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -438,7 +438,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -612,15 +612,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 25066,
+						"buffer_size": 25127,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16495,
-								16513
+								7779,
+								7779
 							]
 						],
 						"settings":
@@ -767,7 +767,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 22076.0,
+						"translation.y": 5985.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -933,7 +933,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4143.0,
+						"translation.y": 468.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -943,15 +943,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 18836,
+						"buffer_size": 20034,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12059,
-								12059
+								12553,
+								12553
 							]
 						],
 						"settings":
@@ -1099,7 +1099,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2551.0,
+						"translation.y": 2335.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1606,15 +1606,15 @@
 					"file": "sass/jquery.lightbox-0.5.scss",
 					"settings":
 					{
-						"buffer_size": 2397,
+						"buffer_size": 2414,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2397,
-								2397
+								1588,
+								1588
 							]
 						],
 						"settings":
@@ -1761,7 +1761,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2301.0,
+						"translation.y": 1050.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1778,8 +1778,8 @@
 						"selection":
 						[
 							[
-								0,
-								8970
+								4420,
+								4420
 							]
 						],
 						"settings":
@@ -1924,7 +1924,7 @@
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": 0.0,
+						"translation.x": 106167.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},

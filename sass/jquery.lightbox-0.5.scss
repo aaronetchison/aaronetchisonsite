@@ -63,15 +63,19 @@
 	height: 100%;
 	zoom: 1;
 	display: block;
-	background-color: rgba(255,255,255,0.5);
+	background-color: white;
+
 }
-#lightbox-nav-btnPrev { 
-	left: 0; 
-	float: left;
+#lightbox-nav-btnPrev {
+	position: fixed;
+	top: 35%;
+	left: 16px;
 }
-#lightbox-nav-btnNext { 
-	right: 0; 
-	float: right;
+
+#lightbox-nav-btnNext {
+	position: fixed;
+	top: 35%;
+	right: 16px;
 }
 #lightbox-container-image-data-box {
 	background-color: rgba(255,255,255,0.3);
