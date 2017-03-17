@@ -43,7 +43,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 16827,
+				"buffer_size": 17214,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 20034,
+				"buffer_size": 20039,
 				"line_ending": "Windows"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 62690,
+				"buffer_size": 62711,
 				"line_ending": "Windows"
 			}
 		},
@@ -67,7 +67,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 17120,
+				"buffer_size": 17138,
 				"line_ending": "Windows"
 			}
 		},
@@ -124,6 +124,26 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-branding.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-logo.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-logodesign.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-advertising.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-cms.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-ecommerce.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-email.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-graphicdesign.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-hex-control.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-hex.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-ind.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-marketing.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-performance.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-phone.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-security.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-seo.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-socialmedia.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-ux.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-webdesign.svg",
+		"/C/wamp/www/aaronetchisonsite/images/icons/icon-webdev.svg",
 		"/C/wamp/www/aaronetchisonsite/email.php",
 		"/C/wamp/www/aaronetchisonsite/js/jquery.lightbox-0.5.min.js",
 		"/C/wamp/www/aaronetchisonsite/sass/skeleton.scss",
@@ -153,10 +173,7 @@
 		"/C/wamp/www/aaronetchisonsite/sass/layout.scss",
 		"/C/wamp/www/aaronetchisonsite/images/icons/icon-nav.svg",
 		"/C/wamp/www/aaronetchisonsite/images/icons/icon-deviantart.svg",
-		"/C/wamp/www/aaronetchisonsite/images/icons/icon-email.svg",
 		"/C/wamp/www/aaronetchisonsite/images/icons/icon-linkedin.svg",
-		"/C/wamp/www/aaronetchisonsite/images/icons/icon-ind.svg",
-		"/C/wamp/www/aaronetchisonsite/images/icons/icon-phone.svg",
 		"/C/wamp/www/aaronetchisonsite/images/icons/icon-twitter.svg",
 		"/C/wamp/www/playground/responsivemenu/index.html",
 		"/C/wamp/www/live_backups/aaronetchisonsite_backup/contact.html",
@@ -438,7 +455,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -619,8 +636,8 @@
 						"selection":
 						[
 							[
-								7779,
-								7779
+								16200,
+								16195
 							]
 						],
 						"settings":
@@ -767,7 +784,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5985.0,
+						"translation.y": 22131.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -777,15 +794,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 16827,
+						"buffer_size": 17214,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12213,
-								12213
+								363,
+								302
 							]
 						],
 						"settings":
@@ -933,7 +950,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 468.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -943,15 +960,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 20034,
+						"buffer_size": 20039,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12553,
-								12553
+								367,
+								367
 							]
 						],
 						"settings":
@@ -1099,7 +1116,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2335.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1109,15 +1126,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 62690,
+						"buffer_size": 62711,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38719,
-								38719
+								368,
+								368
 							]
 						],
 						"settings":
@@ -1265,7 +1282,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 15197.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1275,15 +1292,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 17120,
+						"buffer_size": 17138,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14908,
-								14908
+								655,
+								655
 							]
 						],
 						"settings":
@@ -1431,7 +1448,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 622.0,
+						"translation.y": 6552.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1778,8 +1795,8 @@
 						"selection":
 						[
 							[
-								4420,
-								4420
+								8970,
+								8970
 							]
 						],
 						"settings":
@@ -1924,7 +1941,7 @@
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": 106167.0,
+						"translation.x": 115135.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
