@@ -457,7 +457,7 @@ h1 {
 
 h2 {
 	font-family: Orbitron, Verdana, sans-serif;
-	font-size: 2em;
+	font-size: 3.375em;
 	font-weight: 900;
 	line-height: 1.4;
 	color: $red;
@@ -468,7 +468,7 @@ h2 {
 
 h3 {
 	font-family: Orbitron, Verdana, sans-serif;
-	font-size: 1.25em;
+	font-size: 1.6875em;
 	font-weight: 900;
 	line-height: 1.4;
 	color: $red;
@@ -510,7 +510,7 @@ h6 {
 
 .section-heading {
 	margin: 0 0 20px 0;
-	font-size: 4em;
+	font-size: 4.5em;
 }
 
 p {
@@ -536,7 +536,7 @@ p {
 
 .byline {
 	font-style: italic;
-	font-size: .8em;
+	font-size: 0.8em;
 	color: $gray-medium;
 	padding: 0px;
 	margin: 0 20px 10px 0;
@@ -608,17 +608,14 @@ a:hover, a:active, a:focus {
 
 footer a {
 	font-family: Orbitron, sans-serif;
-	font-size: 1em;
+	font-size: 1.125em;
 	color: $red;
 	font-weight: 900;
 	text-decoration: none;
 }
 
 footer a:hover, footer a:active {
-	font-family: Orbitron, sans-serif;
-	font-size: 1em;
 	color: $white;
-	font-weight: 900;
 	text-decoration: none;
 }
 
@@ -640,7 +637,7 @@ footer a:hover, footer a:active {
 
 p a{
 	font-family: Questrial, Helvetica, sans-serif;
-	font-size: 1em;
+	font-size: 1.125em;
 	color: $red;
 	padding: 0;
 	margin: 0 0 10px 0;
@@ -648,11 +645,7 @@ p a{
 
 
 p a:hover, p a:active {
-	font-family: Questrial, Helvetica, sans-serif;
-	font-size: 1em;
 	color: #FFFFFF;
-	padding: 0;
-	margin: 0 0 10px 0;
 }
 
 
@@ -784,7 +777,7 @@ p a:hover, p a:active {
 
 	h2 {
 		font-family: Orbitron, Verdana, sans-serif;
-		font-size: 3em;
+		font-size: 3.375em;
 		font-weight: 900;
 		color: $red;
 		text-align: center;
@@ -793,7 +786,7 @@ p a:hover, p a:active {
 	}	
 
 	p {
-		font-size: 2em;
+		font-size: 2.25em;
 		text-align: center;
 	}
 
@@ -902,11 +895,8 @@ p a:hover, p a:active {
 	min-height: 500px;
 }
 
-.gallery-content .gallery-copy {
-
-}
-
 .gallery-content h3 {
+	font-size: 1.25em;
 	margin: 10px 0 5px 0;
 }
 
@@ -981,7 +971,7 @@ label {
 
 .label1 {
 	font-family: Orbitron, Verdana, sans-serif;
-	font-size: 1em;
+	font-size: 1.125em;
 	color: $red;
 	text-align:left;
 	clear:left;
@@ -991,7 +981,7 @@ label {
 
 .label2 {
 	font-family: Orbitron, Verdana, sans-serif;
-	font-size: 1em;
+	font-size: 1.125em;
 	color: $red;
 	text-align:left;
 	clear:left;
@@ -1017,7 +1007,7 @@ input:focus, textarea:focus, select:focus {
 
 .button-submit {
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.25em;
 	width: 100%;
 }
 
@@ -1033,7 +1023,7 @@ input:focus, textarea:focus, select:focus {
 
 label.error {
 	font-family: Questrial, Helvetica, sans-serif;
-	font-size: 1em;
+	font-size: 0.8em;
 	font-style: italic;
 	color: $red;
 	margin-left: 10px;
@@ -1046,7 +1036,7 @@ input.error {
 
 #success {
 	font-family: Questrial, Helvetica, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.125em;
 	color: $black;
 	text-align:left;
 	clear:left;
@@ -1125,11 +1115,11 @@ body .ui-tooltip { border-width: 2px; }
 		padding-bottom: 0;
 
 		h2 {
-			font-size: 2em;
+			font-size: 2.25em;
 		}
 
 		p {
-			font-size: 1.25em;
+			font-size: 1.125em;
 		}
 	}
 
@@ -1239,7 +1229,15 @@ body .ui-tooltip { border-width: 2px; }
 	}
 
 	.section-heading {
-		font-size: 2em;
+		font-size: 2.25em;
+	}
+
+	h2 {
+		font-size: 2.25em;
+	}
+
+	h3 {
+		font-size: 1.25em;
 	}
 
 	.content-main {
@@ -1340,11 +1338,11 @@ body .ui-tooltip { border-width: 2px; }
 		padding-bottom: 0;
 
 		h2 {
-			font-size: 1.25em;
+			font-size: 1.6875em;
 		}
 
 		p {
-			font-size: 1em;
+			font-size: 1.125em;
 		}
 	}
 
@@ -1454,7 +1452,16 @@ body .ui-tooltip { border-width: 2px; }
 
 	.section-heading {
 		margin-bottom: 10px;
-		font-size: 1.6em;
+		font-size: 1.6875em;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 1.6875em;
+	}
+
+	h3 {
+		font-size: 1.25em;
 	}
 
 	.content-main {
@@ -1493,10 +1500,6 @@ body .ui-tooltip { border-width: 2px; }
 
 	.vrFade {
 		border: none;
-	}
-
-	p {
-		font-size: 1em;
 	}
 
 	.home-services-rowa {

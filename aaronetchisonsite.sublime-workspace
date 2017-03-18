@@ -35,7 +35,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 25108,
+				"buffer_size": 25096,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 17214,
+				"buffer_size": 17155,
 				"line_ending": "Windows"
 			}
 		},
@@ -124,6 +124,7 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/aaronetchisonsite/sass/skeleton.scss",
 		"/C/wamp/www/aaronetchisonsite/images/icons/icon-branding.svg",
 		"/C/wamp/www/aaronetchisonsite/images/icons/icon-logo.svg",
 		"/C/wamp/www/aaronetchisonsite/images/icons/icon-logodesign.svg",
@@ -146,7 +147,6 @@
 		"/C/wamp/www/aaronetchisonsite/images/icons/icon-webdev.svg",
 		"/C/wamp/www/aaronetchisonsite/email.php",
 		"/C/wamp/www/aaronetchisonsite/js/jquery.lightbox-0.5.min.js",
-		"/C/wamp/www/aaronetchisonsite/sass/skeleton.scss",
 		"/C/wamp/www/aaronetchisonsite/js/picturefill-3.0.2.js",
 		"/C/wamp/www/aaronetchisonsite/gruntfile.js",
 		"/C/wamp/www/aaronetchisonsite/package.json",
@@ -258,6 +258,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".8",
+			"0.8",
+			"font-size: 1em;",
+			"font-size",
+			"section-heading",
 			"btnNext",
 			"imageBlank",
 			"lightbox-nav-btnPrev",
@@ -380,12 +385,7 @@
 			"container module",
 			"h6",
 			"gallery-content module",
-			"module",
-			"\"",
-			"strong",
-			"Web",
-			"transform",
-			"footer"
+			"module"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -393,6 +393,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"font-size: 1.125em;",
 			"$black-trans-dark",
 			"$black-trans-light",
 			"module",
@@ -455,7 +456,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -629,15 +630,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 25108,
+						"buffer_size": 25096,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18724,
-								18724
+								16123,
+								16123
 							]
 						],
 						"settings":
@@ -784,7 +785,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 26604.0,
+						"translation.y": 21813.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -794,15 +795,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 17214,
+						"buffer_size": 17155,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								363,
-								302
+								11918,
+								11918
 							]
 						],
 						"settings":
@@ -950,7 +951,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4411.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -967,8 +968,8 @@
 						"selection":
 						[
 							[
-								367,
-								367
+								11319,
+								11319
 							]
 						],
 						"settings":
@@ -1116,7 +1117,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4290.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1282,7 +1283,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 15288.0,
+						"translation.y": 4124.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1448,7 +1449,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5798.0,
+						"translation.y": 3162.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
