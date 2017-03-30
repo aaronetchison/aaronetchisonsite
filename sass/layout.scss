@@ -1,7 +1,6 @@
 @charset "utf-8";
 @import 'skeleton';
 @import 'jquery.lightbox-0.5';
-@import 'jquery-ui-1.9.2.custom';
 @import 'owl.carousel';
 @import 'owl.theme';
 
@@ -170,7 +169,6 @@ body::before {
   height: 100%;
   position: fixed;
   top: 0;
-  -webkit-transform: translateZ(0);
   z-index: -1;
   background: url("../images/bg_3dhex-lg.jpg") no-repeat center 0 fixed ;
   background-size: cover;
@@ -306,7 +304,7 @@ img {
 	height: auto;
 }
 
-@media \0screen {
+@media screen {
   img { 
   	width: auto; /* for ie 8 */
   }
@@ -334,9 +332,7 @@ header {
 	border: 0;
 	background-color: #000000;
 	background-color: $white-trans-dark;
-
 	z-index: 9;
-	-webkit-transform: translateZ(0);
 }
 
 .logo-container {
@@ -392,7 +388,6 @@ header nav ul {
 
 header nav li, header nav li:visited {
 	display: inline-block;
-	*display:inline; /* ie7 */
 	height: 100%;
 	padding: 12px 6px;
 	text-decoration: none;
@@ -546,7 +541,7 @@ p {
 	word-spacing: normal;	
 }
 
-*::selection, *::-moz-selection {
+*::selection {
 	color: $red;
 	background-color: $black;
 }

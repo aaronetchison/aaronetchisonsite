@@ -13,7 +13,7 @@
 .owl-theme .owl-controls .owl-buttons div{
 	color: #FFF;
 	display: inline-block;
-	zoom: 1;
+	transform: scale(1);
 	display: inline;/*IE7 life-saver */
 	margin: 5px;
 	padding: 3px 10px;
@@ -33,7 +33,7 @@
 
 .owl-theme .owl-controls .owl-page{
 	display: inline-block;
-	zoom: 1;
+	transform: scale(1);
 }
 .owl-theme .owl-controls .owl-page span{
 	display: block;
