@@ -35,7 +35,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 24940,
+				"buffer_size": 24893,
 				"line_ending": "Windows"
 			}
 		},
@@ -54,7 +54,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 20331,
+				"buffer_size": 20566,
 				"line_ending": "Windows"
 			}
 		},
@@ -62,7 +62,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 23463,
+				"buffer_size": 23698,
 				"line_ending": "Windows"
 			}
 		},
@@ -70,7 +70,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 66124,
+				"buffer_size": 66365,
 				"line_ending": "Windows"
 			}
 		},
@@ -78,7 +78,15 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 20421,
+				"buffer_size": 20914,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "webservices.html",
+			"settings":
+			{
+				"buffer_size": 24128,
 				"line_ending": "Windows"
 			}
 		},
@@ -277,6 +285,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Vist",
 			"bg",
 			"\\000000screen",
 			"\\0screen",
@@ -403,8 +412,7 @@
 			"https://dhay53sybvpex.cloudfront.net/",
 			"images/previews/",
 			"images/thumbs/",
-			"nav-menu",
-			"outerHeight"
+			"nav-menu"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -412,6 +420,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Visit",
 			"img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png\" alt=\"Pinterest Pinning Link Button\"",
 			"img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png\" alt=\"Pinterest Pinning Link Button\" ",
 			"href=\"https://www.pinterest.com/pin/create/button/\" class=\"icon-pinterest\"",
@@ -478,7 +487,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -652,15 +661,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 24940,
+						"buffer_size": 24893,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13781,
-								13781
+								13732,
+								13732
 							]
 						],
 						"settings":
@@ -807,7 +816,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 17627.0,
+						"translation.y": 17081.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -981,15 +990,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 20331,
+						"buffer_size": 20566,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18598,
-								18354
+								18480,
+								18478
 							]
 						],
 						"settings":
@@ -1137,7 +1146,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7141.0,
+						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1147,15 +1156,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 23463,
+						"buffer_size": 23698,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21708,
-								21708
+								19351,
+								19336
 							]
 						],
 						"settings":
@@ -1303,7 +1312,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8778.0,
+						"translation.y": 7650.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1313,15 +1322,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 66124,
+						"buffer_size": 66365,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								64357,
-								64357
+								65390,
+								65390
 							]
 						],
 						"settings":
@@ -1469,7 +1478,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 27966.0,
+						"translation.y": 1202.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1479,15 +1488,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 20421,
+						"buffer_size": 20914,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13724,
-								13724
+								14994,
+								14994
 							]
 						],
 						"settings":
@@ -1635,13 +1644,191 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4748.0,
+						"translation.y": 5596.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
+					"file": "webservices.html",
+					"settings":
+					{
+						"buffer_size": 24128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19380,
+								19380
+							],
+							[
+								19742,
+								19742
+							],
+							[
+								20165,
+								20165
+							],
+							[
+								20598,
+								20598
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7962.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "sass/owl.theme.scss",
 					"settings":
 					{
@@ -1806,7 +1993,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "sass/jquery.lightbox-0.5.scss",
 					"settings":
 					{
@@ -1971,7 +2158,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "js/jquery.lightbox-0.5.min.js",
 					"settings":
 					{
@@ -2135,7 +2322,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "sass/skeleton.scss",
 					"settings":
 					{
@@ -2295,7 +2482,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3978.0,
+						"translation.y": 1638.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

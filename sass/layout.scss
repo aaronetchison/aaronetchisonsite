@@ -665,7 +665,6 @@ p a:hover, p a:active {
 
 .icon-group {
 	clear: both;
-	width: 280px;
 	margin: 0 auto;
 }
 
@@ -685,12 +684,11 @@ p a:hover, p a:active {
 
 .icon-social {
 	float: left;
-  width: 48px;
-  height: 48px;
-	margin: 0 6px;
+  width: 21%;
+  height: auto;
+	margin: 0 2%;
 	padding: 0;
 	fill: $red;
-  background-size: 48px 48px;
   background-color: $black-trans-light;
   border: 1px solid $gray-dark;
   transition: all 0.3s linear 0s;
