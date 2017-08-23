@@ -35,7 +35,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 24893,
+				"buffer_size": 24970,
 				"line_ending": "Windows"
 			}
 		},
@@ -70,7 +70,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 66365,
+				"buffer_size": 69193,
 				"line_ending": "Windows"
 			}
 		},
@@ -86,7 +86,7 @@
 			"file": "webservices.html",
 			"settings":
 			{
-				"buffer_size": 24128,
+				"buffer_size": 24124,
 				"line_ending": "Windows"
 			}
 		},
@@ -285,6 +285,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"module",
+			"web-development",
+			"icon-pinterest",
 			"Vist",
 			"bg",
 			"\\000000screen",
@@ -409,10 +412,7 @@
 			"http://dhay53sybvpex.cloudfront.net/",
 			"https://dhay53sybvpex.cloudfront.net/",
 			"http://dhay53sybvpex.cloudfront.net/",
-			"https://dhay53sybvpex.cloudfront.net/",
-			"images/previews/",
-			"images/thumbs/",
-			"nav-menu"
+			"https://dhay53sybvpex.cloudfront.net/"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -487,7 +487,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -661,15 +661,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 24893,
+						"buffer_size": 24970,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13732,
-								13732
+								17068,
+								17068
 							]
 						],
 						"settings":
@@ -816,7 +816,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 17081.0,
+						"translation.y": 19577.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1146,7 +1146,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 8640.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1312,7 +1312,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7650.0,
+						"translation.y": 10105.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1322,15 +1322,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 66365,
+						"buffer_size": 69193,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								65390,
-								65390
+								41154,
+								41154
 							]
 						],
 						"settings":
@@ -1478,7 +1478,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1202.0,
+						"translation.y": 31138.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1495,8 +1495,8 @@
 						"selection":
 						[
 							[
-								14994,
-								14994
+								2887,
+								2887
 							]
 						],
 						"settings":
@@ -1644,7 +1644,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5596.0,
+						"translation.y": 1806.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1654,27 +1654,15 @@
 					"file": "webservices.html",
 					"settings":
 					{
-						"buffer_size": 24128,
+						"buffer_size": 24124,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19380,
-								19380
-							],
-							[
-								19742,
-								19742
-							],
-							[
-								20165,
-								20165
-							],
-							[
-								20598,
-								20598
+								19321,
+								19321
 							]
 						],
 						"settings":
@@ -1822,7 +1810,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7962.0,
+						"translation.y": 7624.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
