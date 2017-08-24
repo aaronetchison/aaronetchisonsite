@@ -234,17 +234,27 @@ footer {
 	border-radius: 10px 30px 10px 30px;	
 	background-color: $black-trans-light;
 	transition: all 0.3s ease;
-	animation: bounce-in .3s ease-in;
+}
+
+section {
+	opacity: 0;
+	animation: bounce-in ease-in .3s forwards;
 }
 
 @keyframes bounce-in {
 	0% {
-		transform: scale(.98);
+		transform: scale(.90);
 		opacity: 0;
-	} 80% {
-		transform: scale(1.02)
 	} 100% {
 		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@keyframes fade-navigation {
+	0% {
+		opacity: 0;
+	} 100% {
 		opacity: 1;
 	}
 }
@@ -759,13 +769,15 @@ p a:hover, p a:active {
 	padding-top: 180px;
 	padding-bottom: 60px;
 	transition: all 0.3s ease;
-	animation: bounce-in .3s ease-in;
 
 	img {
 		display: block;
 		width: 120px;
 		height: auto;
 		margin: 20px auto;
+		opacity: 0;
+		animation: bounce-in ease-in .3s forwards;
+		animation-delay: .2s;
 	}
 
 	h2 {
@@ -776,15 +788,24 @@ p a:hover, p a:active {
 		text-align: center;
 		margin-bottom: 10px;
 		text-shadow: 1px 1px 2px $black;
+		opacity: 0;
+		animation: bounce-in ease-in .3s forwards;
+		animation-delay: .3s;
 	}	
 
 	p {
 		font-size: 2.25em;
 		text-align: center;
+		opacity: 0;
+		animation: bounce-in ease-in .3s forwards;
+		animation-delay: .3s;
 	}
 
 	.button {
 		width: 148px;
+		opacity: 0;
+		animation: bounce-in ease-in .3s forwards;
+		animation-delay: .4s;
 	}
 
 	.one-third.column img {
@@ -837,13 +858,58 @@ p a:hover, p a:active {
 	justify-content: center;
 	margin: 0 auto;
 	transition: all 0.3s ease;
-	animation: bounce-in .3s ease-in;
-
+	
 	.services-icon {
 		flex-grow: 1;
 		margin-right: 6px;
 		margin-left: 6px;
 		text-align: center;
+
+		&:nth-child(1) {
+			opacity: 0;
+			animation: bounce-in ease-in .3s forwards;
+			animation-delay: .3s;
+		}
+		&:nth-child(2) {
+			opacity: 0;
+			animation: bounce-in ease-in .3s forwards;
+			animation-delay: .4s;
+		}
+		&:nth-child(3) {
+			opacity: 0;
+			animation: bounce-in ease-in .3s forwards;
+			animation-delay: .5s;
+		}
+		&:nth-child(4) {
+			opacity: 0;
+			animation: bounce-in ease-in .3s forwards;
+			animation-delay: .6s;
+		}
+		&:nth-child(5) {
+			opacity: 0;
+			animation: bounce-in ease-in .3s forwards;
+			animation-delay: .7s;
+		}
+		&:nth-child(6) {
+			opacity: 0;
+			animation: bounce-in ease-in .3s forwards;
+			animation-delay: .8s;
+		}
+		&:nth-child(7) {
+			opacity: 0;
+			animation: bounce-in ease-in .3s forwards;
+			animation-delay: .9s;
+		}
+		&:nth-child(8) {
+			opacity: 0;
+			animation: bounce-in ease-in .3s forwards;
+			animation-delay: 1.0s;
+		}
+		&:nth-child(9) {
+			opacity: 0;
+			animation: bounce-in ease-in .3s forwards;
+			animation-delay: 1.1s;
+		}
 	}
 
 	img {
@@ -948,6 +1014,9 @@ p a:hover, p a:active {
 	position: absolute;
 	top: 6px;
 	right: 6px;
+	opacity: 0;
+	animation: bounce-in ease-in .3s forwards;
+	animation-delay: .6s;
 }
 
 #noMarginBot {
@@ -1218,8 +1287,10 @@ body .ui-tooltip { border-width: 2px; }
 		background: linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(255,255,255,1));
 		border: none;
 		border-radius: 0 0 10px 20px;
-		line-height: 32px;
-
+		line-height: 1.25;
+		opacity: 0;
+		animation: fade-navigation ease-in .3s forwards;
+		animation-delay: .5s;
 	}
 
 	.section-page {
@@ -1441,7 +1512,9 @@ body .ui-tooltip { border-width: 2px; }
 		border: none;
 		border-radius: 0 0 10px 20px;
 		line-height: 1.25;
-
+		opacity: 0;
+		animation: fade-navigation ease-in .3s forwards;
+		animation-delay: .5s;
 	}
 
 	.section-page {

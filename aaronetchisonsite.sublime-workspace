@@ -35,7 +35,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 24970,
+				"buffer_size": 26553,
 				"line_ending": "Windows"
 			}
 		},
@@ -285,6 +285,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"section-heading",
+			"animation",
+			"icon-pin",
+			"bounce-in",
 			"module",
 			"web-development",
 			"icon-pinterest",
@@ -408,11 +412,7 @@
 			"content-main .container",
 			"http://dhay53sybvpex.cloudfront.net",
 			"images/previews/",
-			"images/thumbs/",
-			"http://dhay53sybvpex.cloudfront.net/",
-			"https://dhay53sybvpex.cloudfront.net/",
-			"http://dhay53sybvpex.cloudfront.net/",
-			"https://dhay53sybvpex.cloudfront.net/"
+			"images/thumbs/"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -487,7 +487,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -502,8 +502,8 @@
 						"selection":
 						[
 							[
-								591,
-								576
+								757,
+								757
 							]
 						],
 						"settings":
@@ -651,7 +651,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1800.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -661,15 +661,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 24970,
+						"buffer_size": 26553,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17068,
-								17068
+								25328,
+								25328
 							]
 						],
 						"settings":
@@ -816,7 +816,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 19577.0,
+						"translation.y": 38693.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -997,8 +997,8 @@
 						"selection":
 						[
 							[
-								18480,
-								18478
+								13961,
+								13961
 							]
 						],
 						"settings":
@@ -1146,7 +1146,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8640.0,
+						"translation.y": 4090.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1163,8 +1163,8 @@
 						"selection":
 						[
 							[
-								19351,
-								19336
+								13938,
+								13938
 							]
 						],
 						"settings":
@@ -1312,7 +1312,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10105.0,
+						"translation.y": 5061.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1478,7 +1478,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 31138.0,
+						"translation.y": 5008.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
