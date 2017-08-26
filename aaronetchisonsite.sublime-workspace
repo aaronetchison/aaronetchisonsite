@@ -35,7 +35,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 26553,
+				"buffer_size": 26639,
 				"line_ending": "Windows"
 			}
 		},
@@ -54,7 +54,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 20566,
+				"buffer_size": 20588,
 				"line_ending": "Windows"
 			}
 		},
@@ -62,7 +62,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 23698,
+				"buffer_size": 23720,
 				"line_ending": "Windows"
 			}
 		},
@@ -70,7 +70,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 69193,
+				"buffer_size": 67869,
 				"line_ending": "Windows"
 			}
 		},
@@ -78,7 +78,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 20914,
+				"buffer_size": 20936,
 				"line_ending": "Windows"
 			}
 		},
@@ -285,6 +285,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"animation:",
+			"animation: bounce-in",
+			"animation",
 			"section-heading",
 			"animation",
 			"icon-pin",
@@ -409,10 +412,7 @@
 			"foot",
 			"box-shadow",
 			"(max-width: 980px) 50vw",
-			"content-main .container",
-			"http://dhay53sybvpex.cloudfront.net",
-			"images/previews/",
-			"images/thumbs/"
+			"content-main .container"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -487,7 +487,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -661,15 +661,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 26553,
+						"buffer_size": 26639,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25328,
-								25328
+								20802,
+								20801
 							]
 						],
 						"settings":
@@ -816,7 +816,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 38693.0,
+						"translation.y": 27995.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -990,15 +990,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 20566,
+						"buffer_size": 20588,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13961,
-								13961
+								12040,
+								12018
 							]
 						],
 						"settings":
@@ -1146,7 +1146,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4090.0,
+						"translation.y": 3908.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1156,15 +1156,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 23698,
+						"buffer_size": 23720,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13938,
-								13938
+								12044,
+								12044
 							]
 						],
 						"settings":
@@ -1312,7 +1312,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5061.0,
+						"translation.y": 3865.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1322,15 +1322,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 69193,
+						"buffer_size": 67869,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								41154,
-								41154
+								64121,
+								64121
 							]
 						],
 						"settings":
@@ -1478,7 +1478,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5008.0,
+						"translation.y": 29159.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1488,15 +1488,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 20914,
+						"buffer_size": 20936,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2887,
-								2887
+								12045,
+								12045
 							]
 						],
 						"settings":
@@ -1644,7 +1644,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1806.0,
+						"translation.y": 3938.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
