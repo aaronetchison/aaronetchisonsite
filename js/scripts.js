@@ -113,16 +113,19 @@ break;case"title":$(".ui-dialog-title",this.uiDialogTitlebar).html(""+(value||"&
         {
         var queryString = $('#contactUs').serialize();
         $.post('email.php', queryString, processResults);
+        $('#submit').css('opacity', '0');
+        $('#loadingContent').css('display', 'block');
         return false; //do not submit
         }
     });
         
-    function processResults(data, textStatus, xhr) 
+    function processResults(data, textStatus, xhr)
     {
         if(textStatus == 'success')
         {
             $('#success').text(data); //display success message
             $('#contactUs').hide(); //hide form
+            $('#loadingContent').css('display', 'none');
         }
     }
 

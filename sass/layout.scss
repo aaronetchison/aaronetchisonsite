@@ -967,6 +967,9 @@ p a:hover, p a:active {
 
 
 /* Forms */
+.form-container {
+	position: relative;
+}
 
 label {
 	display: block;
@@ -1046,7 +1049,36 @@ input.error {
 	margin: 0 0 10px 0;
 }
 
+.loading-content {
+	position: absolute;
+	z-index: 99;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
 
+.loading-animation {
+	width: 42px;
+	margin: 0 auto;
+}
+
+.loading-animation-hex1 {
+	animation: 1s ease 0s infinite hex-animation; 
+}
+
+.loading-animation-hex2 {
+	animation: 1s ease .3s infinite hex-animation;
+}
+
+.loading-animation-hex3 {
+	animation: 1s ease .6s infinite hex-animation;
+}
+
+@keyframes hex-animation {
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
 
 
 
