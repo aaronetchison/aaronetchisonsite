@@ -43,7 +43,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 27152,
+				"buffer_size": 27105,
 				"line_ending": "Windows"
 			}
 		},
@@ -637,15 +637,15 @@
 					"file": "sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 27152,
+						"buffer_size": 27105,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18510,
-								18510
+								18580,
+								18565
 							]
 						],
 						"settings":
@@ -792,7 +792,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 27229.0,
+						"translation.y": 27619.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1456,7 +1456,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7234.0,
+						"translation.y": 7442.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
