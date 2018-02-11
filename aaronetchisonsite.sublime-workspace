@@ -51,7 +51,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 20588,
+				"buffer_size": 20481,
 				"line_ending": "Windows"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "services.html",
 			"settings":
 			{
-				"buffer_size": 23720,
+				"buffer_size": 23613,
 				"line_ending": "Windows"
 			}
 		},
@@ -67,7 +67,7 @@
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 67869,
+				"buffer_size": 67761,
 				"line_ending": "Windows"
 			}
 		},
@@ -75,7 +75,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 22043,
+				"buffer_size": 21936,
 				"line_ending": "Windows"
 			}
 		},
@@ -261,6 +261,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"http://www.aaronetchison.com",
 			"animation:",
 			"animation: bounce-in",
 			"animation",
@@ -387,8 +388,7 @@
 			"container-main",
 			"foot",
 			"box-shadow",
-			"(max-width: 980px) 50vw",
-			"content-main .container"
+			"(max-width: 980px) 50vw"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -463,7 +463,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -792,7 +792,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 27619.0,
+						"translation.y": 36277.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -802,15 +802,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 20588,
+						"buffer_size": 20481,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12040,
-								12018
+								585,
+								585
 							]
 						],
 						"settings":
@@ -958,7 +958,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -968,15 +968,15 @@
 					"file": "services.html",
 					"settings":
 					{
-						"buffer_size": 23720,
+						"buffer_size": 23613,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12044,
-								12044
+								584,
+								584
 							]
 						],
 						"settings":
@@ -1124,7 +1124,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3865.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1134,15 +1134,15 @@
 					"file": "portfolio.html",
 					"settings":
 					{
-						"buffer_size": 67869,
+						"buffer_size": 67761,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								64121,
-								64121
+								585,
+								585
 							]
 						],
 						"settings":
@@ -1290,7 +1290,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 29159.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1300,15 +1300,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 22043,
+						"buffer_size": 21936,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15038,
-								15038
+								585,
+								585
 							]
 						],
 						"settings":
@@ -1456,7 +1456,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7442.0,
+						"translation.y": 9204.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
