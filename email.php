@@ -34,7 +34,7 @@ $message = "
 	                                        <td class='headerContent' style='border-collapse: collapse;color: #CCCCCC;font-family: Arial;font-size: 34px;font-weight: bold;line-height: 100%;padding: 0;text-align: center;vertical-align: middle;'>
 	                                        
 	                                        	<!-- // Begin Module: Standard Header Image  -->
-	                                        	<img src='http://www.aaronetchison.com/images/emailheader.jpg' style='max-width: 600px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;' id='headerImage campaign-icon'>
+	                                        	<img src='https://aaronetchison.com/images/emailheader.jpg' style='max-width: 600px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;' id='headerImage campaign-icon'>
 	                                        	<!-- // End Module: Standard Header Image  -->
 	                                        
 	                                        </td>
