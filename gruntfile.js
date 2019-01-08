@@ -10,7 +10,8 @@ module.exports = function(grunt) {
 		  	style: 'compressed'
 		  },
 		  files: {
-		  	'stylesheets/jquery-ui-1.9.2.custom.min.css': 'sass/jquery-ui-1.9.2.custom.scss',
+				'stylesheets/uiuxstyles.css': 'sass/uiuxstyles.scss',
+				'stylesheets/jquery-ui-1.9.2.custom.min.css': 'sass/jquery-ui-1.9.2.custom.scss',
 				'stylesheets/jquery.lightbox-0.5.css': 'sass/jquery.lightbox-0.5.scss',
 				'stylesheets/owl.carousel.css': 'sass/owl.carousel.scss',
 				'stylesheets/owl.theme.css': 'sass/owl.theme.scss',
@@ -37,14 +38,25 @@ module.exports = function(grunt) {
 		}
 	},
 	
-	autoprefixer: {
-		single_file: {
-			options: {
-				browsers: ['last 2 version', 'ie 8', 'ie 9']
-			},
-				src: 'stylesheets/global.css',
-				dest: 'stylesheets/global.css'
-	  },
+	postcss: {
+    options: {
+      map: true, // inline sourcemaps
+
+      // or
+      map: {
+          inline: false, // save all sourcemaps as separate files...
+          annotation: 'stylesheets/maps/' // ...to the specified directory
+      },
+
+      processors: [
+        //require('pixrem')(), // add fallbacks for rem units
+        require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
+        //require('cssnano')() // minify the result
+      ]
+    },
+    dist: {
+      src: 'stylesheets/*.css'
+    }
   },
 
 	concat: {
@@ -109,9 +121,9 @@ module.exports = function(grunt) {
 			files: ['sass/*.scss'],
 			tasks: ['sass']
 		},
-		autoprefixer: {
+		postcss: {
 			files: ['stylesheets/*.css'],
-			tasks: ['autoprefixer']
+			tasks: ['postcss']
 		},
 		svgstore: {
 			files:['images/icons/*.svg'],
@@ -123,13 +135,13 @@ module.exports = function(grunt) {
   //The following line used up top replaces the need for loadNpmTasks
   //require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 	grunt.loadNpmTasks('grunt-contrib-sass');
-	grunt.loadNpmTasks('grunt-autoprefixer');
+	grunt.loadNpmTasks('grunt-postcss');
   grunt.loadNpmTasks('grunt-htmlhint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['sass', 'autoprefixer', 'uglify', 'concat', 'responsive_images']);
+  grunt.registerTask('default', ['sass', 'postcss', 'uglify', 'concat', 'responsive_images']);
 
 };
