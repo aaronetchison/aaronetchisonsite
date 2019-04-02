@@ -22,22 +22,6 @@ module.exports = function(grunt) {
 		}	
 	},
 	
-	htmlhint: {
-		build: {
-			options: {
-				'tag-pair': true,
-				'tagname-lowercase': false,
-				'attr-lowercase': false,
-				'attr-value-double-quotes': false,
-				'spec-char-escape': true,
-				'id-unique': true,
-				'head-script-disabled': false,
-				'style-disabled': true
-			},
-			src: ['*.html']
-		}
-	},
-	
 	postcss: {
     options: {
       map: true, // inline sourcemaps
@@ -105,10 +89,6 @@ module.exports = function(grunt) {
 	},
 	
 	watch: {
-		html: {
-			files: ['*.html'],
-			tasks: ['htmlhint']
-		},
 		js: {
 			files: ['js/*.js'],
 			tasks: ['uglify']
@@ -136,7 +116,6 @@ module.exports = function(grunt) {
   //require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-postcss');
-  grunt.loadNpmTasks('grunt-htmlhint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-responsive-images');
