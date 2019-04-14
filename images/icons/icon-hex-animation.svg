@@ -1,0 +1,13 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="64" height="74" viewBox="0 0 64 74" enable-background="new 0 0 64 74" xml:space="preserve">
+  <ellipse transform="matrix(0.7825 -0.6227 0.6227 0.7825 -14.4935 20.9242)" fill="none" stroke="#B01817" stroke-miterlimit="10" cx="22.7" cy="31.21" rx="2.86" ry="3.81"/>
+  <path fill="none" stroke="#B01817" stroke-miterlimit="10" d="M35.58 50.53c0 1.48-1.78 2.69-3.97 2.69 -2.19 0-3.97-1.2-3.97-2.68 0-1.48 1.78-2.68 3.97-2.68C33.8 47.85 35.58 49.05 35.58 50.53z"/>
+  <ellipse transform="matrix(0.2351 0.972 -0.972 0.2351 69.4636 -10.4625)" fill="none" stroke="#B01817" stroke-miterlimit="10" cx="41.38" cy="38.9" rx="2.89" ry="3.97"/>
+  <path fill="#FFFFFF" stroke="#B01817" stroke-miterlimit="10" stroke-dasharray="1" d="M25.08 34.19c0 0 6.54 6.39 6.54 13.66"/>
+  <path fill="#FFFFFF" stroke="#B01817" stroke-miterlimit="10" stroke-dasharray="1" d="M32.15 47.85c0 0 1.4-6.12 5.32-7.53"/>
+  <path fill="#B01817" d="M57 19v37H7V19H57M58 18H6v39h52V18L58 18z"/>
+  <line fill="none" stroke="#B01817" stroke-miterlimit="10" x1="6" y1="24.5" x2="58" y2="24.5"/>
+  <circle fill="none" stroke="#B01817" stroke-miterlimit="10" cx="9.66" cy="21.16" r="0.41"/>
+  <circle fill="none" stroke="#B01817" stroke-miterlimit="10" cx="12.91" cy="21.16" r="0.41"/>
+  <circle fill="none" stroke="#B01817" stroke-miterlimit="10" cx="16.16" cy="21.16" r="0.41"/>
+  <path fill="#B01817" d="M32 1.16l31 17.91v35.82L32 72.79 1 54.88V19.06L32 1.16M32 0L0 18.49v36.97l32 18.49 32-18.48V18.49L32 0 32 0z"/>
+</svg>

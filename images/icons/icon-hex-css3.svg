@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="74px" viewBox="0 0 64 74" enable-background="new 0 0 64 74" xml:space="preserve">
+<g id="layer1" transform="translate(-193.633,-276.3622)" inkscape:label="Calque 1" inkscape:groupmode="layer">
+	<g id="g3013" transform="translate(119,276.3622)">
+		<polygon id="polygon2989" fill="#B01817" points="126.466,20.005 122.85,60.49 106.609,65 90.404,60.498 86.793,20.005 		"/>
+		<polygon id="polygon2991" fill="#C91C1C" points="119.762,57.916 122.842,23.315 106.633,23.315 106.633,61.558 		"/>
+		<polygon id="polygon2993" fill="#EBEBEB" points="95.075,38.338 95.514,43.307 106.633,43.307 106.633,38.338 		"/>
+		<polygon id="polygon2995" fill="#EBEBEB" points="106.633,28.285 106.616,28.285 94.175,28.285 94.631,33.249 106.633,33.249 		
+			"/>
+		<polygon id="polygon2997" fill="#EBEBEB" points="106.633,56.4 106.633,51.24 106.613,51.244 101.079,49.749 100.726,45.781 
+			98.036,45.781 95.737,45.781 96.437,53.589 106.611,56.408 		"/>
+		<path id="path2999" inkscape:connector-curvature="0" fill="#B01817" d="M96.133,9h6.015v2.515h-3.5v2.517h3.5v2.515h-6.015V9z"/>
+		<path id="path3001" inkscape:connector-curvature="0" fill="#B01817" d="M103.352,9h6.016v2.188h-3.5v0.438h3.5v5.031h-6.016
+			v-2.297h3.5v-0.438h-3.5V9z"/>
+		<path id="path3003" inkscape:connector-curvature="0" fill="#B01817" d="M110.57,9h6.015v2.188h-3.499v0.438h3.499v5.031h-6.015
+			v-2.297h3.5v-0.438h-3.5V9z"/>
+		<polygon id="polygon3005" fill="#FFFFFF" points="112.725,43.307 112.155,49.745 106.616,51.244 106.616,56.405 116.796,53.589 
+			116.876,52.744 118.029,39.668 118.157,38.338 119.061,28.285 106.616,28.285 106.616,33.249 113.609,33.249 113.162,38.338 
+			106.616,38.338 106.616,43.307 		"/>
+	</g>
+</g>
+<g>
+	<path fill="#B01817" d="M32,1.155l31,17.908v35.819L32,72.789L1,54.882V19.063L32,1.155 M32,0L0,18.486v36.973l32,18.485l32-18.485
+		V18.486L32,0L32,0z"/>
+</g>
+</svg>
