@@ -134,7 +134,7 @@ $red-trans: rgba(68,0,2,0.5);
 
 * {
 	box-sizing: border-box;
-	-webkit-tap-highlight-color: rgba(176, 24, 23, 1);
+  -webkit-tap-highlight-color: rgba(176, 24, 23, 1);
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -159,13 +159,9 @@ body {
 }
 
 .bg {
-  content: " ";
-  display: block;
   width: 100%;
   height: 100%;
   height: 100vh;
-  position: fixed;
-  top: 0;
   z-index: -1;
   background: url("../images/bg_3dhex-lg.jpg") no-repeat center 0 fixed ;
   background-size: cover;
@@ -176,13 +172,10 @@ img {
 	height: auto;
 }
 
-/* Layout Styles */
-main {
-  max-width: 1232px;
-  margin: 0 auto;
+@keyframes screen-load {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
 }
-
-
 
 .icon-group {
   max-width: 920px;
@@ -202,150 +195,177 @@ main {
 
 .icon-contact {
   display: inline-block;
-  color: #B01817;
+  color: $red;
   font-size: 1em;
+  
   img {
     float: left;
     margin: -8px 8px 0 0;
   }
 }
 
-.intro {
+/* Primary Layout Styles */
+main {
+
+}
+
+.grid {
   display: grid;
   grid-auto-rows: minmax(1fr, auto);
   grid-template-columns: repeat(12, 1fr);
   grid-row-gap: 1em;
   grid-column-gap: 1em;
+  max-width: 1232px;
+  height: 100vh;
+  margin: 0 auto;
+}
 
-  .intro-title {
-    grid-row: 1 / 2;
-    grid-column: 1 / 13;
-    
-    h1, h3 {
-      text-align: center;
-    }
-  }
-  
-  .intro-card {
-    grid-row: 2 / 3;
-    grid-column: 1 / 13;
-    display: flex;
-    justify-content: center;
-    padding: 16px;
-    background-color: rgba(255,255,255,0.8);
-    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.5);
-    border-radius: 8px 16px 8px 16px;
+.section-heading {
+  grid-row: 1 / 2;
+  grid-column: 1 / 13;
+  animation: screen-load 1s ease-in;
 
-    .intro-card-left {
-      width: 50%;
-
-        .icon-avatar {
-          float: left;
-          width: 64px;
-          margin: 0 16px 16px 0;
-        }
-    }
-    
-
-    .intro-card-right {
-      width: 50%;
-
-      .hex-container {
-        position: relative;
-        margin: 20px auto;
-      }
-      
-      @keyframes hexagon {
-        0% { transform: scale(1)}
-        50% { transform: scale(1.25)}
-        100% { transform: scale(1)}
-      }
-      
-      .hex1 {
-        position: absolute;
-        top: 128px;
-        left: 208px;
-        width: 128px;
-        height: 148px;
-        animation: hexagon 0.75s 1.5s ease-in;
-      }
-      
-      .hex2 {
-        position: absolute;
-        left: 136px;
-        width: 128px;
-        height: 148px;
-        animation: hexagon 0.75s 0s ease-in;
-      }
-      
-      .hex3 {
-        position: absolute;
-        left: 284px;
-        width: 128px;
-        height: 148px;
-        animation: hexagon 0.75s 0.25s ease-in;
-      }
-      
-      .hex4 {
-        position: absolute;
-        top: 128px;
-        left: 350px;
-        width: 128px;
-        height: 148px;
-        animation: hexagon 0.75s 0.5s ease-in;
-      }
-      
-      .hex5 {
-        position: absolute;
-        top: 254px;
-        left: 284px;
-        width: 128px;
-        height: 148px;
-        animation: hexagon 0.75s 0.75s ease-in;
-      }
-      
-      .hex6 {
-        position: absolute;
-        top: 254px;
-        left: 136px;
-        width: 128px;
-        height: 148px;
-        animation: hexagon 0.75s 1s ease-in;
-      }
-      
-      .hex7 {
-        position: absolute;
-        top: 128px;
-        left: 64px;
-        width: 128px;
-        height: 148px;
-        animation: hexagon 0.75s 1.25s ease-in;
-      }
-    }
-  }
-  
-  .intro-contact {
-    grid-row: 3 / 4;
-    grid-column: 1 / 13;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .intro-social {
-    grid-row: 4 / 5;
-    grid-column: 4 / 10;
-    display: flex;
-    justify-content: space-around;
+  h1, h2, h3 {
+    text-align: center;
   }
 }
 
-.projects {
-  display: grid;
-  grid-auto-rows: minmax(1fr, auto);
-  grid-template-columns: repeat(12, 1fr);
-  grid-row-gap: 1em;
-  grid-column-gap: 1em;
-  background-color: #FFFFFF;
+.card {
+  padding: 16px;
+  background-color: $white-trans-light;
+  box-shadow: 0px 0px 4px 2px $black-trans-dark;
+  border-radius: 8px 16px 8px 16px;
+  animation: screen-load 1s 0.5s ease-in;
+}
+  
+
+
+/* Page Layout Styles */
+/**Home**/
+/***Home Intro***/
+.intro-card {
+  grid-row: 2 / 3;
+  grid-column: 1 / 13;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-card-left {
+  width: 50%;
+
+    .icon-avatar {
+      float: left;
+      width: 64px;
+      margin: 0 16px 16px 0;
+    }
+}
+
+.intro-card-right {
+  width: 50%;
+
+  .hex-container {
+    position: relative;
+    margin: 20px auto;
+  }
+  
+  @keyframes hexagon {
+    0% { transform: scale(1)}
+    50% { transform: scale(1.25)}
+    100% { transform: scale(1)}
+  }
+  
+  .hex1 {
+    position: absolute;
+    top: 128px;
+    left: 144px;
+    width: 128px;
+    height: 148px;
+    animation: hexagon 0.75s 1.5s ease-in;
+  }
+  
+  .hex2 {
+    position: absolute;
+    left: 72px;
+    width: 128px;
+    height: 148px;
+    animation: hexagon 0.75s 0s ease-in;
+  }
+  
+  .hex3 {
+    position: absolute;
+    left: 220px;
+    width: 128px;
+    height: 148px;
+    animation: hexagon 0.75s 0.25s ease-in;
+  }
+  
+  .hex4 {
+    position: absolute;
+    top: 128px;
+    left: 286px;
+    width: 128px;
+    height: 148px;
+    animation: hexagon 0.75s 0.5s ease-in;
+  }
+  
+  .hex5 {
+    position: absolute;
+    top: 254px;
+    left: 220px;
+    width: 128px;
+    height: 148px;
+    animation: hexagon 0.75s 0.75s ease-in;
+  }
+  
+  .hex6 {
+    position: absolute;
+    top: 254px;
+    left: 72px;
+    width: 128px;
+    height: 148px;
+    animation: hexagon 0.75s 1s ease-in;
+  }
+  
+  .hex7 {
+    position: absolute;
+    top: 128px;
+    width: 128px;
+    height: 148px;
+    animation: hexagon 0.75s 1.25s ease-in;
+  }
+}
+
+.intro-contact {
+  grid-row: 3 / 4;
+  grid-column: 1 / 13;
+  display: flex;
+  justify-content: space-around;
+  animation: screen-load 1s 0.5s ease-in;
+}
+
+.intro-social {
+  grid-row: 4 / 5;
+  grid-column: 4 / 10;
+  display: flex;
+  justify-content: space-around;
+  animation: screen-load 1s 1s ease-in;
+}
+
+/***Home Projects***/
+.projects-cards {
+  grid-row: 2 / 3;
+  grid-column: 1 / 13;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project-cards-left {
+  flex-basis: auto;
+}
+
+.project-cards-right {
+  flex-basis: auto;
 }
 
 /* Type Styles */
@@ -413,11 +433,6 @@ h6 {
 	color: $red;
 	margin: 10px 0 0 0;
 } 
-
-.section-heading {
-	margin: 0 0 20px 0;
-	font-size: 4.5em;
-}
 
 p {
 	font-family: Questrial, Helvetica, sans-serif;
