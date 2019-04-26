@@ -472,85 +472,160 @@ p {
 	background-color: $black;
 }
 
+/* Skills Progress Radial Bars */
 /*
-.intro-card {
-  grid-row: 2 / 3;
-  grid-column: 1 / 13;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 16px;
-  background-color: rgba(255,255,255,0.8);
-  box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.5);
-  border-radius: 8px 16px 8px 16px;
-
-  .intro-card-left {
-    width: 50%
-  }
-  
-
-  .intro-card-right {
-    width: 50%;
-
-    .hex-container {
-      position: relative;
-      margin: 0 auto;
-    }
-    
-    @keyframes hexagon {
-      0% { transform: scale(1)}
-      50% { transform: scale(1.25)}
-      100% { transform: scale(1)}
-    }
-    
-    .hex1 {
-      position: absolute;
-      top: 64px;
-      left: 172px;
-      width: 64px;
-      height: 74px;
-      animation: hexagon 0.75s 1.5s ease-in;
-    }
-    
-    .hex2 {
-      position: absolute;
-      left: 136px;
-      animation: hexagon 0.75s 0s ease-in;
-    }
-    
-    .hex3 {
-      position: absolute;
-      left: 208px;
-      animation: hexagon 0.75s 0.25s ease-in;
-    }
-    
-    .hex4 {
-      position: absolute;
-      top: 64px;
-      left: 244px;
-      animation: hexagon 0.75s 0.5s ease-in;
-    }
-    
-    .hex5 {
-      position: absolute;
-      top: 128px;
-      left: 208px;
-      animation: hexagon 0.75s 0.75s ease-in;
-    }
-    
-    .hex6 {
-      position: absolute;
-      top: 128px;
-      left: 136px;
-      animation: hexagon 0.75s 1s ease-in;
-    }
-    
-    .hex7 {
-      position: absolute;
-      top: 64px;
-      left: 100px;
-      animation: hexagon 0.75s 1.25s ease-in;
-    }
-  }
-}
+Progress Circles inspired by Anders Ingemann
+.circle .mask.full, .circle .fill
+	rotate 1.8deg++ starting at 0deg
+.circle .fill.fix
+	rotate 3.6deg++ starting at 0deg
+.inset .percentage .numbers
+	width 57px++ starting at 57px
 */
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+}
+.progress {
+  margin: 20px 20px 10px 20px;
+  width: 120px;
+  height: 120px;
+  /*background-color: #d6dadc;*/
+  border-radius: 50%;
+}
+.progress .circle .mask,
+.progress .circle .fill,
+.progress .circle .shadow {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  border-radius: 50%;
+}
+.progress .circle .shadow {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+.progress .circle .mask,
+.progress .circle .fill {
+  -webkit-backface-visibility: hidden;
+  border-radius: 50%;
+}
+.progress .circle .mask {
+  clip: rect(0px, 120px, 120px, 60px);
+}
+.progress .circle .mask .fill {
+  clip: rect(0px, 60px, 120px, 0px);
+  background-color: #b01817;
+}
+.progress .inset {
+  width: 80px; /*90px*/
+  height: 80px; /*90px*/
+  position: absolute;
+  margin-left: 20px; /*15px*/
+  margin-top: 20px; /*15px*/
+  background-color: #fbfbfb;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.progress .inset span {
+  display: inline-block;
+	position: absolute;
+	top: 30px;
+	left: 16.5px;
+	width: 57px;
+	height: 22px;
+  vertical-align: top;
+	line-height: 1;
+  text-align: center;
+  font-weight: 800;
+  font-size: 22px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #b01817;
+}
+
+.progress-title p {
+  width: 100%;
+  color: $red;
+	text-align: center;
+}
+
+.progress.progress-10 .circle .mask.full,
+.progress.progress-10 .circle .fill {
+  transform: rotate(18deg);
+}
+.progress.progress-10 .circle .fill.fix {
+  transform: rotate(36deg);
+}
+
+.progress.progress-20 .circle .mask.full,
+.progress.progress-20 .circle .fill {
+  transform: rotate(36deg);
+}
+.progress.progress-20 .circle .fill.fix {
+  transform: rotate(72deg);
+}
+
+.progress.progress-30 .circle .mask.full,
+.progress.progress-30 .circle .fill {
+  transform: rotate(54deg);
+}
+.progress.progress-30 .circle .fill.fix {
+  transform: rotate(108deg);
+}
+
+.progress.progress-40 .circle .mask.full,
+.progress.progress-40 .circle .fill {
+  transform: rotate(72deg);
+}
+.progress.progress-40 .circle .fill.fix {
+  transform: rotate(144deg);
+}
+
+.progress.progress-50 .circle .mask.full,
+.progress.progress-50 .circle .fill {
+  transform: rotate(90deg);
+}
+.progress.progress-50 .circle .fill.fix {
+  transform: rotate(180deg);
+}
+
+.progress.progress-60 .circle .mask.full,
+.progress.progress-60 .circle .fill {
+  transform: rotate(108deg);
+}
+.progress.progress-60 .circle .fill.fix {
+  transform: rotate(216deg);
+}
+
+.progress.progress-70 .circle .mask.full,
+.progress.progress-70 .circle .fill {
+  transform: rotate(126deg);
+}
+.progress.progress-70 .circle .fill.fix {
+  transform: rotate(252deg);
+}
+
+.progress.progress-80 .circle .mask.full,
+.progress.progress-80 .circle .fill {
+  transform: rotate(144deg);
+}
+.progress.progress-80 .circle .fill.fix {
+  transform: rotate(288deg);
+}
+
+.progress.progress-90 .circle .mask.full,
+.progress.progress-90 .circle .fill {
+  transform: rotate(162deg);
+}
+.progress.progress-90 .circle .fill.fix {
+  transform: rotate(324deg);
+}
+
+.progress.progress-100 .circle .mask.full,
+.progress.progress-100 .circle .fill {
+  transform: rotate(180deg);
+}
+.progress.progress-100 .circle .fill.fix {
+  transform: rotate(360deg);
+}
