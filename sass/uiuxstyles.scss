@@ -204,170 +204,6 @@ img {
   }
 }
 
-/* Primary Layout Styles */
-main {
-
-}
-
-.grid {
-  display: grid;
-  grid-auto-rows: minmax(1fr, auto);
-  grid-template-columns: repeat(12, 1fr);
-  grid-row-gap: 1em;
-  grid-column-gap: 1em;
-  max-width: 1232px;
-  height: 100vh;
-  margin: 0 auto;
-}
-
-.section-heading {
-  grid-row: 1 / 2;
-  grid-column: 1 / 13;
-  animation: screen-load 1s ease-in;
-
-  h1, h2, h3 {
-    text-align: center;
-  }
-}
-
-.card {
-  padding: 16px;
-  background-color: $white-trans-light;
-  box-shadow: 0px 0px 4px 2px $black-trans-dark;
-  border-radius: 8px 16px 8px 16px;
-  animation: screen-load 1s 0.5s ease-in;
-}
-  
-
-
-/* Page Layout Styles */
-/**Home**/
-/***Home Intro***/
-.intro-card {
-  grid-row: 2 / 3;
-  grid-column: 1 / 13;
-  display: flex;
-  justify-content: center;
-}
-
-.intro-card-left {
-  width: 50%;
-
-    .icon-avatar {
-      float: left;
-      width: 64px;
-      margin: 0 16px 16px 0;
-    }
-}
-
-.intro-card-right {
-  width: 50%;
-
-  .hex-container {
-    position: relative;
-    margin: 20px auto;
-  }
-  
-  @keyframes hexagon {
-    0% { transform: scale(1)}
-    50% { transform: scale(1.25)}
-    100% { transform: scale(1)}
-  }
-  
-  .hex1 {
-    position: absolute;
-    top: 128px;
-    left: 144px;
-    width: 128px;
-    height: 148px;
-    animation: hexagon 0.75s 1.5s ease-in;
-  }
-  
-  .hex2 {
-    position: absolute;
-    left: 72px;
-    width: 128px;
-    height: 148px;
-    animation: hexagon 0.75s 0s ease-in;
-  }
-  
-  .hex3 {
-    position: absolute;
-    left: 220px;
-    width: 128px;
-    height: 148px;
-    animation: hexagon 0.75s 0.25s ease-in;
-  }
-  
-  .hex4 {
-    position: absolute;
-    top: 128px;
-    left: 286px;
-    width: 128px;
-    height: 148px;
-    animation: hexagon 0.75s 0.5s ease-in;
-  }
-  
-  .hex5 {
-    position: absolute;
-    top: 254px;
-    left: 220px;
-    width: 128px;
-    height: 148px;
-    animation: hexagon 0.75s 0.75s ease-in;
-  }
-  
-  .hex6 {
-    position: absolute;
-    top: 254px;
-    left: 72px;
-    width: 128px;
-    height: 148px;
-    animation: hexagon 0.75s 1s ease-in;
-  }
-  
-  .hex7 {
-    position: absolute;
-    top: 128px;
-    width: 128px;
-    height: 148px;
-    animation: hexagon 0.75s 1.25s ease-in;
-  }
-}
-
-.intro-contact {
-  grid-row: 3 / 4;
-  grid-column: 1 / 13;
-  display: flex;
-  justify-content: space-around;
-  animation: screen-load 1s 0.5s ease-in;
-}
-
-.intro-social {
-  grid-row: 4 / 5;
-  grid-column: 4 / 10;
-  display: flex;
-  justify-content: space-around;
-  animation: screen-load 1s 1s ease-in;
-}
-
-/***Home Projects***/
-.projects-cards {
-  grid-row: 2 / 3;
-  grid-column: 1 / 13;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.project-cards-left {
-  flex-basis: auto;
-}
-
-.project-cards-right {
-  flex-basis: auto;
-}
-
 /* Type Styles */
 
 h1 {
@@ -399,7 +235,6 @@ h3 {
 	line-height: 1.4;
 	color: $red;
 	padding: 0;
-	margin: 0 0 8px 0;
 }
 
 img + h3 {
@@ -472,6 +307,154 @@ p {
 	background-color: $black;
 }
 
+/* Primary Layout Styles */
+main {
+
+}
+
+.card {
+  padding: 16px;
+  background-color: $white-trans-light;
+  box-shadow: 0px 0px 4px 2px $black-trans-dark;
+  border-radius: 8px 16px 8px 16px;
+  animation: screen-load 1s 0.5s ease-in;
+}
+  
+
+
+/* Page Layout Styles */
+/**Home**/
+/***Home Intro***/
+.intro-grid {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(16, 1fr);
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+  justify-content: stretch;
+  align-content: stretch;
+  max-width: 1024px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.section-heading {
+  grid-row: 1;
+  grid-column: 1 / 17;
+  animation: screen-load 1s ease-in;
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+}
+
+.icon-avatar {
+  float: left;
+  width: 64px;
+  margin: 0 16px 16px 0;
+}
+
+.intro-hex {
+  grid-row: 2;
+  grid-column: 1 / 17;
+  justify-self: center;
+  width: 414px;
+  height: 414px;
+}
+
+.hex-container {
+  position: relative;
+  margin: 0 auto 20px auto;
+}
+
+@keyframes hexagon {
+  0% { transform: scale(1)}
+  50% { transform: scale(1.25)}
+  100% { transform: scale(1)}
+}
+
+.hex1 {
+  position: absolute;
+  top: 128px;
+  left: 144px;
+  width: 128px;
+  height: 148px;
+  animation: hexagon 0.75s 1.5s ease-in;
+}
+
+.hex2 {
+  position: absolute;
+  left: 72px;
+  width: 128px;
+  height: 148px;
+  animation: hexagon 0.75s 0s ease-in;
+}
+
+.hex3 {
+  position: absolute;
+  left: 220px;
+  width: 128px;
+  height: 148px;
+  animation: hexagon 0.75s 0.25s ease-in;
+}
+
+.hex4 {
+  position: absolute;
+  top: 128px;
+  left: 286px;
+  width: 128px;
+  height: 148px;
+  animation: hexagon 0.75s 0.5s ease-in;
+}
+
+.hex5 {
+  position: absolute;
+  top: 254px;
+  left: 220px;
+  width: 128px;
+  height: 148px;
+  animation: hexagon 0.75s 0.75s ease-in;
+}
+
+.hex6 {
+  position: absolute;
+  top: 254px;
+  left: 72px;
+  width: 128px;
+  height: 148px;
+  animation: hexagon 0.75s 1s ease-in;
+}
+
+.hex7 {
+  position: absolute;
+  top: 128px;
+  width: 128px;
+  height: 148px;
+  animation: hexagon 0.75s 1.25s ease-in;
+}
+
+.intro-about {
+  grid-row: 3;
+  grid-column: 3 / 15;
+  text-align: center;
+}
+
+.intro-contact {
+  grid-row: 5;
+  grid-column: 1 / 17;
+  display: flex;
+  justify-content: space-around;
+  animation: screen-load 1s 0.5s ease-in;
+}
+
+.intro-social {
+  grid-row: 6;
+  grid-column: 6 / 12;
+  display: flex;
+  justify-content: space-around;
+  animation: screen-load 1s 1s ease-in;
+}
+
 /* Skills Progress Radial Bars */
 /*
 Progress Circles inspired by Anders Ingemann
@@ -483,22 +466,25 @@ Progress Circles inspired by Anders Ingemann
 	width 57px++ starting at 57px
 */
 
-.skills {
-	display: flex;
+.intro-skills {
+  grid-row: 4;
+  grid-column: 1 / 17;
+  justify-self: center;
+  display: flex;
 	flex-wrap: wrap;
 }
 .progress {
-  margin: 20px 20px 10px 20px;
-  width: 120px;
-  height: 120px;
+  margin: 0 20px 10px 20px;
+  width: 60px;
+  height: 60px;
   /*background-color: #d6dadc;*/
   border-radius: 50%;
 }
 .progress .circle .mask,
 .progress .circle .fill,
 .progress .circle .shadow {
-  width: 120px;
-  height: 120px;
+  width: 60px;
+  height: 60px;
   position: absolute;
   border-radius: 50%;
 }
@@ -511,18 +497,18 @@ Progress Circles inspired by Anders Ingemann
   border-radius: 50%;
 }
 .progress .circle .mask {
-  clip: rect(0px, 120px, 120px, 60px);
+  clip: rect(0px, 60px, 60px, 30px);
 }
 .progress .circle .mask .fill {
-  clip: rect(0px, 60px, 120px, 0px);
+  clip: rect(0px, 30px, 60px, 0px);
   background-color: #b01817;
 }
 .progress .inset {
-  width: 80px; /*90px*/
-  height: 80px; /*90px*/
+  width: 40px; /*90px*/
+  height: 40px; /*90px*/
   position: absolute;
-  margin-left: 20px; /*15px*/
-  margin-top: 20px; /*15px*/
+  margin-left: 10px; /*15px*/
+  margin-top: 10px; /*15px*/
   background-color: #fbfbfb;
   border-radius: 50%;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -531,16 +517,16 @@ Progress Circles inspired by Anders Ingemann
 .progress .inset span {
   display: inline-block;
 	position: absolute;
-	top: 30px;
-	left: 16.5px;
-	width: 57px;
-	height: 22px;
+	top: 15px;
+	left: 8.25px;
+	width: 28.5px;
+	height: 11px;
   vertical-align: top;
 	line-height: 1;
   text-align: center;
-  font-weight: 800;
-  font-size: 22px;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Orbitron, Verdana, sans-serif;
   color: #b01817;
 }
 
@@ -629,3 +615,23 @@ Progress Circles inspired by Anders Ingemann
 .progress.progress-100 .circle .fill.fix {
   transform: rotate(360deg);
 }
+
+/***Home Projects***/
+.projects-cards {
+  grid-row: 2 / 3;
+  grid-column: 1 / 13;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project-cards-left {
+  flex-basis: auto;
+}
+
+.project-cards-right {
+  flex-basis: auto;
+}
+
+
+
