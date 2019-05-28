@@ -617,21 +617,40 @@ Progress Circles inspired by Anders Ingemann
 }
 
 /***Home Projects***/
+
+.projects-grid {
+  display: grid;
+  max-width: 1920px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
 .projects-cards {
   grid-row: 2 / 3;
   grid-column: 1 / 13;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
 }
 
-.project-cards-left {
-  flex-basis: auto;
+.projects-card {
+  margin: 16px;
 }
 
-.project-cards-right {
-  flex-basis: auto;
+/***Home Designs***/
+
+.designs-grid {
+  display: grid;
+  max-width: 1920px;
+  height: 100vh;
+  margin: 0 auto;
 }
 
+.designs-cards {
+  grid-row: 2 / 3;
+  grid-column: 1 / 13;
+  display: flex;
+}
 
+.designs-card {
+  margin: 16px;
+}
 
